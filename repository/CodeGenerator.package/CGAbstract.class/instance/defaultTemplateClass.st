@@ -1,0 +1,4 @@
+accessing
+defaultTemplateClass
+	
+	^ self subclassResponsibility

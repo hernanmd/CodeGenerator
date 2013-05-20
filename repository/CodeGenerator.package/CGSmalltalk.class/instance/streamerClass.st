@@ -1,0 +1,4 @@
+defaults
+streamerClass
+
+	^ WriteStream

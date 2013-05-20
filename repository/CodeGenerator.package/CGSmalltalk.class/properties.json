@@ -1,0 +1,29 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CGAbstract",
+	"category" : "CodeGenerator-Smalltalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"UniqueInstance"
+	],
+	"instvars" : [
+		"codeStream",
+		"targetClass",
+		"targetSelector",
+		"sourceString",
+		"cleanTarget",
+		"sourceCode",
+		"targetTestCategory",
+		"targetClassCategory",
+		"targetTestClass",
+		"targetTestSuperclass",
+		"targetSuperclass",
+		"userComment",
+		"targetMethodCategory",
+		"commentNewMethod",
+		"userCommentNewMethod"
+	],
+	"name" : "CGSmalltalk",
+	"type" : "normal"
+}
