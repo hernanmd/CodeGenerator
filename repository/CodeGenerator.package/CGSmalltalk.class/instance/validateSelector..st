@@ -9,6 +9,5 @@ validateSelector: aString
 	^ String streamContents: [: stream |
 		stream 
 			nextPutAll: newSelector;
-			cr;
 			nextPutAll: sourceStream upToEnd ]
 		

@@ -1,14 +1,12 @@
 code-generation
-compile: sourceString selector: selectorString
-	" Private - Compile sourceString with selectorString 
-	in the receiver's configured target class "
+compile: srcString selector: selectorString
+	" Private - Compile sourceString with selectorString in the receiver's configured target class "
+	" If srcString is empty, then compile only the selectorString, otherwise, assume the srcString contains the selectorString "
 
-	self targetSelector: selectorString.	
-	self generateMethodHeader.
+	| realSource |
 	
-	[ GRPlatform current 
-		compile: ( self validateSource: sourceString )
-		into: self targetClass 
-		classified: self methodCategory ]
-	on: UndeclaredVariableWarning
-	do: [: ex | self log: 'Warning UndeclaredVariableWarning in ' , self targetClass asString , '>>' , sourceString asString ]
+	self targetSelector: (Parser new parseSelector: selectorString).
+	self generateMethodHeader.
+	(realSource := self validateSource: srcString) isEmpty
+		ifTrue: [ self compileSelector: selectorString ]
+		ifFalse: [ self compileSource: realSource ]
