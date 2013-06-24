@@ -5,10 +5,10 @@ addStatement: aString
 	| methodNode resultNode newSentenceNode |
 	
 	methodNode := self parserClass parseMethod: self currentMethodAsString.
-	resultNode := (RBParseTreeSearcher new
-		matchesTree: (RBParser parseExpression: '^ self')
-		do: [ :aNode :answer | aNode ]) executeTree: methodNode.
+	resultNode := self searchNodeIn: methodNode.
 	(newSentenceNode := self parserClass parseExpression: aString) isAssignment 
 		ifTrue: [ self addVariable: newSentenceNode variable to: methodNode ].
-	methodNode body addNode: newSentenceNode before: resultNode.
+	resultNode isNil
+		ifFalse: [ methodNode body addNode: newSentenceNode before: resultNode ]
+		ifTrue: [ methodNode body addNode: newSentenceNode ].
 	self compile: methodNode newSource

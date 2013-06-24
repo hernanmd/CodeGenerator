@@ -5,7 +5,7 @@ compile: srcString selector: selectorString
 
 	| realSource |
 	
-	self targetSelector: (Parser new parseSelector: selectorString).
+	self targetSelector: (self findSelector: selectorString).
 	self generateMethodHeader.
 	(realSource := self validateSource: srcString) isEmpty
 		ifTrue: [ self compileSelector: selectorString ]
