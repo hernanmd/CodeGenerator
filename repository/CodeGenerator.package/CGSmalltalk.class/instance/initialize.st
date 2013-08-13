@@ -5,4 +5,4 @@ initialize
 	super initialize.
 	self initializeCodeStream.
 	self setSourceAsText.	
-	cleanTarget := false.
+	shouldCleanTarget := false.

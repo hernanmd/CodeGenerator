@@ -4,5 +4,5 @@ methodNodeAt: aSelector
 
 	| sourceText |	
 		
-	sourceText := ( self templateMethodAt: aSelector ) decompileWithTemps decompileString.
-	^  self parserClass parseMethod: sourceText
+	sourceText := (self templateMethodAt: aSelector) decompileWithTemps decompileString.
+	^ self parserClass parseMethod: sourceText

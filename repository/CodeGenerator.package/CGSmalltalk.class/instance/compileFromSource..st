@@ -1,5 +1,5 @@
 code-generation
-compileFromSource: sourceString
+compileFromSource: srcString
 	" Private - Compile aSelector in the receiver's configured target class "
 	
-	self compile: ( self validateSource: sourceString )
+	self compile: (self validateSource: srcString)

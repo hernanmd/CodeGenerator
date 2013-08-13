@@ -4,12 +4,11 @@ removeClass: className
 	
 	| clsToDelete |
 	
-	self targetClass = ( clsToDelete := self classFor: className )
+	self targetClass = (clsToDelete := self classFor: className)
 		ifTrue: [ self targetClass: nil ].
 	clsToDelete isNil
 		ifFalse: [ 
 			clsToDelete removeFromSystem.
-			"self removeClassCategory."
-		]
+			"self removeClassCategory." ]
 		
 	

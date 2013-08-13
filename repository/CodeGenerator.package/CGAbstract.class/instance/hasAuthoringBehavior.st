@@ -1,7 +1,5 @@
 testing
 hasAuthoringBehavior
-	" Private - Answer <true> if the receiver's has facilities
-	for setting authoring information "
+	" Private - Answer <true> if the receiver's has facilities for setting authoring information "
 
-	^ ( Smalltalk hasClassNamed: #Author ) 
-			or: [ Smalltalk hasClassNamed: #Utilities ]
+	^ self isAuthoringWithAuthor or: [ self isAuthoringWithUtilities ]

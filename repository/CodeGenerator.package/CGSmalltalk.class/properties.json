@@ -12,7 +12,6 @@
 		"targetClass",
 		"targetSelector",
 		"sourceString",
-		"cleanTarget",
 		"sourceCode",
 		"targetTestCategory",
 		"targetClassCategory",
@@ -20,9 +19,9 @@
 		"targetTestSuperclass",
 		"targetSuperclass",
 		"userComment",
-		"targetMethodCategory",
 		"commentNewMethod",
-		"userCommentNewMethod"
+		"userCommentNewMethod",
+		"shouldCleanTarget"
 	],
 	"name" : "CGSmalltalk",
 	"type" : "normal"

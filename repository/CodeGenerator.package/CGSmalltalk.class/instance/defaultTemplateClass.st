@@ -1,4 +1,4 @@
 defaults
 defaultTemplateClass
 	
-	^ self subclassResponsibility
+	^ self defaultTargetClass

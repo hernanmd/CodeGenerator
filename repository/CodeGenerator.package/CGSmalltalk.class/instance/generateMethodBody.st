@@ -2,6 +2,6 @@ code-generation
 generateMethodBody
 	" Private - Write the method body into the code stream "
 
-	codeStream
+	self codeStream
 		nextPutAll: '^ ''';
-		nextPutAll: ( self validateString: self sourceString )
+		nextPutAll: (self validateString: self sourceString)

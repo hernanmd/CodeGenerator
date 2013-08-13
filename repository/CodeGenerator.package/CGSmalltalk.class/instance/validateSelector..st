@@ -4,8 +4,8 @@ validateSelector: aString
 	
 	| sourceStream newSelector |
 	sourceStream := aString readStream.
-	newSelector := (sourceStream upTo: Character cr) copyReplaceAll: '_' with: ''.
-	^ String streamContents: [: stream |
+	newSelector := (sourceStream upTo: Character cr) copyReplaceAll: '_' with: String empty.
+	^ String streamContents: [ : stream |
 		stream 
 			nextPutAll: newSelector;
 			nextPutAll: sourceStream upToEnd ]

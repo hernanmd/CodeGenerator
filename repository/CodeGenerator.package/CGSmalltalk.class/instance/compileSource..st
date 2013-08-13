@@ -7,4 +7,4 @@ compileSource: srcString
 		into: self targetClass 
 		classified: self methodCategory ]
 	on: UndeclaredVariableWarning
-	do: [: ex | self log: 'Warning UndeclaredVariableWarning in ' , self targetClass asString , '>>' , srcString asString ]
+	do: [ : ex | self log: 'Warning UndeclaredVariableWarning in ' , self targetClass asString , '>>' , srcString asString ]

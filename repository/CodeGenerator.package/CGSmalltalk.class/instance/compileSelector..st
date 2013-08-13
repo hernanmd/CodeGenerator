@@ -7,4 +7,4 @@ compileSelector: selectorString
 		into: self targetClass 
 		classified: self methodCategory ]
 	on: UndeclaredVariableWarning
-	do: [: ex | self log: 'Warning UndeclaredVariableWarning in ' , self targetClass asString , '>>' , selectorString asString ]
+	do: [ : ex | self log: 'Warning UndeclaredVariableWarning in ' , self targetClass asString , '>>' , selectorString asString ]

@@ -5,11 +5,11 @@ upToSeparator
 	If no separator is found answer everything."
 
 	| newStream element |
-	newStream := collection class new writeStream.
-	[self atEnd]
-		whileFalse:
-			[element := self next.
+	newStream := WriteStream on: collection class new.
+	[ self atEnd ]
+		whileFalse: [ 
+			element := self next.
 			element isSeparator
-				ifTrue: [^newStream contents].
-			newStream nextPut: element.].
-	^newStream contents
+				ifTrue: [ ^ newStream contents ].
+			newStream nextPut: element ].
+	^ newStream contents

@@ -4,4 +4,4 @@ currentMethod
 	
 	^ self targetClass methodDictionary 
 		at: self targetSelector
-		ifAbsent: [ self error: self targetSelector asString , ' method not found in ' , self targetClass asString ]
+		ifAbsent: [ self error: 'Method not found in ' , self targetClass asString ]
