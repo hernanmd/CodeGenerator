@@ -5,5 +5,11 @@ baseline10: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec repository: 'http://www.smalltalkhub.com/mc/hernan/CodeGenerator/main'.
-		spec package: 'CodeGenerator'.
+		spec project: 'Grease' with: [ 
+			spec
+				className: 'ConfigurationOfGrease';
+				file: 'ConfigurationOfGrease';
+				version: #stable;
+				repository: 'http://www.smalltalkhub.com/mc/hernan/Grease/main' ].
+		spec package: 'CodeGenerator' with: [ spec requires: #('Grease') ].
 		spec group: 'default' with: #('CodeGenerator' ). ].
