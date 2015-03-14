@@ -1,6 +1,6 @@
 baselines
-baseline10: spec
-	<version: '1.0-baseline'>
+baseline11: spec
+	<version: '1.1-baseline'>
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
@@ -9,8 +9,7 @@ baseline10: spec
 				spec
 					className: #ConfigurationOfGrease;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main/';
-					repository: 'http://www.smalltalkhub.com/mc/hernan/Grease/main' ].
+					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main/' ].
 		spec package: 'CodeGenerator' with: [
 				spec requires: #('Grease' ). ].
 		spec group: 'default' with: #('CodeGenerator' ). ].
