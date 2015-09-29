@@ -4,7 +4,7 @@ preGenerate
 	
 	self initializeCodeStream.
 	self disableCompilationLogging.
-	self cleanTarget.	
+	self cleanTargetMethods.	
 	self setAuthoring.
 	self generateMethodHeader.
 	self generateMethodBody.

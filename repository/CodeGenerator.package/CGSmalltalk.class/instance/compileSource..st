@@ -1,10 +1,12 @@
-code-generation
+code-generation-compilation
 compileSource: srcString
 	" Private - Compile the validated srcString in the receiver's targetClass "
 
-	[ GRPlatform current 
+	self logCompilationStart.
+	[ self platform
 		compile: srcString
-		into: self targetClass 
-		classified: self methodCategory ]
+		into: (self classFor: self targetClass)
+		classified: self targetMethodCategory ]
 	on: UndeclaredVariableWarning
-	do: [ : ex | self log: 'Warning UndeclaredVariableWarning in ' , self targetClass asString , '>>' , srcString asString ]
+	do: [ : ex | self logCompilationWarn: ex ].
+	self logCompilationEnd.

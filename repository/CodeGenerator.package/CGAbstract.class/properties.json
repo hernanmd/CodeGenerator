@@ -5,11 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"identity",
-		"templateClass",
-		"parserClass"
-	],
+	"instvars" : [ ],
 	"name" : "CGAbstract",
 	"type" : "normal"
 }

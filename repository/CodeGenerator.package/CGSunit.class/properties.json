@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/22/2015 19:06",
+	"super" : "CGStInputClass",
+	"category" : "CodeGenerator-Smalltalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"targetTestCategory",
+		"selectorMapper",
+		"messageSendBuilder",
+		"generateSetUp",
+		"generateTearDown"
+	],
+	"name" : "CGSunit",
+	"type" : "normal"
+}

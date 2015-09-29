@@ -1,0 +1,4 @@
+accessing
+defaultSplashBMPFileName
+
+	^ 'splash.bmp'

@@ -1,0 +1,1 @@
+SpecCGWindow new openWithSpec

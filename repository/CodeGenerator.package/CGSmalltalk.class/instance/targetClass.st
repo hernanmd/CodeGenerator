@@ -1,7 +1,6 @@
 accessing
 targetClass
-	" Answer class where the render code will be written.
-	For Seaside will be a WAComponent subclass "
+	" Answer the class where the code will be written "
 	
 	^ targetClass
 		ifNil: [ 	targetClass := self defaultTargetClass ]

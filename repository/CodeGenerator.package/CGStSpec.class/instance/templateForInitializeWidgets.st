@@ -1,0 +1,4 @@
+code-templates
+templateForInitializeWidgets
+
+	^ 'initializeWidgets'

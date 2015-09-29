@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CGStTemplate",
+	"category" : "CodeGenerator-Smalltalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGStStateMachine",
+	"type" : "normal"
+}

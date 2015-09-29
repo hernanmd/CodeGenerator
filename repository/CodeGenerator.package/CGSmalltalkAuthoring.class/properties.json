@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/8/2015 14:27",
+	"super" : "CGAuthoring",
+	"category" : "CodeGenerator-Smalltalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGSmalltalkAuthoring",
+	"type" : "normal"
+}

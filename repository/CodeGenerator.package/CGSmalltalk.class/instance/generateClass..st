@@ -1,11 +1,11 @@
 code-generation
 generateClass: aString
-	" Private - Compile a new Class "
+	" Private - Compile a new Class named aString "
 
 	^ (self classFor: self targetSuperclass)
 			subclass: aString asSymbol
-			instanceVariableNames: ''
-			classVariableNames: ''
+			instanceVariableNames: self defaultInstanceVariables
+			classVariableNames: self defaultClassVariables
 			poolDictionaries: ''
 			category: self targetClassCategory;
 			yourself.

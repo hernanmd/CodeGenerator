@@ -1,0 +1,4 @@
+code-generation
+allInstanceSuperchainSelectors
+
+	^ self collectInstanceAllMethodsAt: self categoryCodeTemplate

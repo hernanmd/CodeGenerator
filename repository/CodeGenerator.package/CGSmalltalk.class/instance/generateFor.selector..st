@@ -1,10 +1,10 @@
 code-generation
-generateFor: anObject selector: aSelectorName
-	" Write the code "
+generateFor: anObject selector: aSelector
+	" Write the code for anObject in aSelector "
 
-	self targetSelector: aSelectorName.
+	self targetSelector: aSelector.
 	self sourceString: anObject asSourceCode.
 	
 	self preGenerate.
-	self compile.
+	self compileCodeStream.
 	self postGenerate.

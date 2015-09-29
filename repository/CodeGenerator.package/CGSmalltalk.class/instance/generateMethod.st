@@ -1,7 +1,7 @@
 code-generation
 generateMethod
-	" Write the code "
+	" Private - Write the code "
 
 	self preGenerate.
-	self compile.
+	self compileCodeStream.
 	self postGenerate.

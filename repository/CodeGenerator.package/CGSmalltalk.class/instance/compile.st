@@ -2,9 +2,11 @@ code-generation
 compile
 	" Private - Compile aSelector in the receiver's configured target class "
 
-	[ GRPlatform current 
-		compile: codeStream contents
-		into: self targetClass 
-		classified: self methodCategory ]
+	self logCompilationStart.
+	[ self platform
+		compile: self sourceString
+		into: (self classFor: self targetClass)
+		classified: self targetMethodCategory ]
 	on: UndeclaredVariableWarning
-	do: [ : ex | self log: 'Warning UndeclaredVariableWarning in ' , self targetClass asString , '>>' , sourceString asString ]
+	do: [ : ex | self logCompilationWarn: ex ].
+	self logCompilationEnd.

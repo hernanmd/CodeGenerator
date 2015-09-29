@@ -1,4 +1,4 @@
-code-generation
+code-meta
 templateMethodAt: aSelector
 	" Private - Answer a CompiledMethod "
 	

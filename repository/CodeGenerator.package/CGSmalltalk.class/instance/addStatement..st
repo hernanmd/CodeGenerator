@@ -1,4 +1,4 @@
-code-generation
+code-generation-rb
 addStatement: aString
 	" Adds a statement aString to the last node in the targetSelector method "
 	
@@ -7,8 +7,8 @@ addStatement: aString
 	methodNode := self parserClass parseMethod: self currentMethodAsString.
 	resultNode := self searchNodeIn: methodNode.
 	(newSentenceNode := self parserClass parseExpression: aString) isAssignment 
-		ifTrue: [ self addVariable: newSentenceNode variable to: methodNode ].
+		ifTrue: [ self addVariable: newSentenceNode variable toMethodNode: methodNode ].
 	resultNode isNil
 		ifFalse: [ methodNode body addNode: newSentenceNode before: resultNode ]
 		ifTrue: [ methodNode body addNode: newSentenceNode ].
-	self compile: methodNode newSource
+	self compileUnformatted: methodNode newSource

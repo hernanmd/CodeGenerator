@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CGAbstract",
+	"category" : "CodeGenerator-Smalltalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGSmalltalkMessageSendBuilder",
+	"type" : "normal"
+}

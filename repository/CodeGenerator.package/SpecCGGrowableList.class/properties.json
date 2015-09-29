@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GrowableSearchList",
+	"category" : "CodeGenerator-SpecUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpecCGGrowableList",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
-code-generation
+code-generation-compilation
 compile: srcString selector: selectorString
 	" Private - Compile sourceString with selectorString in the receiver's configured target class "
 	" If srcString is empty, then compile only the selectorString, otherwise, assume the srcString contains the selectorString "
@@ -7,6 +7,6 @@ compile: srcString selector: selectorString
 	
 	self targetSelector: (self findSelector: selectorString).
 	self generateMethodHeader.
-	(realSource := self validateSource: srcString) isEmpty
+	(realSource := self formatSource: srcString) isEmpty
 		ifTrue: [ self compileSelector: selectorString ]
 		ifFalse: [ self compileSource: realSource ]

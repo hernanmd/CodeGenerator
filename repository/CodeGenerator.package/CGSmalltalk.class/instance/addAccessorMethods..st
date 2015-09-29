@@ -1,8 +1,9 @@
-code-generation
+code-generation-rb
 addAccessorMethods: iVarName
 
 	| model className theClass |
 	
+	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.	
 	className := self targetClass name.
 	model := RBNamespace new classNamed: className; yourself.
 	theClass := (RBClass existingNamed: className)
@@ -12,4 +13,5 @@ addAccessorMethods: iVarName
 			model: model
 			variable: iVarName
 			class: theClass 
-			classVariable: false) execute
+			classVariable: false) execute.
+	self logInfo: 'done'.

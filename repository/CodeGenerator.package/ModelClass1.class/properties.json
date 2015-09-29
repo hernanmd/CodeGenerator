@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CodeGenerator-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"iVar1",
+		"iVar2",
+		"iVar3",
+		"iVarFile",
+		"iVarMemo",
+		"iVarMultiOption",
+		"iVarString",
+		"iVarInteger",
+		"iVarBoolean"
+	],
+	"name" : "ModelClass1",
+	"type" : "normal"
+}

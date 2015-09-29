@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CGAbstract",
+	"category" : "CodeGenerator-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"templateClass",
+		"categoryCodeTemplate"
+	],
+	"name" : "CGTemplate",
+	"type" : "normal"
+}

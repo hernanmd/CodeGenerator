@@ -4,4 +4,4 @@ generateMethodBody
 
 	self codeStream
 		nextPutAll: '^ ''';
-		nextPutAll: (self validateString: self sourceString)
+		nextPutAll: (self doubleQuote: self sourceString)
