@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DynamicIVarBox",
+	"category" : "CodeGenerator-SpecUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpecCGRemovableSearchBox",
+	"type" : "normal"
+}

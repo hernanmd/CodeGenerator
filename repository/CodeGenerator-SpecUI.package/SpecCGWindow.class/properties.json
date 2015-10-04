@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/26/2015 04:46",
+	"super" : "SpecGrowableListAppWindow",
+	"category" : "CodeGenerator-SpecUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpecCGWindow",
+	"type" : "normal"
+}
