@@ -30,5 +30,8 @@ baseline11: spec
 		spec 
 			package: 'CodeGenerator' with: [
 				spec requires: #('Grease' 'Log4s' ). ];
-			package: #'CodeGenerator-SpecUI'.
-		spec group: 'default' with: #('CodeGenerator' ). ].
+			package: #'CodeGenerator-SpecUI' with: [
+				spec requires: #('CodeGenerator' ). ].
+		spec 
+			group: 'default' with: #('CodeGenerator' );
+			group: 'UI' with: #('CodeGenerator-SpecUI'). ].
