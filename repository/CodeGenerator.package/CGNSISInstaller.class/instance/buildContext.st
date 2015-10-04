@@ -1,5 +1,6 @@
 code-generation
 buildContext
+	" Private - Build Mustache context "
 
 	| ctxValues |
 

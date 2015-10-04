@@ -1,3 +1,4 @@
 accessing
-licenseEnFileName: anObject
-	licenseEnFileName := anObject
+licenseEnFileName: aString
+
+	licenseEnFileName := aString

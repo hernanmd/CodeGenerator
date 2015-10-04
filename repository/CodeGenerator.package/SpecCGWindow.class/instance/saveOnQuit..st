@@ -1,4 +1,4 @@
 accessing
-saveQuery: aTrue 
+saveOnQuit: aTrue 
 
 	^ false

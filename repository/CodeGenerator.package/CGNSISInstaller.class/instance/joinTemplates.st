@@ -16,4 +16,4 @@ joinTemplates
 		self templateInstallerSection.
 		self templateSectionDescription.
 		self templateUninstallerSection.
-		self templateUtilities }
+		self templateUtilities }.
