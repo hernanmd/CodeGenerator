@@ -1,4 +1,0 @@
-accessing
-saveOnQuit: aTrue 
-
-	^ false

@@ -1,4 +1,0 @@
-defaults
-defaultListManager
-
-	^ CGStSpec uniqueInstance
