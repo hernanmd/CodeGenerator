@@ -1,5 +1,5 @@
 code-templates
-tempalteForInstanceCreationErrorString
+templateForInstanceCreationErrorString
 
 	^ 'instanceCreationErrorString
 

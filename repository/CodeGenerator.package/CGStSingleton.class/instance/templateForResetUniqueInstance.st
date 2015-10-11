@@ -1,5 +1,5 @@
 code-templates
-tempalteForResetUniqueInstance
+templateForResetUniqueInstance
 
 	^ 'resetUniqueInstance
 	" self resetUniqueInstance "

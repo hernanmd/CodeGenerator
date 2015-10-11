@@ -6,4 +6,6 @@ exampleSingletonCreation
 		targetClassCategory: 'SingletonEx1';
 		targetClass: #SingletonEx1;
 		generateMethods.
+
+	Smalltalk tools browser fullOnClass: #SingletonEx1 asClass.		
 	self inform: 'Done'.		

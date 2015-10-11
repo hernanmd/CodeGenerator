@@ -1,5 +1,5 @@
 code-templates
-tempalteForUniqueInstance
+templateForUniqueInstance
 
 	^ 'uniqueInstance
 

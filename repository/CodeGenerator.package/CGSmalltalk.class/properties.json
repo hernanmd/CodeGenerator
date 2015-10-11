@@ -8,7 +8,6 @@
 		"UniqueInstance"
 	],
 	"instvars" : [
-		"codeStream",
 		"targetClass",
 		"targetSelector",
 		"targetClassCategory",

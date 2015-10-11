@@ -2,4 +2,6 @@ accessing
 sourceString: aString
 	" Set the receiver's source to aString "
 
-	sourceString := aString
+	self codeStream 
+		reset;
+		nextPutAll: aString

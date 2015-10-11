@@ -1,5 +1,5 @@
 code-templates
-tempalteForNew
+templateForNew
 
 	^ 'new
 

@@ -1,4 +1,5 @@
 accessing
-targetSelector: anObject
+targetSelector: aSymbol
+	" Set receiver's target selector to be aSymbol "
 
-	targetSelector := anObject
+	targetSelector := aSymbol

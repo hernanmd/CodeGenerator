@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"identity",
-		"sourceString"
+		"identity"
 	],
 	"name" : "CGAuthoring",
 	"type" : "normal"

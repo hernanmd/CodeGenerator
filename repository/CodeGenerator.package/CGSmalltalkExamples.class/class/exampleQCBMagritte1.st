@@ -9,3 +9,5 @@ exampleQCBMagritte1
 		applicationName: 'AxiomFileUploader';
 		setFileAttributes: 'txtFile' label: 'Axiom Analyzer File' priority: 40;		
 		generateMethodsUsingSuperclassChain.
+
+	Smalltalk tools browser fullOnClass: #SRSWALAMPFileUpload asClass.
