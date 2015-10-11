@@ -1,6 +1,6 @@
 accessing
 sourceString: aString
-	" Set the receiver's source to aString "
+	" Reset and configure the receiver's source to aString "
 
 	self codeStream 
 		reset;

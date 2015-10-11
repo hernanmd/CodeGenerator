@@ -1,3 +1,4 @@
 accessing
-templateClass: anObject
-	templateClass := anObject
+templateClass: aClass
+
+	templateClass := aClass

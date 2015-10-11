@@ -4,4 +4,4 @@ templateForTargetSelector
 
 	^ '{1}
 	
-	^ self {1}: nil' format: { self targetSelector asString }
+	{2} self {1}: nil' format: { self targetSelector asString . self returnOperatorOrEmpty }

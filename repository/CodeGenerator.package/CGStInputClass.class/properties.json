@@ -6,7 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"inputClass"
+		"inputClass",
+		"messageSendBuilder",
+		"selectorMapper",
+		"targetBody"
 	],
 	"name" : "CGStInputClass",
 	"type" : "normal"

@@ -1,13 +1,14 @@
 examples
 exampleQCBMagritte1
+	" File uploader example "
 
 	CGQCBMagritte uniqueInstance
 		setCleanTarget;
-		targetClass: #SRSWALAMPFileUpload;
-		targetClassCategory: 'SRS-Magritte';
-		applicationTitle: 'Axiom Affymetrix File Uploader';
-		applicationName: 'AxiomFileUploader';
-		setFileAttributes: 'txtFile' label: 'Axiom Analyzer File' priority: 40;		
+		targetClass: #ExampleFileUploadQCBootstrapMagritte;
+		targetClassCategory: 'ExampleQCBootstrapMagritte';
+		applicationTitle: 'Code Generator Example QC Bootstrap Magritte';
+		applicationName: 'ExampleQCBootstrapMagritte';
+		setFileAttributes: 'txtFile' label: 'Upload File' priority: 40;
 		generateMethodsUsingSuperclassChain.
 
-	Smalltalk tools browser fullOnClass: #SRSWALAMPFileUpload asClass.
+	Smalltalk tools browser fullOnClass: #ExampleFileUploadQCBootstrapMagritte asClass.

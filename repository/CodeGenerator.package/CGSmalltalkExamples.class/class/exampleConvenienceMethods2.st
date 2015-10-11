@@ -1,10 +1,11 @@
 examples
-exampleConvenienceMethods1
+exampleConvenienceMethods2
 
 	CGStConvenienceMethods uniqueInstance
 		setCleanTarget;
-		parameterCount: 1;
-		targetSelector: #cgConvEx1;
+		parameterCount: 2;
+		targetSelector: #cgConvEx2;
+		addReturn;
 		targetClassCategory: 'ConvenienceMethodsEx';
 		targetClass: #ConvenienceMethodsEx;
 		generateMethods.

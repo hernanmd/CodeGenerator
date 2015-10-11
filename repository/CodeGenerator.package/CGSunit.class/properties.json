@@ -7,8 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"targetTestCategory",
-		"selectorMapper",
-		"messageSendBuilder",
 		"generateSetUp",
 		"generateTearDown"
 	],

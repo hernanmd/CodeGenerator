@@ -4,7 +4,7 @@ buildMessageSend: selector
 	
 	| messageSend parameterSend |
 
-	parameterSend := (self mapSelector: selector) , ' '.
+	parameterSend := self mapSelector: selector.
 	messageSend := String streamContents: [ : stream | 
 		(selector findTokens: $:) 
 			asStringOn: stream 

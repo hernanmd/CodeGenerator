@@ -3,4 +3,4 @@ initialize
 	" Private - See superimplementor's comment "
 
 	super initialize.
-	self setSourceAsCode.
+	addReturn := false.

@@ -1,6 +1,6 @@
 code-formatters
 underscoreSelector: aString
-	" Private - Remove invalid Characters from aString, in the selector part, for example : $_ "
+	" Remove invalid Characters from aString, in the selector part, for example : $_ "
 	
 	| sourceStream newSelector |
 	sourceStream := aString readStream.

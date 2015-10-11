@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"parameterCount"
+		"parameterCount",
+		"addReturn"
 	],
 	"name" : "CGStConvenienceMethods",
 	"type" : "normal"

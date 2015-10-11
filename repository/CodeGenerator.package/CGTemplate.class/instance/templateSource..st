@@ -1,5 +1,5 @@
 code-generation
-templateSource: selector
-	" Answer a <String> "
+templateSource: aSelector
+	"  Evaluate aSelector in the receiver and answer a <String> code template "
 
-	^ self perform: selector
+	^ self perform: aSelector
