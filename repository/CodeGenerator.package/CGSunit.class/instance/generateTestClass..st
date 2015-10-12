@@ -1,9 +1,9 @@
 code-generation
-generateTestClass: aString
+generateTestClass: aStringOrLiteral
 	" Private - Compile a new Class named aString "
 
 	^ (self classFor: self targetTestSuperclass)
-			subclass: aString asSymbol
+			subclass: (self classFor: aStringOrLiteral) name
 			instanceVariableNames: ''
 			classVariableNames: ''
 			poolDictionaries: ''

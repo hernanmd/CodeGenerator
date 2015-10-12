@@ -9,7 +9,8 @@
 		"inputClass",
 		"messageSendBuilder",
 		"selectorMapper",
-		"targetBody"
+		"targetBody",
+		"messageSignatureBuilder"
 	],
 	"name" : "CGStInputClass",
 	"type" : "normal"

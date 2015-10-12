@@ -3,8 +3,8 @@ exampleResourceImporter1
 
 	CGStImageImporter uniqueInstance
 		setCleanTarget;
-		targetClass: #SRSResources;
-		targetClassCategory: 'SRS-Magritte';
+		targetClass: #CGExampleResources1;
+		targetClassCategory: 'CGGeneratedCode';
 		import.
 
-	Smalltalk tools browser fullOnClass: #SRSResources asClass.		
+	Smalltalk tools browser fullOnClass: #CGExampleResources1 asClass.		

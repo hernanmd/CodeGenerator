@@ -4,7 +4,8 @@ exampleTestCreation
 	CGSunit uniqueInstance
 		setCleanTarget;
 		inputClass: CGSmalltalk;
-		targetTestClass: ModelClass1;
+		targetTestClass: #TestCGSmalltalkExample;
+		targetTestCategory: 'CGGeneratedCode';
 		generateSetUp: true;
 		generateTests.
 	Smalltalk tools browser fullOnClass: ModelClass1.

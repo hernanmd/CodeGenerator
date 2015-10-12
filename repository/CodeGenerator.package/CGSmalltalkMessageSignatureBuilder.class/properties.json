@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"parameter"
-	],
-	"name" : "CGSmalltalkMessageSendBuilder",
+	"instvars" : [ ],
+	"name" : "CGSmalltalkMessageSignatureBuilder",
 	"type" : "normal"
 }

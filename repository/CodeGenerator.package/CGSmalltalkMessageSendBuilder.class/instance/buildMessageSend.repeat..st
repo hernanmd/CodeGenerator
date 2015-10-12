@@ -4,5 +4,5 @@ buildMessageSend: selector repeat: paramNumber
 	
 	^ paramNumber = 1
 		ifTrue: [ self parameter ]
-		ifFalse: [ self generate: ' with: nil' repeat: paramNumber ].
+		ifFalse: [ (self generateJoin: ' with: nil' repeat: paramNumber) allButFirst ].
 			

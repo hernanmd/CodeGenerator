@@ -3,7 +3,7 @@ importResources
 	" Private - See superclass implementor "
 
 	self filesInPath
-		do: [ :fName | | text selector |
+		do: [ :fName | | text  |
 			text := self fileContents: fName.
-			selector := self asSelector: fName asFileReference basename.
-		self generateFor: text selector: selector ].
+			self targetSelector: (self asSelector: fName asFileReference basename).
+			self generateFor: text ].

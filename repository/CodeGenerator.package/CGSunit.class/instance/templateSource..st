@@ -1,6 +1,6 @@
 code-generation
 templateSource: selector
-	" Answer a <String> "
+	" Answer a <String> with generated method body "
 
 	^ String streamContents: [ : stream |
 			stream
