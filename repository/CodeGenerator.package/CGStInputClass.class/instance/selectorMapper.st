@@ -1,4 +1,4 @@
 accessing
 selectorMapper
 	^ selectorMapper
-		ifNil: [ selectorMapper := CGSmalltalkSelectorMapper new ]
+		ifNil: [ selectorMapper := CGStSelectorMapper new ]

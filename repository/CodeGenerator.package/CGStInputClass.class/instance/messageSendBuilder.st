@@ -1,4 +1,4 @@
 accessing
 messageSendBuilder
 	^ messageSendBuilder
-		ifNil: [ messageSendBuilder := CGSmalltalkMessageSendBuilder new ]
+		ifNil: [ messageSendBuilder := CGStMessageSendBuilder new ]

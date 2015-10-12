@@ -1,4 +1,4 @@
 accessing
 messageSignatureBuilder
 	^ messageSignatureBuilder
-		ifNil: [ messageSignatureBuilder := CGSmalltalkMessageSignatureBuilder new ]
+		ifNil: [ messageSignatureBuilder := CGStMessageSignatureBuilder new ]

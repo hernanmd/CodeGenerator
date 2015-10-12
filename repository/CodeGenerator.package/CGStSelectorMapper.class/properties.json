@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/8/2015 13:45",
 	"super" : "CGAbstract",
-	"category" : "CodeGenerator-Smalltalk",
+	"category" : "CodeGenerator-Smalltalk-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -9,6 +9,6 @@
 		"selectorsMap",
 		"prefixSelector"
 	],
-	"name" : "CGSmalltalkSelectorMapper",
+	"name" : "CGStSelectorMapper",
 	"type" : "normal"
 }
