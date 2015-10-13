@@ -1,5 +1,5 @@
 code-generation
-generateFromClassTemplates
+generateMethodsFromClassTemplates
 
 	self allClassSuperchainSelectors
 		do: [ : selector |

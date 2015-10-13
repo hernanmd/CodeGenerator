@@ -1,4 +1,4 @@
-accessing
+private
 returnOperatorOrEmpty
 	" Answer the return operator <String> if set "
 

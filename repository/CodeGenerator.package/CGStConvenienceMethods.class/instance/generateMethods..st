@@ -1,4 +1,4 @@
-accessing
+code-generation
 generateMethods: paramNumber
 	" Private - Generate target methods from receiver's selectors "
 	

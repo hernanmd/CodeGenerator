@@ -1,4 +1,4 @@
-accessing
+code-generation
 buildMethod: paramNumber
 	" Answer a <String> of a convenience method by concatenating the template signature and body paramNumber of times "
 	

@@ -1,5 +1,5 @@
 code-generation
-generateFromInstanceTemplates
+generateMethodsFromInstanceTemplates
 
 	self allInstanceSuperchainSelectors
 		do: [ : sel |

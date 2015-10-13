@@ -8,4 +8,3 @@ createClass: aClassName superclass: aSuperclassName
 		classVariableNames: self classVarNames				
 		poolDictionaries: String empty
 		category: self targetClassCategory.
-	self targetClass: (self classFor: aClassName)
