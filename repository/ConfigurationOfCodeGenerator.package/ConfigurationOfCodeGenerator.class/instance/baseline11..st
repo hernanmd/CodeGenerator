@@ -34,7 +34,7 @@ baseline11: spec
 					repository: 'http://smalltalkhub.com/mc/hernan/StringExtensions/main/' ].
 		spec 
 			package: 'CodeGenerator' with: [
-				spec requires: #('Grease' 'Log4s' ). ];
+				spec requires: #('Grease' 'Log4s' 'StringExtensions' 'Mustache' 'InstanceEncoder' ). ];
 			package: #'CodeGenerator-SpecUI' with: [
 				spec requires: #('CodeGenerator' ). ].
 		spec 
