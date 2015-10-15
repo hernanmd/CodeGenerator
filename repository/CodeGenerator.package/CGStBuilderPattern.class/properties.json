@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "HernanMoralesDurand 10/12/2015 23:30",
+	"commentStamp" : "",
 	"super" : "CGStCreationalPattern",
 	"category" : "CodeGenerator-Smalltalk-Generators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "CGStAbstractClassPattern",
+	"instvars" : [
+		"productName",
+		"productCount"
+	],
+	"name" : "CGStBuilderPattern",
 	"type" : "normal"
 }

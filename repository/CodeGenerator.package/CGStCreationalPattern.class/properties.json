@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "CGStTemplate",
+	"category" : "CodeGenerator-Smalltalk-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"concreteSubclassName",
+		"concreteSubclassesCount",
+		"operationsCount",
+		"operationsName"
+	],
+	"name" : "CGStCreationalPattern",
+	"type" : "normal"
+}
