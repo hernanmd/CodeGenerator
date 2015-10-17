@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"productName",
-		"productCount"
+		"directorClassName",
+		"productClassName",
+		"productClassCount"
 	],
 	"name" : "CGStBuilderPattern",
 	"type" : "normal"

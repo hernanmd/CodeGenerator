@@ -1,5 +1,6 @@
 code-generation
 generateClasses
 
-	self generateBuilderSkeleton.
-	self generateProductSkeleton.
+	self generateBuilders.
+	self generateProducts.
+	self generateDirector.
