@@ -1,3 +1,3 @@
 accessing
-productClassCount: anObject
+productClassesCount: anObject
 	productClassCount := anObject

@@ -6,8 +6,8 @@ exampleAbstractClassCreation2
 		setCleanTarget;
 		targetClassCategory: 'CGGeneratedCode-Core';
 		targetClass: #CGExampleAbstractClass2;
-		concreteSubclassesCount: 3;
-		concreteSubclassName: #CGExampleConcreteClass2;
+		concreteClassesCount: 3;
+		concreteClassNamePattern: #CGExampleConcreteClass2;
 		operationsCount: 3;
 		operationsName: #exampleOperation;
 		generateClasses.

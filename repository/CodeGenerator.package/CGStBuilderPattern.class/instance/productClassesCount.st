@@ -1,3 +1,3 @@
 accessing
-productClassCount
+productClassesCount
 	^ productClassCount

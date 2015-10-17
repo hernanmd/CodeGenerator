@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"concreteSubclassName",
-		"concreteSubclassesCount",
+		"concreteClassNamePattern",
+		"concreteClassesCount",
 		"operationsCount",
 		"operationsName"
 	],

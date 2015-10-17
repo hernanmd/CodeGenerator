@@ -2,5 +2,5 @@ code-generation
 generateClasses
 
 	self generateBuilders.
-	self generateProducts.
+	self generateProductFamilies.
 	self generateDirector.

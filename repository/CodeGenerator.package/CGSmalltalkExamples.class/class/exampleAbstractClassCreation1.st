@@ -6,8 +6,8 @@ exampleAbstractClassCreation1
 		setCleanTarget;
 		targetClassCategory: 'CGGeneratedCode-Core';
 		targetClass: #CGExampleAbstractClass;
-		concreteSubclassesCount: 5;
-		concreteSubclassName: #CGExampleConcreteClass;
+		concreteClassesCount: 5;
+		concreteClassNamePattern: #CGExampleConcreteClass;
 		generateClasses.
 	Smalltalk tools browser fullOnClass: #CGExampleAbstractClass asClass.		
 	self inform: 'Done!'.

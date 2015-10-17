@@ -5,11 +5,16 @@ exampleBuilderPattern1
 	CGStBuilderPattern uniqueInstance
 		setCleanTarget;
 		targetClassCategory: 'CGGeneratedCode-Core';
-		targetClass: #CGExampleBuilderClass;
-		concreteSubclassesCount: 3;
-		concreteSubclassName: #CGExampleConcreteClass;
-		productClassCount: 3;
-		productClassName: #CGExampleProductClass;
+		" Abstract Builder class name "
+		targetClass: #CGExampleAbstractBuilder;
+		" How many builders? "
+		concreteClassesCount: 3;
+		" Class name prefix for all builder subclasses "
+		concreteClassNamePattern: #CGExampleConcreteBuilder;
+		" How many product parts? "
+		productClassesCount: 3;
+		" Class name prefix for all product parts "
+		productClassName: #CGExampleProductPart;
 		directorClassName: #CGExampleDirector;
 		generateClasses.
 	Smalltalk tools browser fullOnClass: #CGExampleBuilderClass asClass.		

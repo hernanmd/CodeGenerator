@@ -1,5 +1,5 @@
 code-generation
-generateProducts
+generateProductFamilies
 
 	CGStAbstractClassPattern uniqueInstance
 		generateClasses.

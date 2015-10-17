@@ -4,6 +4,6 @@ generateBuilders
 	CGStAbstractClassPattern uniqueInstance
 		targetClass: self targetClass;
 		targetClassCategory: self targetClassCategory;
-		concreteSubclassesCount: self concreteSubclassesCount;
-		concreteSubclassName: self concreteSubclassName;
+		concreteClassesCount: self concreteClassesCount;
+		concreteClassNamePattern: self concreteClassNamePattern;
 		generateClasses.
