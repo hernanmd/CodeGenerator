@@ -4,3 +4,4 @@ generateClasses
 	self generateBuilders.
 	self generateProductFamilies.
 	self generateDirector.
+	self generateMethods.

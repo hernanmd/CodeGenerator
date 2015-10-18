@@ -1,4 +1,4 @@
 defaults
 defaultTargetClassCategory
 
-	^ 'CodeGenerator-DeleteMe'
+	^ 'CGGeneratedCode-Core'
