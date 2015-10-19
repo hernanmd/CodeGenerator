@@ -1,3 +1,3 @@
 accessing
 productClassesCount: anObject
-	productClassCount := anObject
+	productClassesCount := anObject

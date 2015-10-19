@@ -19,5 +19,5 @@ exampleBuilderPattern1
 		productPartClassName: #CGExampleProductPart;
 		directorClassName: #CGExampleDirector;
 		generateClasses.
-	Smalltalk tools browser fullOnClass: #CGExampleBuilderClass asClass.		
+	Smalltalk tools browser fullOnClass: #CGExampleAbstractBuilder asClass.		
 	self inform: 'Done!'.

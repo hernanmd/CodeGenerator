@@ -7,9 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"directorClassName",
-		"productClassCount",
 		"productFamilyClassName",
-		"productPartClassName"
+		"productPartClassName",
+		"productClassesCount"
 	],
 	"name" : "CGStBuilderPattern",
 	"type" : "normal"
