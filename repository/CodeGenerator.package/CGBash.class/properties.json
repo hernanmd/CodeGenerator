@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CGAuthoring",
+	"category" : "CodeGenerator-Bash",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"filenameId",
+		"fieldSeparator"
+	],
+	"name" : "CGBash",
+	"type" : "normal"
+}
