@@ -9,7 +9,8 @@
 		"concreteClassNamePattern",
 		"concreteClassesCount",
 		"operationsCount",
-		"operationsName"
+		"operationsName",
+		"concreteClasses"
 	],
 	"name" : "CGStCreationalPattern",
 	"type" : "normal"

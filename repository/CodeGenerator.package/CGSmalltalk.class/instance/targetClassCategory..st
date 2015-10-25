@@ -1,4 +1,4 @@
 accessing
-targetClassCategory: anObject
+targetClassCategory: aString
 
-	targetClassCategory := anObject
+	targetClassCategory := aString

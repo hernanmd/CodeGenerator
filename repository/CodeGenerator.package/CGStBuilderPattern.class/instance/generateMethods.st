@@ -5,8 +5,8 @@ generateMethods
 	| abstractBuilderClass |
 	
 	abstractBuilderClass := self targetClass.
-	abstractBuilderClass withAllSubclassesDo: [ : builderClass |
+	abstractBuilderClass allSubclassesDo: [ : builderClass |
 		self targetClass: builderClass.
-		1 to: self productClassesCount do: [ : clsIndex | 
-			self sourceString: (self templateForAddFamilyPart: clsIndex).
+		1 to: self productPartsPerFamilyCount do: [ : clsIndex | 
+			self sourceString: (self templateForCreateFamilyPart: clsIndex).
 			self generateMethod ] ]

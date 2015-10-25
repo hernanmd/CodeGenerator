@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 10/25/2015 01:56",
+	"super" : "CGStCreationalPattern",
+	"category" : "CodeGenerator-Smalltalk-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGStHierarchyCreator",
+	"type" : "normal"
+}

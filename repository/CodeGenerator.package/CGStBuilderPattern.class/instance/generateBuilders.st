@@ -1,9 +1,9 @@
 code-generation
 generateBuilders
 
-	CGStAbstractClassPattern uniqueInstance
+	CGStHierarchyCreator uniqueInstance
 		targetClass: self targetClass;
 		targetClassCategory: self targetClassCategory;
-		concreteClassesCount: self concreteClassesCount;
-		concreteClassNamePattern: self concreteClassNamePattern;
+		concreteClasses: self builderNames;
+		addInstanceVariables: #(#product);		
 		generateClasses.

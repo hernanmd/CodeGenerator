@@ -1,9 +1,9 @@
 code-templates
-templateForAddFamilyPart: partNumber
+templateForCreateFamilyPart: partNumber
 	" Answer a <String> with the basic family part instantiation template "
 
 	| productPartName |
 	productPartName := self productPartClassName asString , partNumber asString.
-	^ 'add{1}
+	^ 'create{1}
 	
-	^ self product addPart: self create{1}' format: { productPartName }
+	^ {1} new' format: { productPartName }

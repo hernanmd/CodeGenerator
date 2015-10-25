@@ -1,7 +1,7 @@
 accessing
-targetClass: aClass
+targetClass: aClassOrSymbol
 	" Configure aClass as the class where the code will be written "
 
-	(targetClass := self classFor: aClass) isNil
-		ifTrue: [ self generateClass: aClass ].
-	targetClass := self classFor: aClass.
+	(targetClass := self classFor: aClassOrSymbol) isNil
+		ifTrue: [ self generateClass: aClassOrSymbol ].
+	targetClass := self classFor: aClassOrSymbol.

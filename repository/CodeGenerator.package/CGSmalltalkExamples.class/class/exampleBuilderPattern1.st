@@ -6,18 +6,13 @@ exampleBuilderPattern1
 		setCleanTarget;
 		targetClassCategory: 'CGGeneratedCode-Core';
 		" Abstract Builder class name (ex: UIBuilder) "
-		targetClass: #CGExampleAbstractBuilder;
-		" How many builders? "
-		concreteClassesCount: 3;
-		" Class name prefix for all builder subclasses  (ex: MotifBuilder, CUABuilder, WindowsBuilder) "
-		concreteClassNamePattern: #CGExampleConcreteBuilder;
-		" Class name prefix for all products families (ex: Motif, CUA, Windows) "
-		productFamilyClassName: #CGExampleFamily;
-		" How many product parts? "
-		productClassesCount: 3;
-		" Class name prefix for all product parts (MotifRadioButtonPart, CUARadioButtonPart, WindowsRadioButtonPar)"
-		productPartClassName: #CGExampleProductPart;
-		directorClassName: #CGExampleDirector;
+		targetClass: #CGExCarBuilder;
+		productNames: #('CGExFordCar' 'CGExBMWCar' 'CGExHondaCar');
+		builderNames: #('CGExFordBuilder' 'CGExBMWBuilder' 'CGExHondaBuilder');
+		familyNames: #('CGExCarEngine' 'CGExCarBody');
+		" How many product parts per family ? "
+		productPartsPerFamilyCount: 3;
+		directorClassName: #CGExCarAssembler;
 		generateClasses.
-	Smalltalk tools browser fullOnClass: #CGExampleAbstractBuilder asClass.		
+	Smalltalk tools browser fullOnClass: #CGExCarBuilder asClass.		
 	self inform: 'Done!'.

@@ -1,9 +1,10 @@
 code-generation
 generateProductFamilies
 
-	CGStAbstractClassPattern uniqueInstance
-		targetClass: self productFamilyClassName;
-		targetClassCategory: self targetClassCategory;
-		concreteClassesCount: self productClassesCount;
-		concreteClassNamePattern: self productPartClassName;	
-		generateClasses.
+	self familyNames do: [ : famNameClass |
+		CGStAbstractClassPattern uniqueInstance
+			targetClass: famNameClass;
+			targetClassCategory: self targetClassCategory;
+			concreteClassesCount: self productPartsPerFamilyCount;
+			concreteClassNamePattern: famNameClass;
+			generateClasses ].
