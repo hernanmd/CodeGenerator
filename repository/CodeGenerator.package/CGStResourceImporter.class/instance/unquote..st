@@ -1,5 +1,5 @@
 utility
-normalizeFileContents: fileTypePattern
+unquote: fileTypePattern
 	" Replace invalid quoting for Smalltalk source from files matching fileTypePattern in the library subdirectory "
 
 	| files currFile directory |

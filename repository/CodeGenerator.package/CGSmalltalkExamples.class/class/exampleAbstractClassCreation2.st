@@ -8,8 +8,9 @@ exampleAbstractClassCreation2
 		targetClass: #CGExampleAbstractClass2;
 		concreteClassesCount: 3;
 		concreteClassNamePattern: #CGExampleConcreteClass2;
+		generateClasses;
 		operationsCount: 3;
 		operationsName: #exampleOperation;
-		generateClasses.
+		generateOperations.
 	Smalltalk tools browser fullOnClass: #CGExampleAbstractClass2 asClass.		
 	self inform: 'Done!'.

@@ -1,5 +1,5 @@
-accessing - csv
-shVRemoveTempFiles
+accessing - utilities
+shRemoveTempFiles
 
 	^ 'echo "Remove temp files..."
 for run in {0..1}

@@ -3,7 +3,10 @@ generateOperations
 	" Generate concrete subclasses. Assumes superclass is already created "
 
 	1 to: self operationsCount do: [ : index | 
-		| mthSelector |
-		mthSelector := self operationsName , index asString.		
-		self generateAbstractMethod: mthSelector.
-		self generateConcreteMethod: mthSelector ]
+		self targetSelector: self operationsName , index asString.
+		self generateAbstractMethod ].
+	self targetClass allSubclassesDo: [ : subc |
+		self targetClass: subc.
+		1 to: self operationsCount do: [ : index | 
+			self targetSelector: self operationsName , index asString.
+			self generateConcreteMethod ] ]

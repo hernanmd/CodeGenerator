@@ -1,6 +1,6 @@
-accessing - csv
+accessing - utilities
 shValidateHasParameters
-	" If the script requires arameters, answer a <String> to validate condition "
+	" If the script requires parameters, answer a <String> to validate condition "
 
 	^ 'echo -n "Checking parameter is present..."
 if [ $# -eq 0 ]

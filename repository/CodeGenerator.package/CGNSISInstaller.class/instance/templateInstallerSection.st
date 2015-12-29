@@ -1,4 +1,4 @@
 code-templates
 templateInstallerSection
 
-	^ self subclassResponsibility
+	self subclassResponsibility

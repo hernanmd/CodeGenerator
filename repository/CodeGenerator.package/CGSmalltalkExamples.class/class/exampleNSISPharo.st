@@ -1,7 +1,7 @@
 examples
 exampleNSISPharo
 
-	CGNSISIPharoAppInstaller uniqueInstance
+	CGNSISIPharo4AppInstaller uniqueInstance
 		product: 'MyProduct';
 		identity: 'MyName';
 		version: '1.0.0';
