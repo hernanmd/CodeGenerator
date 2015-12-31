@@ -17,7 +17,7 @@ Function .onInit
 
 uninst:	
 	ClearErrors
-    ; Pop $R1
+   ; Pop $R1
 	; StrCmp $R1 2 Quit +1
 	ExecWait ''$R0 _?=$INSTDIR'' ;Do not copy the uninstaller to a temp file	
 	;Exec $R0

@@ -1,7 +1,7 @@
-NSIS Installer Generator for Pharo-based Windows Applications
+NSIS Installer Generator for Pharo 4.0 based Windows Applications
 
 Usage:
-CGNSISIPharoAppInstaller new generate.
+CGNSISIPharo4AppInstaller uniqueInstance generate.
 
 Mustache Template:
-CGNSISIPharoAppInstaller new joinTemplates.
+CGNSISIPharo4AppInstaller uniqueInstance joinTemplates.

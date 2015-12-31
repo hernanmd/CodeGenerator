@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CGNSISIPharo4AppInstaller",
+	"name" : "CGNSISIPharo5AppInstaller",
 	"type" : "normal"
 }

@@ -1,5 +1,3 @@
-NSIS Installer Script (.nsi) Generator.
+Unicode NSIS Installer Script (.nsi) Generator.
 
-It requires Mustache Templates.
-
-
+It requires Mustache Templates and ZipDLL.nsh plugin installed.

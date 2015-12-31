@@ -1,4 +1,4 @@
 code-templates
 templateUninstallerSection
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

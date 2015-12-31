@@ -1,9 +1,8 @@
 code-templates
-templateIncludes
+sectionPartUninstallerPrologue
 
 	^ '###################################
-# Includes
+# Uninstaller section
 ###################################
-!include "MUI.nsh"
-!include "ZipDLL.nsh"
+Section "Uninstall"
 '

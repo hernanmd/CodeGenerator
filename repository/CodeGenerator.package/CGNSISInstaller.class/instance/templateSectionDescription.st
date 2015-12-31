@@ -1,4 +1,4 @@
 code-templates
 templateSectionDescription
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

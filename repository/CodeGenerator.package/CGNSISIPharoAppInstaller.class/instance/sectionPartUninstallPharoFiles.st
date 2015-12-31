@@ -1,16 +1,11 @@
 code-templates
-templateUninstallerSection
-	
-	^ '###################################
-# Uninstaller section
-###################################
-Section "Uninstall"
+sectionPartUninstallPharoFiles
 
-SetOutPath $INSTDIR
+	^ 'SetOutPath $INSTDIR
     DetailPrint "Start uninstalling"
     
     Delete "$INSTDIR\README.txt"
-    Delete "$INSTDIR\license.txt"
+    Delete "$INSTDIR\{{licenseEnFileName}}"
     Delete "$INSTDIR\{{product}}.exe"
     Delete "$INSTDIR\{{product}}-1.0.changes"
     Delete "$INSTDIR\{{product}}-1.0.image"
@@ -23,21 +18,14 @@ SetOutPath $INSTDIR
     Delete "$INSTDIR\libssh2-1.dll"
 	 Delete "$INSTDIR\ssleay32.dll"
 	 Delete "$INSTDIR\zlib1.dll"	
-    Delete "ProcessWrapperPlugin.dll"
     Delete "$INSTDIR\SqueakSSL.dll"
-    Delete "$INSTDIR\Win32OSProcessPlugin.dll"
     Delete "$INSTDIR\libcairo-2.dll"
     Delete "$INSTDIR\libeay32.dll"	
     Delete "$INSTDIR\libpixman-1-0.dll"
     Delete "$INSTDIR\libpng-3.dll"
+    ;Delete "ProcessWrapperPlugin.dll"
+    ;Delete "$INSTDIR\Win32OSProcessPlugin.dll"
 
     ;RmDir /r "$INSTDIR\BioSmalltalkTestFiles"
     ;RmDir /r "$INSTDIR\phyloclasstalk_files"
-		
-    ;delete uninstaller
-    Delete "$INSTDIR\Uninstall.exe"
-    RmDir /r /REBOOTOK "$SMPROGRAMS\${MGROUP}"
-    RmDir /REBOOTOK $INSTDIR
-    DeleteRegKey /ifempty HKCU "${REG_KEY}"
-SectionEnd
 '

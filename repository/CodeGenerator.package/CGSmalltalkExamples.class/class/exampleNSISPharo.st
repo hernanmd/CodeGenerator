@@ -10,5 +10,6 @@ exampleNSISPharo
 		licenseEnFileName: 'LICENSE_ENGLISH';
 		iconFile: 'MyProduct.ico';
 		welcomeBmpFile: 'MyProduct.bmp';
+		splashBMPFileName: 'Splash.bmp';
 		generate.
 	self inform: 'Done'.		
