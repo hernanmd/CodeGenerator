@@ -1,8 +1,8 @@
 accessing - utilities
-shValidateHasParameters
+addHasParametersValidation
 	" If the script requires parameters, answer a <String> to validate condition "
 
-	^ 'echo -n "Checking parameter is present..."
+	self codeStream nextPutAll: 'echo -n "Checking parameter is present..."
 if [ $# -eq 0 ]
 then
     echo "ERROR"

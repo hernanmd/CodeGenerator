@@ -1,8 +1,8 @@
 accessing - utilities
-shValidateInputFile
+addInputFileValidation
 	" If input file is the first parameter, answer a <String> to check is a file "
 
-	^ 'echo -n "Check input file is a file..."
+	self codeStream nextPutAll: 'echo -n "Check input file is a file..."
 inputFile=$1
 if [ ! -f "$inputFile" ]; then
 	echo "ERROR"

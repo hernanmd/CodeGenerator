@@ -1,7 +1,7 @@
 examples
 exampleBashScript1
 
-	CGBash uniqueInstance
-		shValidateHasParameters
+	^ CGBash uniqueInstance
+		addSheBang;
+		addHasParametersValidation;
 		generate.
-	self inform: 'Done'.		

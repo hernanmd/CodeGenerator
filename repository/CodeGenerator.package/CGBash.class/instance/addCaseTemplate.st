@@ -1,7 +1,9 @@
 accessing - utilities
-shCaseGenerator
+addCaseTemplate
+	" Store a shell case template "
 
-	^ 'case "$myVar" in
+	self codeStream
+		nextPutAll: 'case "$myVar" in
 	"A")
 		if [[ "$aVar" == "Value1" ]]; then
 			printf "%s" "1" >> "$outputFile" 2>&1
