@@ -1,5 +1,5 @@
 examples
-exampleNSISPharo
+exampleNSISPharo4
 
 	CGNSISIPharo4AppInstaller uniqueInstance
 		product: 'MyProduct';

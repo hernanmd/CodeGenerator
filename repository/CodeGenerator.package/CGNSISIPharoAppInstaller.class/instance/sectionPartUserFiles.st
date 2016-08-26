@@ -5,6 +5,6 @@ sectionPartUserFiles
 	File {{splashBmpFileName}}
 	;File "ProcessWrapperPlugin.dll"
 	;File "{{pharoVMDir}}\Win32OSProcessPlugin.dll"    
-	;File /r BioSmalltalkTestFiles
-	;File /r phyloclasstalk_files
+	;File /r InstallationDir1
+	;File /r InstallationDir2
 '

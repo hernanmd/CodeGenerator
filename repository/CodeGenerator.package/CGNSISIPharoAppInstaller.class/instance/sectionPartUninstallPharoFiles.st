@@ -26,6 +26,6 @@ sectionPartUninstallPharoFiles
     ;Delete "ProcessWrapperPlugin.dll"
     ;Delete "$INSTDIR\Win32OSProcessPlugin.dll"
 
-    ;RmDir /r "$INSTDIR\BioSmalltalkTestFiles"
-    ;RmDir /r "$INSTDIR\phyloclasstalk_files"
+    ;RmDir /r "$INSTDIR\InstallationDir1"
+    ;RmDir /r "$INSTDIR\InstallationDir2"
 '
