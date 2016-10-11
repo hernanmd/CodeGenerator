@@ -2,5 +2,10 @@ accessing - utilities
 addIterator: varName options: aString
 	" Add a code fragment to read a file by line "
 
-	self codeStream nextPutAll: 'for ', varName , ' in ' , aString , '; do echo "doing $x"; done
-'
+	self codeStream 
+		nextPutAll: 'for ';
+		nextPutAll: varName;
+		nextPutAll: ' in ';
+		nextPutAll: aString;
+		nextPutAll: '; do echo "doing $x"; done';
+		nextPutAll: self targetPlatformTerminator.
