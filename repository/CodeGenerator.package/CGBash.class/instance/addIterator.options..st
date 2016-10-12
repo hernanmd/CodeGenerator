@@ -8,4 +8,4 @@ addIterator: varName options: aString
 		nextPutAll: ' in ';
 		nextPutAll: aString;
 		nextPutAll: '; do echo "doing $x"; done';
-		nextPutAll: self targetPlatformTerminator.
+		nextPutAll: (String perform: self targetPlatformTerminator)

@@ -4,9 +4,9 @@ addComment: aString
 	
 	self codeStream
 			nextPutAll: '######################';
-			nextPutAll: self targetPlatformTerminator;
+			nextPutAll: (String perform: self targetPlatformTerminator);
 			nextPutAll: '# ';
 			nextPutAll: aString;
-			nextPutAll: self targetPlatformTerminator;
+			nextPutAll: (String perform: self targetPlatformTerminator);
 			nextPutAll: '######################';
-			nextPutAll: self targetPlatformTerminator.
+			nextPutAll: (String perform: self targetPlatformTerminator).

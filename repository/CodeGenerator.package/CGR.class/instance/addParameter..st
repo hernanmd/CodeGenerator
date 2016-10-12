@@ -1,4 +1,4 @@
-accessing
+accessing - parameters
 addParameter: aValue
 	" Append aValue to an args[i] = val expression "
 	
@@ -7,5 +7,5 @@ addParameter: aValue
 			nextPutAll: self argIndex asString;
 			nextPutAll: '] = ';
 			nextPutAll: aValue asString;
-			nextPutAll: self targetPlatformTerminator.
+			nextPutAll: (String perform: self targetPlatformTerminator).
 	self argIndex: self argIndex + 1

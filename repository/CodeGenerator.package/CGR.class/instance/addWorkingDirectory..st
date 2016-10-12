@@ -1,9 +1,8 @@
-accessing
+accessing - prologue
 addWorkingDirectory: directoryName
 	" Append setwd "
 	
-	self codeStream
-			nextPutAll: 'setwd("';
-			nextPutAll: directoryName;
-			nextPutAll: '")';
-			nextPutAll: self targetPlatformTerminator.
+	self 
+		addSingleParameterFunction: 'setwd' 
+		parameter: directoryName
+

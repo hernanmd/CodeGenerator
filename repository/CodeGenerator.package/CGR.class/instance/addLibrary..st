@@ -1,9 +1,7 @@
-accessing
+accessing - prologue
 addLibrary: libraryName
 	" Append libraryName load statement "
 	
-	self codeStream
-			nextPutAll: 'library(';
-			nextPutAll: libraryName;
-			nextPutAll: ')';
-			nextPutAll: self targetPlatformTerminator
+	self 
+		addSingleParameterFunction: 'library' 
+		parameter: libraryName

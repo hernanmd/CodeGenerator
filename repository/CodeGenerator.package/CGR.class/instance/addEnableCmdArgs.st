@@ -1,6 +1,7 @@
-accessing
+accessing - parameters
 addEnableCmdArgs
+	" Add a statement to enable command line argument processing "
 
-	self codeGenerator 
+	self codeStream 
 		nextPutAll: 'args <- commandArgs(TRUE)';
-		nextPutAll: self targetPlatformTerminator
+		nextPutAll: (String perform: self targetPlatformTerminator)
