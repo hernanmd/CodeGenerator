@@ -5,7 +5,8 @@ addParameter: aValue
 	self codeStream
 			nextPutAll: 'args[';
 			nextPutAll: self argIndex asString;
-			nextPutAll: '] = ';
+			nextPutAll: '] = "';
 			nextPutAll: aValue asString;
-			nextPutAll: (String perform: self targetPlatformTerminator).
+			nextPut: $".
+	self nextPutTerminator.
 	self argIndex: self argIndex + 1
