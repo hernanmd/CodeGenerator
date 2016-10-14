@@ -4,5 +4,5 @@ addWorkingDirectory: directoryName
 	
 	self 
 		addSingleParameterFunction: 'setwd' 
-		parameter: directoryName
+		parameter: directoryName surroundedBySingleQuotes
 
