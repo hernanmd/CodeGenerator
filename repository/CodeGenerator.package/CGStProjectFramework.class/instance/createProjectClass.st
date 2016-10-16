@@ -5,4 +5,4 @@ createProjectClass
 		ifTrue: [ ^ self inform: 'Missing project class setting' ].
 	self 
 		generateClassNamed: self projectClassName 
-		superclass: self targetSuperclass
+		superclass: self targetProjectSuperclass

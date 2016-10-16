@@ -9,6 +9,7 @@ exampleProjectFramework1
 		targetSuperclass: #PFProjectDetailsWindow;
 		applicationClassName: #PFExampleApplicationClass;
 		projectClassName: #PFExampleProjectClass;
+		title: 'Example Project UI';
 		closeAfterCreateProjectSetting: true;
 		generateMethods.
 	Smalltalk tools browser fullOnClass: #PFExampleWindow asClass.

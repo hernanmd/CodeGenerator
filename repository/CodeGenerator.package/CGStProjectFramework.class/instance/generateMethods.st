@@ -1,4 +1,4 @@
-as yet unclassified
+code-generation
 generateMethods
 	" Private - See superimplementor's comment "
 	self createApplicationClass.

@@ -10,7 +10,8 @@
 		"closeAfterCreateProjectSetting",
 		"applicationClassName",
 		"projectClassName",
-		"projectUISuperclassName"
+		"targetProjectSuperclass",
+		"title"
 	],
 	"name" : "CGStProjectFramework",
 	"type" : "normal"
