@@ -5,8 +5,7 @@ addInputFileValidation
 	self codeStream nextPutAll: 'echo -n "Check input file is a file..."
 inputFile=$1
 if [ ! -f "$inputFile" ]; then
-	echo "ERROR"
-	echo "$inputFile not a file"
+	echo "ERROR: $inputFile not a file"
 	exit 2
 fi
 echo "ok" 

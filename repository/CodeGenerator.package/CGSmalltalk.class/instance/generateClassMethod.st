@@ -2,6 +2,6 @@ code-generation
 generateClassMethod
 	" Write the code "
 
-	self preGenerate.
+	self preGenerateMethod.
 	self compileInClass.
-	self postGenerate.
+	self postGenerateMethod.

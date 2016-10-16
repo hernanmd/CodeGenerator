@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "CGStTemplate",
+	"category" : "CodeGenerator-ProjectFramework",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"targetApplicationSuperclass",
+		"closeAfterCreateProjectSetting",
+		"applicationClassName",
+		"projectClassName",
+		"projectUISuperclassName"
+	],
+	"name" : "CGStProjectFramework",
+	"type" : "normal"
+}

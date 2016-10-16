@@ -1,4 +1,5 @@
 instance creation
 uniqueInstance
+	" Answer the receiver's instance "
 
-	^ UniqueInstance := self createInstance
+	^ uniqueInstance := self createInstance

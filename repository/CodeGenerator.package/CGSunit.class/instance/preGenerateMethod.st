@@ -1,5 +1,5 @@
 code-generation
-preGenerate
+preGenerateMethod
 	" Private - Configure system receiver's internal settings before compilation "
 	
 	self resetCodeStream.

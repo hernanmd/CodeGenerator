@@ -8,7 +8,7 @@ generateFor: anObject
 			cr; crtab;
 			nextPutAll: '^ ';
 			nextPutAll: anObject asSourceCode surroundedBySingleQuotes ]).
-	self preGenerate.
+	self preGenerateMethod.
 	self compileCodeStream.
-	self postGenerate.
+	self postGenerateMethod.
 

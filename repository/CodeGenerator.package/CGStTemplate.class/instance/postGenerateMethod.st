@@ -1,5 +1,5 @@
 code-generation
-postGenerate
+postGenerateMethod
 	" Private - Perform post code generation actions "
 
 	self restoreAuthoring.

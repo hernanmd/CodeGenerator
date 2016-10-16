@@ -1,5 +1,5 @@
 instance creation
 createInstance
-	" Private - Answer the sole instance of the receiver "
+	" Private - Create an instance of the receiver "
 
 	^ self basicNew initialize

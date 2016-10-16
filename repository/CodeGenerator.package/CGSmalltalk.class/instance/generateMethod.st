@@ -2,6 +2,6 @@ code-generation
 generateMethod
 	" Private - Write the code "
 
-	self preGenerate.
+	self preGenerateMethod.
 	self compileCodeStream.
-	self postGenerate.
+	self postGenerateMethod.
