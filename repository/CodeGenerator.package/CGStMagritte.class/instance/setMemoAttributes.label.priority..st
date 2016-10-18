@@ -1,4 +1,4 @@
-code-configuration-string
+code-configuration-memo
 setMemoAttributes: aString label: labelString priority: anInteger 
 
 	self 
