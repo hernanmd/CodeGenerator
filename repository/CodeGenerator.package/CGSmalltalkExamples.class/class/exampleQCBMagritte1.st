@@ -11,4 +11,4 @@ exampleQCBMagritte1
 		setFileAttributes: 'txtFile' label: 'Upload File' priority: 40;
 		generateMethodsUsingSuperclassChain.
 
-	Smalltalk tools browser openOnClass: #ExampleFileUploadQCBootstrapMagritte asClass.
+	Smalltalk tools browser fullOnClass: #ExampleFileUploadQCBootstrapMagritte asClass.

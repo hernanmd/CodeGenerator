@@ -8,5 +8,5 @@ exampleTestCreation
 		targetTestCategory: 'CGGeneratedCode';
 		generateSetUp: true;
 		generateTests.
-	Smalltalk tools browser openOnClass: #TestCGSmalltalkExample asClass.
+	Smalltalk tools browser fullOnClass: #TestCGSmalltalkExample asClass.
 	self inform: 'Done'.		

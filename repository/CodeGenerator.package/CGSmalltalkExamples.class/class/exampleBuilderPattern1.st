@@ -14,5 +14,5 @@ exampleBuilderPattern1
 		productPartsPerFamilyCount: 3;
 		directorClassName: #CGExCarAssembler;
 		generateClasses.
-	Smalltalk tools browser openOnClass: #CGExCarBuilder asClass.		
+	Smalltalk tools browser fullOnClass: #CGExCarBuilder asClass.		
 	self inform: 'Done!'.
