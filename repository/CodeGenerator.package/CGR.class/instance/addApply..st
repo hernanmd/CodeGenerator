@@ -6,5 +6,4 @@ addApply: aString
 			nextPutAll: 'apply(';
 			nextPutAll: aString;
 			nextPutAll: (String perform: self targetPlatformTerminator);
-			nextPutAll: '######################';
 			nextPutTerminator.

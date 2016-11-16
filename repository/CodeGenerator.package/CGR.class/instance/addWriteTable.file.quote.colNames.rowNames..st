@@ -1,7 +1,6 @@
 accessing - appending functions
-addWriteTable: tableName file: fileName quote: quoteBoolean colNames: colBoolean rowNames: rowBoolean toVar: varName
+addWriteTable: tableName file: fileName quote: quoteBoolean colNames: colBoolean rowNames: rowBoolean
 	
-	self nextPutVarAssignment: varName.
 	self codeStream nextPutAll: 'write.table'.
 	self nextPutFirstParam: fileName;
 			nextPutFunctionParameter: 'quote' paramValue: quoteBoolean asString asUppercase;

@@ -4,13 +4,13 @@ exampleProjectFramework1
 
 	CGStProjectFramework uniqueInstance
 		setCleanTarget;
+		targetSuperclass: #PFProjectDetailsWindow;
 		targetClassCategory: 'PFExampleCategory';
 		targetClass: #PFExampleWindow;
-		targetSuperclass: #PFProjectDetailsWindow;
 		applicationClassName: #PFExampleApplicationClass;
 		projectClassName: #PFExampleProjectClass;
 		title: 'Example Project UI';
 		closeAfterCreateProjectSetting: true;
 		generateMethods.
-	Smalltalk tools browser fullOnClass: #PFExampleWindow asClass.
+	Smalltalk tools browser openOnClass: #PFExampleWindow asClass.
 	self inform: 'Done'.

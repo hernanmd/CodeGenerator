@@ -1,14 +1,14 @@
 meta-templates
-templateForDateDefaultDescription
+templateForMemoDefaultDescription
 
 	^ 'description{1}
-	<magitteDescription> 
+	<magitteDescription>
 	
-	^ MADateDescription new
+	^ MAMemoDescription new
 		accessor: {2};
 		label: {3};
 		priority: {4};
-		default: {5};	
+		default: {5}
 		yourself	
 	' format: { 
 			self attributeName .
