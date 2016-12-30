@@ -1,5 +1,5 @@
 accessing - parameters
-addCmdLineParameter: aValue
+addParameter: aValue
 	" Append aValue to an args[i] = val expression "
 	
 	self codeStream

@@ -1,7 +1,7 @@
 examples
 exampleBashScript1
 
-	^ CGBash uniqueInstance
+	^ CGBash new
 		addSheBang;
 		addHasParametersValidation;
 		generate.

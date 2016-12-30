@@ -1,7 +1,7 @@
 examples
 exampleSingletonCreation
 
-	CGStSingleton uniqueInstance
+	CGStSingleton new
 		setCleanTarget;
 		targetClassCategory: 'SingletonEx1';
 		targetClass: #SingletonEx1;

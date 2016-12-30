@@ -1,7 +1,7 @@
 examples
 exampleMagritteDescriptionCreation3
 
-	CGStMagritte uniqueInstance
+	CGStMagritte new
 		inputClass: ModelClass1;
 		targetClass: ModelClass1;
 		setBooleanAttributes: 'instVar1' 		label: 'label iVar1' priority: 10;

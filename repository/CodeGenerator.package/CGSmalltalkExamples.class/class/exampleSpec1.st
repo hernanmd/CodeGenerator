@@ -1,8 +1,11 @@
 examples
 exampleSpec1
 
-	CGStSpec uniqueInstance
+	CGStSpec new
 		setCleanTarget;
-		targetClass: #ModelClass1;
+		targetClass: #SpecModelClass1;
 		title: 'Example Spec 1';
-		generateMethods
+		generateMethods.
+
+	Smalltalk tools browser openOnClass: #SpecModelClass1 asClass.
+	self inform: 'Done'.		

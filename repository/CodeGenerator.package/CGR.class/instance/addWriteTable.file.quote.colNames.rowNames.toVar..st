@@ -1,12 +1,13 @@
 accessing - appending functions
 addWriteTable: tableName file: fileName quote: quoteBoolean colNames: colBoolean rowNames: rowBoolean toVar: varName
 	
-	self nextPutVarAssignment: varName.
-	self codeStream nextPutAll: 'write.table'.
-	self nextPutFirstParam: fileName;
-			nextPutFunctionParameter: 'quote' paramValue: quoteBoolean asString asUppercase;
-			nextPutFunctionParameter: 'col.names' paramValue: colBoolean asString asUppercase;
-			nextPutFunctionParameter: 'row.names' paramValue: rowBoolean asString asUppercase.
-	self codeStream nextPut: $).
+	self codeStream
+			nextPutAll: varName;
+			nextPutAll: ' <- write.table(';
+			nextPutAll: fileName;
+			nextPutAll: ', quote = ' , quoteBoolean asString asUppercase;
+			nextPutAll: ', col.names = ' , colBoolean asString asUppercase;
+			nextPutAll: ', row.names = ' , rowBoolean asString asUppercase;
+			nextPut: $).
 	self nextPutTerminator.			
 

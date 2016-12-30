@@ -2,7 +2,7 @@ examples
 exampleQCBMagritte1
 	" File uploader example "
 
-	CGQCBMagritte uniqueInstance
+	CGQCBMagritte new
 		setCleanTarget;
 		targetClass: #ExampleFileUploadQCBootstrapMagritte;
 		targetClassCategory: 'ExampleQCBootstrapMagritte';

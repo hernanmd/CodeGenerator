@@ -2,9 +2,7 @@
 	"commentStamp" : "HernanMoralesDurand 10/12/2016 03:43",
 	"super" : "CGAbstract",
 	"category" : "CodeGenerator-Core",
-	"classinstvars" : [
-		"uniqueInstance"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
 		"UniqueInstance"

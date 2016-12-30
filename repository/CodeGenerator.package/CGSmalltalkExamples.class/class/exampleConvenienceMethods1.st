@@ -1,7 +1,7 @@
 examples
 exampleConvenienceMethods1
 
-	CGStConvenienceMethods uniqueInstance
+	CGStConvenienceMethods new
 		setCleanTarget;
 		parameterCount: 1;
 		targetSelector: #cgConvEx1;

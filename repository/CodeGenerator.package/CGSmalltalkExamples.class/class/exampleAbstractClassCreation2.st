@@ -2,7 +2,7 @@ examples
 exampleAbstractClassCreation2
 	" Create Abstract Class Pattern example "
 	
-	CGStAbstractClassPattern uniqueInstance
+	CGStAbstractClassPattern new
 		setCleanTarget;
 		targetClassCategory: 'CGGeneratedCode-Core';
 		targetClass: #CGExampleAbstractClass2;

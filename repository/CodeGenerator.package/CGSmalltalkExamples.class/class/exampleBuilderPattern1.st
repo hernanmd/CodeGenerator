@@ -2,7 +2,7 @@ examples
 exampleBuilderPattern1
 	" Create Builder Pattern example "
 	
-	CGStBuilderPattern uniqueInstance
+	CGStBuilderPattern new
 		setCleanTarget;
 		targetClassCategory: 'CGGeneratedCode-Core';
 		" Abstract Builder class name (ex: UIBuilder) "

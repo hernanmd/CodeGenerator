@@ -1,7 +1,7 @@
 examples
 exampleBashScript2
 
-	^ CGBash uniqueInstance
+	^ CGBash new
 		addCaseFor: 'myCaseVar' options: { 'caseA' . 'caseB' . 'caseC' };
 		generate.
 

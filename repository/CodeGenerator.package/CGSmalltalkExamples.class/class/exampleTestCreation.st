@@ -1,7 +1,7 @@
 examples
 exampleTestCreation
 
-	CGSunit uniqueInstance
+	CGSunit new
 		setCleanTarget;
 		inputClass: CGSmalltalk;
 		targetTestClass: #TestCGSmalltalkExample;

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 10/29/2016 00:54",
+	"super" : "CGStStateMachine",
+	"category" : "CodeGenerator-Smalltalk-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"initialState",
+		"states",
+		"transitions"
+	],
+	"name" : "CGStFSM_CaseStmts1",
+	"type" : "normal"
+}

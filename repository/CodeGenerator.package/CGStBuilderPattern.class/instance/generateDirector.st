@@ -1,7 +1,7 @@
 code-generation
 generateDirector
 
-	CGSmalltalk uniqueInstance
+	CGSmalltalk new
 		setCleanTarget;
 		targetClassCategory: self targetClassCategory;
 		targetClass: self directorClassName;

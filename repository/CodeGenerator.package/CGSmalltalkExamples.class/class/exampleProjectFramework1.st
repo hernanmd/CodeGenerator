@@ -2,11 +2,11 @@ examples
 exampleProjectFramework1
 	" Generate a ProjectBase subclass with its (Spec) Window "
 
-	CGStProjectFramework uniqueInstance
+	CGStProjectFramework new
 		setCleanTarget;
-		targetSuperclass: #PFProjectDetailsWindow;
 		targetClassCategory: 'PFExampleCategory';
 		targetClass: #PFExampleWindow;
+		targetSuperclass: #PFProjectDetailsWindow;
 		applicationClassName: #PFExampleApplicationClass;
 		projectClassName: #PFExampleProjectClass;
 		title: 'Example Project UI';

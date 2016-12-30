@@ -1,7 +1,7 @@
 examples
 exampleResourceImporter1
 
-	CGStImageImporter uniqueInstance
+	CGStImageImporter new
 		setCleanTarget;
 		targetClass: #CGExampleResources1;
 		targetClassCategory: 'CGGeneratedCode';

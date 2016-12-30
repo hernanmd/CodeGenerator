@@ -1,7 +1,7 @@
 code-generation
 generateBuilders
 
-	CGStHierarchyCreator uniqueInstance
+	CGStHierarchyCreator new
 		shouldCleanTarget: self shouldCleanTarget;
 		targetClass: self targetClass;
 		targetClassCategory: self targetClassCategory;
