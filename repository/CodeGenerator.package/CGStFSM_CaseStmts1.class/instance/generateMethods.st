@@ -1,8 +1,8 @@
 accessing
 generateMethods
 
-	self transitions associations 
-		do: [ : assoc | 
-			self sourceString: (self templateForTransition: assoc key to: assoc value).
-			self generateMethod ]
-		displayingProgress: 'Generating FSM'
+	self cleanTargetMethods.
+	self addInstVar: #currentState.
+	self generateMethodHeader.
+	self buildTransitionsCode.
+	self generateMethod.

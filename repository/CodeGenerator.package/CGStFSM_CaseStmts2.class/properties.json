@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 10/29/2016 00:54",
+	"commentStamp" : "",
 	"super" : "CGStTHStateMachine",
 	"category" : "CodeGenerator-Smalltalk-Generators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CGStFSM_CaseStmts1",
+	"name" : "CGStFSM_CaseStmts2",
 	"type" : "normal"
 }
