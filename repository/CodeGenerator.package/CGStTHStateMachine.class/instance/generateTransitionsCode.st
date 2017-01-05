@@ -1,5 +1,5 @@
-accessing
-buildTransitionsCode
+code-generation
+generateTransitionsCode
 
 	self transitions associations 
 		do: [ : assoc | self addStatement: (self templateForTransition: assoc key to: assoc value) ]

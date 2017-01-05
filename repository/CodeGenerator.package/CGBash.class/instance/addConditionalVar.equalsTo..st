@@ -1,5 +1,5 @@
 accessing - utilities
-addConditional: varName equalsTo: aValue
+addConditionalVar: varName equalsTo: aValue
 	" Add a code fragment to test varName "
 
 	self codeStream 

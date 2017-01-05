@@ -1,4 +1,4 @@
-defaults
+accessing
 classCategoryName
 	" Answer a String where the target class where will be categorized by the SystemOrganizer "
 	

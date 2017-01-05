@@ -1,17 +1,5 @@
-code-generation-rb
+code-generation
 addAccessorMethods: iVarName
+	" Add accessors for iVarName in the receiver's target class "
 
-	| model className theClass |
-	
-	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.	
-	className := self targetClass name.
-	model := RBNamespace new classNamed: className; yourself.
-	theClass := (RBClass existingNamed: className)
-				model: model;
-				yourself.			
-	(RBCreateAccessorsForVariableRefactoring 
-			model: model
-			variable: iVarName
-			class: theClass 
-			classVariable: false) execute.
-	self logInfo: 'done'.
+	self codeTransformer addAccessorMethods: iVarName

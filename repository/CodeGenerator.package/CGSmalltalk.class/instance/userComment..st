@@ -1,4 +1,5 @@
 accessing
-userComment: anObject
+userComment: aString
+	" Set the receiver's comment for methods to be aString "
 
-	userComment := anObject
+	userComment := aString

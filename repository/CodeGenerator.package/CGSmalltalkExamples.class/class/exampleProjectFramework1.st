@@ -5,8 +5,8 @@ exampleProjectFramework1
 	CGStProjectFramework new
 		setCleanTarget;
 		targetClassCategory: 'PFExampleCategory';
-		targetClass: #PFExampleWindow;
 		targetSuperclass: #PFProjectDetailsWindow;
+		targetClass: #PFExampleWindow;
 		applicationClassName: #PFExampleApplicationClass;
 		projectClassName: #PFExampleProjectClass;
 		title: 'Example Project UI';

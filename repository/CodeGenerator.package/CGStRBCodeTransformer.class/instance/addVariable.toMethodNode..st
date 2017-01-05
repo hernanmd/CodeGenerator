@@ -1,4 +1,4 @@
-code-generation-rb
+private
 addVariable: var toMethodNode: methodNode
 	" Comprobar si está como variable temporal "
 	

@@ -1,14 +1,5 @@
-code-cleaning
+code-generation
 addInstanceVariable: iVarName
-
-	| model className theClass |
-
-	className := self targetClass name.
-	model := RBNamespace new classNamed: className; yourself.
-	theClass := (RBClass existingNamed: className)
-				model: model;
-				yourself.	
-	(RBAddInstanceVariableRefactoring 
-			model: model
-			variable: iVarName
-			class: theClass) execute.
+	" Add iVarName as instance variable of the receiver's target class "
+	
+	self codeTransformer addInstanceVariable: iVarName

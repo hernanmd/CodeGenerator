@@ -4,8 +4,8 @@ generateMethods
 	self cleanTargetMethods.
 	self addInstVar: #currentState.	
 	self generateMethodHeader.
-	self buildTransitionsCode.
-	self generateMethod.
+	self generateTransitionsCode.
+	self codeTransformer postGenerateMethod.
 	1 to: self transitions size do: [ : i |
 		self resetCodeStream.
 		self targetSelector: #someMessageSendInstate , i asString.

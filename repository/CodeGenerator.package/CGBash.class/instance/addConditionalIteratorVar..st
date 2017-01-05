@@ -1,5 +1,5 @@
 accessing - utilities
-addConditionalIterator: varName
+addConditionalIteratorVar: varName
 	" Add a code fragment to iterate varName (containing a bash String) "
 
 	self codeStream 

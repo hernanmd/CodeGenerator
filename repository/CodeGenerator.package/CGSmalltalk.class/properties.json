@@ -20,7 +20,8 @@
 		"exclusions",
 		"targetMethodCategory",
 		"isSourceCode",
-		"parserClass"
+		"parserClass",
+		"codeTransformer"
 	],
 	"name" : "CGSmalltalk",
 	"type" : "normal"
