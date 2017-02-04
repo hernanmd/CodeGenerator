@@ -1,7 +1,10 @@
 examples
 exampleBashScript1
 
-	^ CGBash new
+	| res |
+	
+	res := CGBash new
 		addSheBang;
 		addHasParametersValidation;
 		generate.
+	Smalltalk tools workspace openContents: res label: 'Bash Script'
