@@ -1,5 +1,6 @@
 initialize-release
 initialize
+	" Private - Initialize the receiver's default settings "
 
 	super initialize.
 	self setSourceAsCode.

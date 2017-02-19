@@ -6,7 +6,7 @@ generateMethods
 	self generateMethodHeader.
 	self generateTransitionsCode.
 	self codeTransformer postGenerateMethod.
-	1 to: self transitions size do: [ : i |
+	0 to: self transitions size - 1 do: [ : i |
 		self resetCodeStream.
 		self targetSelector: #someMessageSendInstate , i asString.
 		self generateMethodHeader.

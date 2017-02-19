@@ -7,10 +7,10 @@ exampleFSMCaseStmt2
 		targetClassCategory: 'FSM-Core';
 		targetClass: #FSMCaseStmts2;
 		targetSelector: #someMessage;
-		initialState: #state0;
+		initialState: #State0;
 		transitions: (Dictionary new 
-			at: #state0 put: #state1;
-			at: #state1 put: #state0;
+			at: #State0 put: #State1;
+			at: #State1 put: #State0;
 			yourself);
 		generateMethods.
 	Smalltalk tools browser openOnClass: #FSMCaseStmts2 asClass.		
