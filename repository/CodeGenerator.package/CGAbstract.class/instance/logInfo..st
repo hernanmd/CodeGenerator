@@ -1,4 +1,4 @@
 logging
 logInfo: aString
 
-	EsLogManager logInfo: aString
+	(self classFor: #EsLogManager) logInfo: aString

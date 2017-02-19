@@ -5,6 +5,6 @@ addApply: aString
 	self codeStream
 			nextPutAll: 'apply(';
 			nextPutAll: aString;
-			nextPutAll: (String perform: self targetPlatformTerminator);
+			nextPutAll: (String perform: self platformTerminator);
 			nextPutAll: '######################';
 			nextPutTerminator.
