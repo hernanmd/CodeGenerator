@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/8/2017 16:52",
+	"super" : "CGStTemplate",
+	"category" : "CodeGenerator-Smalltalk-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fullPath",
+		"fieldSeparator",
+		"block"
+	],
+	"name" : "CGStNeoCSV",
+	"type" : "normal"
+}

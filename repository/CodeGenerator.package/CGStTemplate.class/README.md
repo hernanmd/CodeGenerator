@@ -1,3 +1,4 @@
-Category 'code-templates' are method templates intended to be included in the generated class.
+Subclasses may implement two method categories:
 
-Category 'meta-templates' are method templates intended to be used for parametrization of new templates.
+- Category 'code-templates' are method templates intended to be included in the generated class.
+- Category 'meta-templates' are method templates intended to be used for parametrization of new templates.
