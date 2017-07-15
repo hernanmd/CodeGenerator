@@ -4,4 +4,4 @@ templateForCSVReaderDoInMethod
 
 	^ '{1}
 	
-{2}' format: { self targetSelector asString . self templateForCSVReaderDoInBlock }
+{2}' format: { self targetSelector asString . self templateForCSVReaderInnerDoInMethod }

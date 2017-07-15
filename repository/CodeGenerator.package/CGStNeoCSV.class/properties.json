@@ -8,7 +8,9 @@
 	"instvars" : [
 		"fullPath",
 		"fieldSeparator",
-		"block"
+		"block",
+		"headers",
+		"data"
 	],
 	"name" : "CGStNeoCSV",
 	"type" : "normal"

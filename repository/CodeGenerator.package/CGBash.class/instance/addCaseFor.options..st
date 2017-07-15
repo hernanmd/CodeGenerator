@@ -5,6 +5,7 @@ addCaseFor: varName options: aCollection
 	self codeStream nextPutAll: (String streamContents: [ : stream | 
 			stream
 				nextPutAll: 'case "$' , varName , '" in';
+				crtab; tab;
 				nextPutAll: (self shCaseOptionGenerator: aCollection);
 				nextPutAll: '			
 	*)

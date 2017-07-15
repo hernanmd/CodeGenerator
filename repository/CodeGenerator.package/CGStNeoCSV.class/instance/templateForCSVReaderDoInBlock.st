@@ -5,4 +5,4 @@ templateForCSVReaderDoInBlock
 	^ '	(NeoCSVReader on: stream) 
 			separator: {1};
 			skipHeader;
-			do: {2}' format: { self fieldSeparator . self block }
+			do: {2}' format: { self fieldSeparator storeString . self block }

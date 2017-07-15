@@ -7,5 +7,9 @@ addIterator: varName options: aString
 		nextPutAll: varName;
 		nextPutAll: ' in ';
 		nextPutAll: aString;
-		nextPutAll: '; do echo "doing $x"; done';
+		nextPutAll: '; do ';
+		crtab;
+		nextPutAll: 'echo "doing $x";';
+		cr;
+		nextPutAll: 'done';
 		nextPutTerminator

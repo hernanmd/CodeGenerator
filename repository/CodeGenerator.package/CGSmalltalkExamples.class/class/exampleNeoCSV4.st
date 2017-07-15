@@ -1,13 +1,13 @@
 examples
-exampleNeoCSV2
+exampleNeoCSV4
 
 	| res |
 	
 	res := CGStNeoCSV new
 		fullPath: 'test1.csv';
 		addSeparator: Character tab;
-		block: [ : row | Transcript show: row first; cr ];
-		generateReadDoScript.
+		headers: #('fieldA' 'fieldB');
+		generateWriteDoScript.
 	self inform: 'Done'.		
 	Smalltalk tools workspace 
 		openContents: res 

@@ -7,4 +7,4 @@ templateForCSVReaderCollect
 	(NeoCSVReader on: stream) 
 			separator: {2};
 			skipHeader;
-			rowsCollect: {3}' format: { self targetSelector asString . self fieldSeparator . self block }
+			rowsCollect: {3}' format: { self targetSelector asString . self fieldSeparator storeString . self block }

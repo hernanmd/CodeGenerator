@@ -16,4 +16,6 @@ shCaseOptionGenerator: aCollection
 				crtab; tab;
 				nextPutAll: self shDummyIf;
 				crtab; tab;
-				nextPutAll: ';;' ] ]
+				nextPutAll: ';;';
+				crtab; tab
+			] ]
