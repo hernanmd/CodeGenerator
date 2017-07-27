@@ -1,0 +1,5 @@
+code-generation
+addInstanceVariablesWithAccessors: iVarCollection
+	" Add instance variables in iVarCollection and generate accessor (getter and setter) methods "
+	
+	iVarCollection do: [ : iVar | self codeTransformer addInstanceVariableWithAccessors: iVar ]

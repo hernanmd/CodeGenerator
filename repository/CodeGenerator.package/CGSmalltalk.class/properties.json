@@ -21,7 +21,8 @@
 		"targetMethodCategory",
 		"isSourceCode",
 		"parserClass",
-		"codeTransformer"
+		"codeTransformer",
+		"targetClassPrefix"
 	],
 	"name" : "CGSmalltalk",
 	"type" : "normal"

@@ -1,17 +1,10 @@
 code-generation
 addInstanceVariable: iVarName
 
-	| model className theClass |
-
-	className := self targetClass name.
-	model := RBNamespace new classNamed: className; yourself.
-	theClass := (RBClass existingNamed: className)
-				model: model;
-				yourself.	
-	[(RBAddInstanceVariableRefactoring 
-			model: model
-			variable: iVarName
-			class: theClass) execute.]
-	on: RBRefactoringError 
-	do: [ : ex | (ex messageText includesSubstring: 'its subclasses defines variable')
-			ifFalse: [ self halt ] ]
+	[ [ [ self privateAddInstanceVariable: iVarName ]
+		on: RBRefactoringFailure
+		do: [ : exception | self handleFailure: exception ] ]
+		on: RBRefactoringWarning
+		do: [ : exception | self handleWarning: exception ] ]
+		on: RBRefactoringError
+		do: [ : exception | self handleFailure: exception ]
