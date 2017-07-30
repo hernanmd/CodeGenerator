@@ -1,7 +1,7 @@
 code-generation
 addInstanceVariableWithAccessors: iVarName in: aClass
 
-	(iVarName includes: Character space)
+	(iVarName trimBoth includes: Character space)
 		ifTrue: [ ^ self ].
 	[ [ [ self privateAddInstanceVariableWithAccessors: iVarName in: aClass ]
 		on: RBRefactoringFailure
