@@ -1,7 +1,7 @@
 code-templates
-templateForApplicationClass
+templateForInitializeApplication
 	" Answer a <String> with the #applicationClass instantiation template "
 
-	^ 'applicationClass
+	^ 'initializeApplication
 	
 	^ ' , self applicationClassName asString

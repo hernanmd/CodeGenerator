@@ -1,4 +1,0 @@
-code-templates
-templateForInitializeWidgets
-
-	^ 'initializeWidgets'
