@@ -5,3 +5,6 @@ generateMethods
 	super generateMethods.
 	self sourceString: self generateIW.
 	self generateMethod.
+	self sourceString: self generateIP.
+	self generateMethod.
+

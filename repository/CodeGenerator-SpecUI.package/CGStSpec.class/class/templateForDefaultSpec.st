@@ -7,4 +7,4 @@ templateForDefaultSpec
     ^ SpecLayout composed
 		newColumn: [ : c | 
 			c
-				{{ defaultSpecInstVars }} ]'
+				{{ defaultSpecInstVarsCtx }} ]'

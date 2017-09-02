@@ -3,5 +3,5 @@ templateForInitializePresenter
 
 	^ 'initializePresenter
 	" Private - See superimplementor''s comment "
-	
-'
+
+	{{ specInstVarsIP }}.'
