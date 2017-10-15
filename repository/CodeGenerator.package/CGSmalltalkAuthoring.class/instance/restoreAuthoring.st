@@ -2,7 +2,7 @@ code-authoring
 restoreAuthoring
 	" Private - Restore authoring information "
 
-	self hasAuthoringBehavior
+	(self useAuthoring and: [ self hasAuthoringBehavior ])
 		ifTrue: [ self isAuthoringWithAuthor
 				ifTrue: [ self restoreAuthoringWithAuthor ]
 				ifFalse: [ self isAuthoringWithUtilities
