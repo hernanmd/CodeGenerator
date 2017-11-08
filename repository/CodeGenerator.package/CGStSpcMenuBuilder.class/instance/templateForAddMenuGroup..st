@@ -2,6 +2,6 @@ code-templates
 templateForAddMenuGroup: stream
 
 	stream
-		nextPutAll: '^ MenuModel new'; crtab;
-		nextPutAll: 'addGroup: [ : group | '; crtab; tab;			
-		nextPutAll: 'group'; cr.
+		nextPutAll: '^ MenuModel new'; 
+		crtab.
+	self templateForAddMenuGroupBlock: stream
