@@ -40,8 +40,10 @@ baseline11: spec
 		spec 
 			package: 'CodeGenerator' with: [
 				spec requires: #('Grease' 'Log4s' 'StringExtensions' 'Mustache' 'InstanceEncoder' 'CommonUtils' ). ];
+			package: #'CodeGenerator-Pharo' with: [
+				spec requires: #('CodeGenerator' ). ];
 			package: #'CodeGenerator-SpecUI' with: [
 				spec requires: #('CodeGenerator' ). ].
 		spec 
-			group: 'UI' with: #('CodeGenerator-SpecUI' );
+			group: 'UI' with: #('CodeGenerator-SpecUI' #'CodeGenerator-Pharo' );
 			group: 'default' with: #('CodeGenerator' ). ].
