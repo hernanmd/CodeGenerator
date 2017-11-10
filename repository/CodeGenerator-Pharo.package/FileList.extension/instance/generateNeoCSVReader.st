@@ -4,12 +4,12 @@ generateNeoCSVReader
 	
 	| csvScript |
 	
-	self halt.
 	csvScript := CGStNeoCSV new
-		fullPath: self reference;
+		fullPath: self reference fullName;
 		addSeparator: self cgSelectDelimiter;
-		block: [ : row | Transcript show: row first; cr ];
-		generateReadDoScript.
+		block: self cgSelectReadingBlock;
+		skipHeaderCount: self cgSelectSkipHeaders asNumber;
+		perform: self cgSelectReadingMethod.
 	Smalltalk tools workspace 
 		openContents: csvScript 
 		label: 'Workspace from ', self reference basename
