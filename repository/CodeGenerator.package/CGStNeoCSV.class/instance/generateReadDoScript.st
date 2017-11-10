@@ -1,4 +1,4 @@
 code-generation
 generateReadDoScript
 
-	^ self templateForCSVReader
+	^ self templateForCSVReaderDoScript

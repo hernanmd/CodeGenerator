@@ -11,4 +11,4 @@ exampleNeoCSV4
 	self inform: 'Done'.		
 	Smalltalk tools workspace 
 		openContents: res 
-		label: 'NeoCSV reader script'
+		label: 'NeoCSV writer script'

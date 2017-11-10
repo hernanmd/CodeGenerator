@@ -1,18 +1,11 @@
 code-templates
-generateGroupSubMenuItems: groupCollection
-
+generateGroupSubMenuItems: subMenuCollection
+	" Answer a <String> with all elements in subMenuCollection as sub menu items "
+	
 	^ String streamContents: [ : stream | 
 		self templateForAddMenuGroup: stream.
-		groupCollection 
-			allButLastDo: [ : itemCollection | 
-				itemCollection allButLastDo: [ : itemText |
-					stream 
-						nextPutAll: (self templateForAddSubmenuItem: itemText);
-						nextPut: $;;						
-						cr ].
-					self templateForAddSubmenuItem: itemCollection last.				
-					self templateForAddMenuGroupBlock: stream ].
+		self generateGroupSubMenuItem: stream from: subMenuCollection.
 		stream
-			nextPutAll: (self templateForAddSubmenuItem: groupCollection last last);
+			nextPutAll: (self templateForAddSubmenuItem: subMenuCollection last last);
 			nextPut: $];
 			nextPut: $] ]

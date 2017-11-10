@@ -10,7 +10,8 @@
 		"fieldSeparator",
 		"block",
 		"headers",
-		"data"
+		"data",
+		"skipHeaderCount"
 	],
 	"name" : "CGStNeoCSV",
 	"type" : "normal"
