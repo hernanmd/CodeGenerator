@@ -6,4 +6,4 @@ codeForSkipHeader
 		ifTrue: [ ^ String empty ].
 	^ self skipHeaderCount = 1
 		ifTrue: [ 'skipHeader;' ]
-		ifFalse: [ self error ]
+		ifFalse: [ self error: 'Should be implemented' ]

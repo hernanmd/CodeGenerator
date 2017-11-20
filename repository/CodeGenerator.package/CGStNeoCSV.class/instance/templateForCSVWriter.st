@@ -4,5 +4,5 @@ templateForCSVWriter
 
 	^ '| data |
 data := Set new.
-''{1}'' asFileReference writeStreamDo: [ : stream |
+''{1}'' asFileReference writeStreamDo: [ : writeStream |
 {2} ]' format: { self fullPath . self templateForCSVWriterDoInBlock }

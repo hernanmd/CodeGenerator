@@ -4,7 +4,7 @@ templateForCSVReaderSelect
 
 	^ '{1}
 	
-	(NeoCSVReader on: stream) 
+	(NeoCSVReader on: readStream) 
 			separator: {2}; {3}
 			select: {4}' format: { 
 				self targetSelector asString . 

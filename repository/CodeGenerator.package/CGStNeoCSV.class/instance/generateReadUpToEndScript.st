@@ -1,0 +1,4 @@
+code-generation
+generateReadUpToEndScript
+
+	^ self templateForCSVReaderUpToEndScript
