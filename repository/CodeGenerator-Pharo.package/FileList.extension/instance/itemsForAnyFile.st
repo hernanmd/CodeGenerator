@@ -10,4 +10,5 @@ itemsForAnyFile
 	services add: self serviceViewContents.
 	services add: self serviceViewContentsInWorkspace.
 	services add: self serviceViewNeoCSVReaderGenerator. 
+	services add: self serviceViewNeoCSVReader.
 	^ services
