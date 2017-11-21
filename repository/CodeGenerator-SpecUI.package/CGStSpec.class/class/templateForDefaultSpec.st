@@ -1,5 +1,6 @@
 code-templates
 templateForDefaultSpec
+	" Answer a <String> with valid spec definition code "
 
 	^ 'defaultSpec
 
