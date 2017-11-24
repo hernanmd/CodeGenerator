@@ -1,5 +1,5 @@
 code-generation
-privateAddInstanceVariableWithAccessors: iVarName
+prvAddIVarWithAccessors: iVarName
 
 	className := self targetClass name.
 	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.

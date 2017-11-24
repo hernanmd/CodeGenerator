@@ -10,4 +10,4 @@ templateForCSVReaderSelect
 				self targetSelector asString . 
 				self codeForSkipHeader .
 				self fieldSeparator storeString . 
-				self block }
+				self actionBlock }

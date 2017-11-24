@@ -6,5 +6,5 @@ generateBuilders
 		targetClass: self targetClass;
 		targetClassCategory: self targetClassCategory;
 		concreteClasses: self builderNames;
-		addInstanceVariables: #(#product);		
+		addIVars: #(#product);		
 		generateClasses.

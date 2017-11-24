@@ -1,4 +1,4 @@
 code-generation
-addInstanceVariable: iVarName
+addIVar: iVarName
 
 	self shouldBeImplemented

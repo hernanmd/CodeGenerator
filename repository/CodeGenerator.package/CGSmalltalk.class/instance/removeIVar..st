@@ -1,5 +1,5 @@
 code-cleaning
-removeInstVar: iVarName
+removeIVar: iVarName
 	" Remove the instance variable iVarName from the receiver's target class "
 
-	self codeTransformer removeInstVar: iVarName
+	self codeTransformer removeIVar: iVarName

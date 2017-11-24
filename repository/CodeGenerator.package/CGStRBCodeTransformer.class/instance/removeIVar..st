@@ -1,5 +1,5 @@
 code-cleaning
-removeInstVar: iVarName
+removeIVar: iVarName
 
 	| model |
 	

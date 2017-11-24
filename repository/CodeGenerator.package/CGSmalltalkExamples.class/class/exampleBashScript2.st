@@ -1,7 +1,11 @@
 examples
 exampleBashScript2
 
-	^ CGBash new
-		addCaseFor: 'myCaseVar' options: { 'caseA' . 'caseB' . 'caseC' };
-		generate.
+	Smalltalk tools workspace 
+		openContents: (
+			CGBash new
+				addCaseFor: 'myCaseVar' 
+				options: { 'caseA' . 'caseB' . 'caseC' };
+				generate) 
+		label: 'Bash Script' 
 

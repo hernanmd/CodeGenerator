@@ -8,10 +8,10 @@
 	"instvars" : [
 		"fullPath",
 		"fieldSeparator",
-		"block",
 		"headers",
 		"data",
-		"skipHeaderCount"
+		"skipHeaderCount",
+		"actionBlock"
 	],
 	"name" : "CGStNeoCSV",
 	"type" : "normal"

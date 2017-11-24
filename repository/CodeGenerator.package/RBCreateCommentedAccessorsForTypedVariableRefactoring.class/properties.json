@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RBCreateCommentedAccessorsForVariableRefactoring",
+	"category" : "CodeGenerator-Smalltalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type"
+	],
+	"name" : "RBCreateCommentedAccessorsForTypedVariableRefactoring",
+	"type" : "normal"
+}

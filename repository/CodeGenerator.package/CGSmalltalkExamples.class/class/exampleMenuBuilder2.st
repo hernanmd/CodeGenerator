@@ -1,9 +1,9 @@
 examples
 exampleMenuBuilder2
 
-	| menuModel |
+	| menuCode |
 	
-	menuModel := CGStSpcMenuBuilder new generateMenuSubMenuItems: #('Item1' 'Item2' 'Item3').	
+	menuCode := CGStSpcMenuBuilder new generateMenuSubMenuItems: #('Item1' 'Item2' 'Item3').	
 	Smalltalk tools workspace 
-		openContents: menuModel 
+		openContents: menuCode 
 		label: 'MenuModel Generator'

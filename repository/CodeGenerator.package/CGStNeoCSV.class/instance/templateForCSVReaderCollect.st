@@ -4,10 +4,10 @@ templateForCSVReaderCollect
 
 	^ '{1}
 	
-	(NeoCSVReader on: stream) 
+	(NeoCSVReader on: readStream) 
 			separator: {2}; {3}
 			rowsCollect: {4}' format: { 
 				self targetSelector asString . 
 				self codeForSkipHeader .
 				self fieldSeparator storeString . 
-				self block }
+				self actionBlock }

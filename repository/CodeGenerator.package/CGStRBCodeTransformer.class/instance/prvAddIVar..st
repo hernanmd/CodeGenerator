@@ -1,5 +1,5 @@
 code-generation
-privateAddInstanceVariable: iVarName
+prvAddIVar: iVarName
 
 	self logInfo: 'Adding instance variable named: ' , iVarName.	
 	(RBAddInstanceVariableRefactoring 

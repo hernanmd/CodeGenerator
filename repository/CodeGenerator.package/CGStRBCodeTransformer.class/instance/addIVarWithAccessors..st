@@ -1,10 +1,10 @@
 code-generation
-addInstanceVariable: iVarName
+addIVarWithAccessors: iVarName
 
-	[ [ [ self privateAddInstanceVariable: iVarName ]
+	[ [ [ self prvAddIVarWithAccessors: iVarName ]
 		on: RBRefactoringFailure
 		do: [ : exception | self handleFailure: exception ] ]
-		on: RBRefactoringWarning
+		on: RBRefactoringWarning, Warning
 		do: [ : exception | self handleWarning: exception ] ]
 		on: RBRefactoringError
-		do: [ : exception | self handleFailure: exception ]
+		do: [ : exception | self handleError: exception ]

@@ -8,7 +8,7 @@ exampleNeoCSV3
 		addSeparator: Character tab;
 		targetClass: ModelClass1;
 		targetSelector: #someMessage;
-		block: [ : row | row first ];
+		actionBlock: [ : row | row first ];
 		generateReadDoMethod.
 	self inform: 'Done'.		
 	Smalltalk tools browser openOnClass: #ModelClass1 asClass.		

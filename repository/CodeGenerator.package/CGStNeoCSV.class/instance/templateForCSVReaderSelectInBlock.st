@@ -7,4 +7,4 @@ templateForCSVReaderSelectInBlock
 			select: {3}' format: { 
 				self fieldSeparator storeString . 
 				self codeForSkipHeader .
-				self block }
+				self actionBlock }

@@ -1,5 +1,5 @@
 code-generation
-privateAddInstanceVariableWithAccessors: iVarName in: aClass
+prvAddIVar: iVarName withAccessorsIn: aClass
 
 	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.
 	model := RBNamespace new classNamed: aClass asString; yourself.	

@@ -5,4 +5,4 @@ templateForCSVReaderInnerDoInMethod
 	^ '	(NeoCSVReader on: ''{1}'' asFileReference readStream) 
 			separator: {2};
 			skipHeader;
-			do: {3}' format: { self fullPath . self fieldSeparator storeString . self block }
+			do: {3}' format: { self fullPath . self fieldSeparator storeString . self actionBlock }

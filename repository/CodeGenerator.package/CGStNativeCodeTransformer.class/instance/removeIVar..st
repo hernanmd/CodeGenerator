@@ -1,4 +1,4 @@
 code-cleaning
-removeInstVar: iVarName
+removeIVar: iVarName
 
 	self shouldBeImplemented 

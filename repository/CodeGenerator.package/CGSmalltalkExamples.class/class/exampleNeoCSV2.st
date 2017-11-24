@@ -6,7 +6,7 @@ exampleNeoCSV2
 	res := CGStNeoCSV new
 		fullPath: 'test1.csv';
 		addSeparator: Character tab;
-		block: [ : row | Transcript show: row first; cr ];
+		actionBlock: [ : row | Transcript show: row first; cr ];
 		generateReadDoScript.
 	self inform: 'Done'.		
 	Smalltalk tools workspace 

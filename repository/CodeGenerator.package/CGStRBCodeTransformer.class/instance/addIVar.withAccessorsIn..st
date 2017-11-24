@@ -1,7 +1,9 @@
 code-generation
-addInstanceVariableWithAccessors: iVarName
+addIVar: iVarName withAccessorsIn: aClass
 
-	[ [ [ self privateAddInstanceVariableWithAccessors: iVarName ]
+	(iVarName trimBoth includes: Character space)
+		ifTrue: [ ^ self ].
+	[ [ [ self prvAddIVar: iVarName withAccessorsIn: aClass ]
 		on: RBRefactoringFailure
 		do: [ : exception | self handleFailure: exception ] ]
 		on: RBRefactoringWarning, Warning
