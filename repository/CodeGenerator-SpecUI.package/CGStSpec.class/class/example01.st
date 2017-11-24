@@ -5,7 +5,7 @@ example01
 		targetClassCategory: 'Cormas-UI';
 		targetClassPrefix: 'CMSpec';	
 		targetClass: 'EntityAddInterface';
-		addInstanceVariablesWithAccessors: #('entityName' 'entityElementType' 'toolbar');	
+		addIVarsWithAccessors: #('entityName' 'entityElementType' 'toolbar');	
 		title: 'Create a kind of Entity';
 		generateMethods;
 		generateClassMethods.

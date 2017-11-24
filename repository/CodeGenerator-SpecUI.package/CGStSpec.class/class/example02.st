@@ -5,7 +5,7 @@ example02
 		targetClassCategory: 'Cormas-UI';
 		targetClassPrefix: 'CMSpec';	
 		targetClass: 'EditAttributes';
-		addInstanceVariablesWithAccessors: #('superclassesAttributesTable' 'sAttributesLabel' 'targetAttributesTable' 'tAttributesLabel');	
+		addIVarsWithAccessors: #('superclassesAttributesTable' 'sAttributesLabel' 'targetAttributesTable' 'tAttributesLabel');	
 		title: 'Attributes';
 		generateMethods;
 		generateClassMethods.
