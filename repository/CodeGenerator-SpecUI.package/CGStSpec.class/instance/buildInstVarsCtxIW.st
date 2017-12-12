@@ -7,5 +7,5 @@ buildInstVarsCtxIW
 			stream 
 				nextPutAll: instVarName; tab;
 				nextPutAll: (self resolveWidgetFor: instVarName) asString; 
-				crtab ] ]	
+				tab; tab; nextPutTerminator ] ]	
 		

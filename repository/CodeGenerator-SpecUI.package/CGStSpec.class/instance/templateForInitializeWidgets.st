@@ -5,4 +5,4 @@ templateForInitializeWidgets
 	" Private - See superimplementor''s comment "
 
 	self instantiateModels: #({{ specInstVarsIW }}).
-	{{ specInstVarsFO }}. '
+	self initializeFocus.'

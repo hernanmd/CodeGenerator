@@ -1,10 +1,10 @@
 code-generation
 buildInstVarsCtxFO
-	" Answer a <String> with spec instance variables to be written in #initializeWidgets "
+	" Answer a <String> with spec initialize focus code. Labels are skipped from focus "
 	
 	| instVars |
-
-	instVars := self targetClass instVarNames.
+	instVars := self targetClass instVarNames reject: [ : iVarName |
+		iVarName asLowercase endsWith: 'label' ].
 	^ String streamContents: [ : stream |
 		stream 
 			nextPutAll: 'self focusOrder'; crtab; tab.		
@@ -15,5 +15,4 @@ buildInstVarsCtxFO
 				nextPut: $;; crtab ].
 		stream
 			nextPutAll: 'add: self ';
-			nextPutAll: instVars last;
-			nextPut: $. ]
+			nextPutAll: instVars last ]

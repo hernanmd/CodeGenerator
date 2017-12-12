@@ -7,4 +7,6 @@ generateMethods
 	self generateMethod.
 	self sourceString: self generateIP.
 	self generateMethod.
+	self sourceString: self generateFO.
+	self generateMethod.	
 
