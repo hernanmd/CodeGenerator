@@ -22,7 +22,8 @@
 		"isSourceCode",
 		"parserClass",
 		"codeTransformer",
-		"targetClassPrefix"
+		"targetClassPrefix",
+		"targetClassComment"
 	],
 	"name" : "CGSmalltalk",
 	"type" : "normal"
