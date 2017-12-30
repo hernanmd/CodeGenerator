@@ -9,5 +9,7 @@ buildInstVarsCtxIP
 		instVars do: [ : instVarName |
 			stream 
 				nextPutAll: 'self ';
-				nextPutAll: instVarName ] ]	
+				nextPutAll: instVarName;
+				nextPut: $.;
+				nextPutTerminator ] ]	
 		
