@@ -7,7 +7,7 @@ generateNeoCSVReader
 	csvScript := CGStNeoCSV new
 		fullPath: self reference fullName;
 		addSeparator: self cgSelectDelimiter;
-		block: self cgSelectReadingBlock;
+		actionBlock: self cgSelectReadingBlock;
 		skipHeaderCount: self cgSelectSkipHeaders asNumber;
 		perform: self cgSelectReadingMethod.
 	Smalltalk tools workspace 

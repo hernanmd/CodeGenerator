@@ -8,7 +8,7 @@ cgSelectReadingMethod
 		#generateReadCollectScript . 
 		#generateReadSelectScript }.
 	readingDescriptions := { 'do:' . 'collect:' . 'select:' }.
-	^ self class 
+	^ UIManager default 
 		chooseFrom: readingDescriptions 
 		values: readingSelectors 
 		message: 'Select a reading method'.
