@@ -35,7 +35,7 @@ baseline11: spec
 			project: 'StringExtensions' with: [
 				spec
 					className: #ConfigurationOfStringExtensions;
-					versionString: #'bleedingEdge';
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/hernan/StringExtensions/main/' ].
 		spec 
 			package: 'CodeGenerator' with: [
