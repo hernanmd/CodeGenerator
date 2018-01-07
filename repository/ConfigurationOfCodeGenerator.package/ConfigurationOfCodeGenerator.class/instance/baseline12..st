@@ -47,4 +47,4 @@ baseline12: spec
 		spec 
 			group: 'All' with: #('CodeGenerator' #'CodeGenerator-Pharo' #'CodeGenerator-SpecUI' );
 			group: 'UI' with: #('CodeGenerator-SpecUI' #'CodeGenerator-Pharo' );
-			group: 'default' with: #('CodeGenerator' ). ].
+			group: 'default' with: #('CodeGenerator' #'CodeGenerator-Pharo' ). ].
