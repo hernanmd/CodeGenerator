@@ -8,7 +8,7 @@ validateClassName: aString
 		ifFalse: [ aString capitalized ]
 		ifTrue: [ aString ].
 	(validClassName includes: $_)
-		ifTrue: [ validClassName := self removeUnderscores: validClassName ].
+		ifTrue: [ validClassName := validClassName withoutUnderscores ].
 	(validClassName includes: $-)
 		ifTrue: [ validClassName := validClassName copyWithoutAll: '-' ].
 	(validClassName includes: Character space)
