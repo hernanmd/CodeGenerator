@@ -4,6 +4,12 @@ stInstExpr
 
 	^ String streamContents: [ : stream |
 		stream 
-			nextPutAll: '# Stable version';
+			nextPutAll: '## Stable version';
 			nextPutTerminator;
-			nextPutAll: stInstExpr ]
+			nextPutTerminator;
+			nextPutAll: '```smalltalk';
+			nextPutTerminator;
+			nextPutAll: stInstExpr;
+			nextPutTerminator;
+			nextPutAll: '```';
+			nextPutTerminator ]

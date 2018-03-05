@@ -9,7 +9,11 @@
 		"stInstExpr",
 		"devInstExpr",
 		"sections",
-		"badges"
+		"badges",
+		"screenshots",
+		"usageNotes",
+		"usageText",
+		"description"
 	],
 	"name" : "CGGitHubREADME",
 	"type" : "normal"

@@ -4,6 +4,12 @@ devInstExpr
 
 	^ String streamContents: [ : stream |
 		stream 
-			nextPutAll: '# Development version';
+			nextPutAll: '## Development version';
 			nextPutTerminator;
-			nextPutAll: devInstExpr ]
+			nextPutTerminator;
+			nextPutAll: '```smalltalk';
+			nextPutTerminator;
+			nextPutAll: devInstExpr;
+			nextPutTerminator;
+			nextPutAll: '```';
+			nextPutTerminator ]

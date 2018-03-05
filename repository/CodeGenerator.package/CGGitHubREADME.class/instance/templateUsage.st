@@ -1,9 +1,10 @@
 code-templates
 templateUsage
 
-	^ '# Usage
-
-```smalltalk
-Smalltalk garbageCollect
-```
-'
+	^ String streamContents: [ : stream |
+		stream
+			nextPutAll: '# Usage';
+			nextPutTerminator;
+			nextPutTerminator;
+			nextPutAll: self usageText;
+			nextPutTerminator ]

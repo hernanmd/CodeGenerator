@@ -3,8 +3,10 @@ templateInstallation
 
 	^ String streamContents: [ : stream |
 		stream
-			nextPutAll: '# Installation'.
-		self hasStInstExpr notEmpty 
+			nextPutAll: '# Installation';
+			nextPutTerminator;
+			nextPutTerminator.
+		self hasStInstExpr 
 			ifTrue: [ stream nextPutAll: self stInstExpr ].
-		self hasDevInstExpr notEmpty 
+		self hasDevInstExpr 
 			ifTrue: [ stream nextPutAll: self devInstExpr ] ]
