@@ -7,6 +7,8 @@ stInstExpr
 			nextPutAll: '## Stable version';
 			nextPutTerminator;
 			nextPutTerminator;
+			nextPutAll: self piStableTag;
+			nextPutTerminator;
 			nextPutAll: '```smalltalk';
 			nextPutTerminator;
 			nextPutAll: stInstExpr;
