@@ -13,7 +13,8 @@
 		"screenshots",
 		"usageNotes",
 		"usageText",
-		"description"
+		"description",
+		"bleedingEdgeInstExpr"
 	],
 	"name" : "CGGitHubREADME",
 	"type" : "normal"

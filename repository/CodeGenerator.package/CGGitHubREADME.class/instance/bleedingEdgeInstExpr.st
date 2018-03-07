@@ -1,17 +1,17 @@
 accessing
-devInstExpr
+bleedingEdgeInstExpr
 	" Answer a <String> with the development installation expression preceded by a title "
 
 	^ String streamContents: [ : stream |
 		stream 
-			nextPutAll: '## Development version';
+			nextPutAll: '## Bleeding Edge version';
 			nextPutTerminator;
 			nextPutTerminator;
-			nextPutAll: self piDevTag;
+			nextPutAll: self piBleedingEdgeTag;
 			nextPutTerminator;			
 			nextPutAll: '```smalltalk';
 			nextPutTerminator;
-			nextPutAll: devInstExpr;
+			nextPutAll: bleedingEdgeInstExpr;
 			nextPutTerminator;
 			nextPutAll: '```';
 			nextPutTerminator ]
