@@ -14,7 +14,9 @@
 		"usageNotes",
 		"usageText",
 		"description",
-		"bleedingEdgeInstExpr"
+		"bleedingEdgeInstExpr",
+		"installationText",
+		"repositoryName"
 	],
 	"name" : "CGGitHubREADME",
 	"type" : "normal"
