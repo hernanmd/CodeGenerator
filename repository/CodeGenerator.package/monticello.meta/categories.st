@@ -1,5 +1,11 @@
 SystemOrganization addCategory: #CodeGenerator!
+SystemOrganization addCategory: 'CodeGenerator-Bash'!
 SystemOrganization addCategory: 'CodeGenerator-Core'!
 SystemOrganization addCategory: 'CodeGenerator-Examples'!
-SystemOrganization addCategory: 'CodeGenerator-Smalltalk'!
-SystemOrganization addCategory: 'CodeGenerator-Tests'!
+SystemOrganization addCategory: 'CodeGenerator-GitHub'!
+SystemOrganization addCategory: 'CodeGenerator-NSIS'!
+SystemOrganization addCategory: 'CodeGenerator-ProjectFramework'!
+SystemOrganization addCategory: 'CodeGenerator-R'!
+SystemOrganization addCategory: 'CodeGenerator-Smalltalk-Core'!
+SystemOrganization addCategory: 'CodeGenerator-Smalltalk-Generators'!
+SystemOrganization addCategory: 'CodeGenerator-Smalltalk-Magritte'!
