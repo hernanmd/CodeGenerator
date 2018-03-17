@@ -5,11 +5,9 @@ baseline: spec
 		for: #(common)
 		do: [ 
 			spec
-				baseline: 'CommonUtils'
-				with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ];
-				baseline: 'StringExtensions'
-				with: [ spec repository: 'github://hernanmd/StringExtensions' ];
-				project: 'InstanceEncoder' with: [
+				baseline: 'CommonUtils' 			with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ];
+				baseline: 'StringExtensions'	with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
+				project: 'InstanceEncoder' 		with: [
 					spec
 						className: #ConfigurationOfInstanceEncoder;
 						versionString: #'stable';
