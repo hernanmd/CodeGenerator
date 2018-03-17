@@ -5,5 +5,5 @@ templateBadges
 	^ String streamContents: [ : stream |
 		self badges do: [ : badge | 
 			stream 
-				nextPutAll: (self perform: ('badge' , badge asUppercase) asSymbol);
+				nextPutAll: (self perform: ('badge' , badge) asSymbol);
 				nextPutTerminator ] ]

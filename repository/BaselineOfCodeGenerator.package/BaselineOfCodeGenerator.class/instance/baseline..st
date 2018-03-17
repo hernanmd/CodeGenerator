@@ -8,7 +8,7 @@ baseline: spec
 				baseline: 'CommonUtils'
 				with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ];
 				baseline: 'StringExtensions'
-				with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
+				with: [ spec repository: 'github://hernanmd/StringExtensions' ];
 				project: 'InstanceEncoder' with: [
 					spec
 						className: #ConfigurationOfInstanceEncoder;
