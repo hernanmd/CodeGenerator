@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/17/2018 17:39",
+	"super" : "ComposableModel",
+	"category" : "CodeGenerator-GitHub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repositoryName",
+		"descriptionText",
+		"installationText",
+		"stInstExpr",
+		"devInstExpr",
+		"usageNotes",
+		"usageText",
+		"badges"
+	],
+	"name" : "CGGitHubREADME_UI",
+	"type" : "normal"
+}
