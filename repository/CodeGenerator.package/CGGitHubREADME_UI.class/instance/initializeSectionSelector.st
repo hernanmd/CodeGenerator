@@ -11,6 +11,7 @@ initializeSectionSelector
 
 	self sectionSelector
 		label: 'Section';
+		textWidgetLabel: 'Text for selection';
 		secondLabelText: 'Template';
 		title: 'Double Selector TextArea Example';
 		dataModel: dataModel;

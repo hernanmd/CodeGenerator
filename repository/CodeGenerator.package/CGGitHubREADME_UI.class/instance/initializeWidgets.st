@@ -7,6 +7,7 @@ initializeWidgets
 		repositoryName			SpcLabeledTextField
 		userName 					SpcLabeledTextField
 		sectionSelector 		SpcDoubleSelectorTextArea
+		clearTemplateButton 	SpcOneButtonToolbar
 		buttonBar 				SpcTwoButtonToolbar
 	).
 	self initializeBadgesSelector.
@@ -19,6 +20,9 @@ initializeWidgets
 	self userName 
 		ghostText: 'Please enter your user name on GitHub';
 		label: 'Username'.
+	self clearTemplateButton
+		firstButtonLabel: 'Clear';
+		firstButtonAction: [ self sectionSelector clearTextArea ].
 	self buttonBar 
 		firstButtonLabel: 'Cancel';
 		firstButtonAction: [ self delete ];

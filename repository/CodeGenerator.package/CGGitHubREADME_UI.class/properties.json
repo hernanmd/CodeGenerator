@@ -13,7 +13,8 @@
 		"ghTextSections",
 		"ghListSections",
 		"buttonBar",
-		"ghGenerator"
+		"ghGenerator",
+		"clearTemplateButton"
 	],
 	"name" : "CGGitHubREADME_UI",
 	"type" : "normal"
