@@ -1,9 +1,7 @@
-code-templates
-templateContribute
+defaults
+defaultContributeText
 
-	^ '# Contribute
-
-**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+	^ '**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
 If you have discovered a bug or have a feature suggestion, feel free to create an issue on Github.
 If you have any suggestions for how this package could be improved, please get in touch or suggest an improvement using the GitHub issues page.

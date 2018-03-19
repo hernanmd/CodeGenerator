@@ -1,4 +1,4 @@
-initialization
+private
 title
 	" Private - See superimplementor's comment "
 

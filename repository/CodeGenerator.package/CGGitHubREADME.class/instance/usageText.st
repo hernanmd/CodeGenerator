@@ -1,3 +1,0 @@
-accessing
-usageText
-	^ usageText

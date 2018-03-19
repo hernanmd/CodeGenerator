@@ -1,12 +1,12 @@
 code-templates
-templateUsageNotes
+templateGeneric: listTitle list: aList
 
 	^ String streamContents: [ : stream |
 		stream
-			nextPutAll: '# Usage notes';
+			nextPutAll: listTitle;
 			nextPutTerminator;
 			nextPutTerminator.
-		self usageNotes do: [ : un |
+		aList do: [ : item |
 			stream 
-				nextPutAll: (self mdItemize: un);
+				nextPutAll: (self mdItemize: item);
 				nextPutTerminator  ] ]

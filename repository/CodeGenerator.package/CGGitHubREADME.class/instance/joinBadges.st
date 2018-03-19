@@ -1,4 +1,4 @@
-accessing-badges
+private-badges
 joinBadges
 	" Answer a <String> representing a READNE.md document "
 		

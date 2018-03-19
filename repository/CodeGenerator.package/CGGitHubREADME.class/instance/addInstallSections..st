@@ -1,4 +1,4 @@
-private
+private - sections
 addInstallSections: stream
 	" Private - Iterate install sections selectors and add them if present "
 	

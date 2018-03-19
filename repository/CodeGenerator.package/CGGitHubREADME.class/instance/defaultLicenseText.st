@@ -1,9 +1,7 @@
-code-templates
-templateLicenseText
+defaults
+defaultLicenseText
 
-	^ '# License
-	
-This software is licensed under the MIT License.
+	^ 'This software is licensed under the MIT License.
 
 Copyright {1}, {2}.
 

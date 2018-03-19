@@ -1,3 +1,0 @@
-accessing
-installationText
-	^ installationText

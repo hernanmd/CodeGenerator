@@ -1,10 +1,10 @@
 code-templates
-templateDescription
+templateGeneric: paragraphTitle text: paragraphText
 
 	^ String streamContents: [ : stream |
 		stream 
-			nextPutAll: '# Description';
+			nextPutAll: paragraphTitle;
 			nextPutTerminator;
 			nextPutTerminator;
-			nextPutAll: self description;
+			nextPutAll: paragraphText;
 			nextPutTerminator ]
