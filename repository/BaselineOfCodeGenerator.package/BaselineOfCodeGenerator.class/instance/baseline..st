@@ -7,6 +7,7 @@ baseline: spec
 			spec
 				baseline: 'CommonUtils' 			with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ];
 				baseline: 'StringExtensions'	with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
+				baseline: 'SpecUIAddOns'			with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
 				project: 'InstanceEncoder' 		with: [
 					spec
 						className: #ConfigurationOfInstanceEncoder;
@@ -25,7 +26,7 @@ baseline: spec
 
 		spec 
 			package: 'CodeGenerator' with: [
-				spec requires: #('Log4s' 'StringExtensions' 'Mustache' 'InstanceEncoder' 'CommonUtils' ). ];
+				spec requires: #('Log4s' 'StringExtensions' 'Mustache' 'InstanceEncoder' 'CommonUtils' 'SpecUIAddOns'). ];
 			package: #'CodeGenerator-Pharo' with: [
 				spec requires: #('CodeGenerator' ). ];
 			package: #'CodeGenerator-SpecUI' with: [
