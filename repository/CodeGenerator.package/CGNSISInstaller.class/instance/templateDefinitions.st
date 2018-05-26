@@ -14,6 +14,7 @@ templateDefinitions
 !define LAUNCHER "{{launcher}}.exe"
 !define LICENSE_EN "{{licenseEnFileName}}.txt"
 !define VERSION "{{version}}"
+!define RESDIR "{{resourcesDir}}"
 
 # This is the size (in kB) of all the files copied into "Program Files"
 # !define INSTALLSIZE 184000

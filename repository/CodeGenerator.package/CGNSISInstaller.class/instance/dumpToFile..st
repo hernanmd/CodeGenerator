@@ -6,5 +6,6 @@ dumpToFile: contents
 	
 	fileName := self product , '.nsi'.
 	fileName asFileReference writeStream
+		wantsLineEndConversion: true;
 		nextPutAll: contents; 
 		close

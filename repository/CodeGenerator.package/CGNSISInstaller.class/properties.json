@@ -15,7 +15,8 @@
 		"iconFile",
 		"welcomeBmpFile",
 		"splashBMPFileName",
-		"version"
+		"version",
+		"resourcesDir"
 	],
 	"name" : "CGNSISInstaller",
 	"type" : "normal"

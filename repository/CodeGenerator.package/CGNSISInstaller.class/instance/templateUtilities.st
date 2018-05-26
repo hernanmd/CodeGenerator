@@ -25,7 +25,7 @@ uninst:
 done:
     InitPluginsDir
     Push $R1
-    File /oname=$PLUGINSDIR\spltmp.jpg splash.bmp
+    File /oname=$PLUGINSDIR\spltmp.jpg ${RESDIR}\splash.bmp
     advsplash::show 3000 600 400 -1 $PLUGINSDIR\spltmp
     Pop $R1
     Pop $R1
