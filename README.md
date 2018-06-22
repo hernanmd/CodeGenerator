@@ -10,7 +10,9 @@ CodeGenerator package in Pharo Smalltalk
 
 There are several ways to install the **CodeGenerator** package:
 
-## Stable version
+## Core version
+
+The Core version includes only the basic abstract classes which provide core features: A Templates protocol and Authoring holder.
 
 [//]: # (pi)
 ```smalltalk
@@ -19,17 +21,12 @@ Metacello new
   repository: 'github://hernanmd/CodeGenerator/repository';	
   load.
 ```
-## Development version
 
-[//]: # (pidev)
-```smalltalk
-Metacello new	
-  baseline: 'CodeGenerator';	
-  repository: 'github://hernanmd/CodeGenerator/repository';	
-  load.
-```
+Each of the following generators has installer expressions described in their own section.
 
 ## Baseline String
+
+If you are building a BaselineOf, copy and paste the following code to make use of CodeGenerator.
 
 ```smalltalk
 ...
@@ -39,7 +36,18 @@ spec
 ...
 ```
 
-# Usage Examples
+# Code Generators Usage Examples
+
+## Smalltalk Generators
+
+How to install:
+
+```smalltalk
+Metacello new	
+  baseline: 'CodeGenerator';	
+  repository: 'github://hernanmd/CodeGenerator/repository';	
+  load: #('Smalltalk-Generators').
+```
 
 ## Simple class with getter and setter
 
@@ -125,17 +133,6 @@ CGSunit new
 Smalltalk tools browser openOnClass: #TestCGSmalltalkExample asClass.
 ```
 
-## Spec
-
-```smalltalk
-CGStSpec new
-	setCleanTarget;
-	targetClass: #SpecModelClass1;
-	title: 'Example Spec 1';
-	generateMethods.
-Smalltalk tools browser openOnClass: #SpecModelClass1 asClass.
-```
-
 ## Convenience Methods
 
 ```smalltalk
@@ -188,7 +185,40 @@ CGStTextImporter new
 Smalltalk tools browser openOnClass: #CGExampleResources2 asClass.
 ```
 
-## NSIS Installer Script
+## Spec Generator
+
+### How to install:
+
+```smalltalk
+Metacello new	
+  baseline: 'CodeGenerator';	
+  repository: 'github://hernanmd/CodeGenerator/repository';	
+  load: #('SpecUI').
+```
+
+### Usage example
+
+```smalltalk
+CGStSpec new
+	setCleanTarget;
+	targetClass: #SpecModelClass1;
+	title: 'Example Spec 1';
+	generateMethods.
+Smalltalk tools browser openOnClass: #SpecModelClass1 asClass.
+```
+
+## NSIS Installer Script Generator
+
+How to install:
+
+```smalltalk
+Metacello new	
+  baseline: 'CodeGenerator';	
+  repository: 'github://hernanmd/CodeGenerator/repository';	
+  load: #('NSIS').
+```
+
+### Usage example
 
 ```smalltalk
 CGNSISIPharo5AppInstaller new
@@ -204,9 +234,20 @@ CGNSISIPharo5AppInstaller new
 	generate.
 ```
 
-## ProjectFramework
+## ProjectFramework Generator
 
 Requires: [ProjectFramework](https://github.com/hernanmd/ProjectFramework "ProjectFramework")
+
+### How to install:
+
+```smalltalk
+Metacello new	
+  baseline: 'CodeGenerator';	
+  repository: 'github://hernanmd/CodeGenerator/repository';	
+  load: #('ProjectFramework').
+```
+
+### Usage example
 
 ```smalltalk
 CGStProjectFramework new
@@ -222,9 +263,21 @@ CGStProjectFramework new
 Smalltalk tools browser openOnClass: #PFExampleWindow asClass.
 ```
 
-## Magritte 
+## Magritte Generator
+
+### How to install:
+
+```smalltalk
+Metacello new	
+  baseline: 'CodeGenerator';	
+  repository: 'github://hernanmd/CodeGenerator/repository';	
+  load: #('ProjectFramework').
+```
+
+### Usage examples
 
 Example setting priorities:
+
 ```smalltalk
 CGStMagritte new
 	inputClass: ModelClass1;
@@ -240,6 +293,7 @@ Smalltalk tools browser openOnClass: ModelClass1.
 ```
 
 Example setting defaults:
+
 ```smalltalk
 CGStMagritte new
 	inputClass: ModelClass1;
@@ -254,6 +308,35 @@ CGStMagritte new
 Smalltalk tools browser openOnClass: ModelClass1.		
 ``` 
 
+## R Generator
+
+### How to install:
+
+```smalltalk
+Metacello new	
+  baseline: 'CodeGenerator';	
+  repository: 'github://hernanmd/CodeGenerator/repository';	
+  load: #('R').
+```
+
+### Usage example
+
+Work in progress
+
+## Bash Generator
+
+### How to install:
+
+```smalltalk
+Metacello new	
+  baseline: 'CodeGenerator';	
+  repository: 'github://hernanmd/CodeGenerator/repository';	
+  load: #('Bash').
+```
+
+### Usage example
+
+Work in progress
 
 # Contribute
 
