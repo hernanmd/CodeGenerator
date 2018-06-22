@@ -1,0 +1,4 @@
+defaults
+defaultDoSomething
+
+	^ 'DO SOMETHING'

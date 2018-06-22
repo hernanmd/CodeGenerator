@@ -1,0 +1,3 @@
+accessing
+closeAfterCreateProjectSetting: anObject
+	closeAfterCreateProjectSetting := anObject

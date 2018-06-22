@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 10/20/2015 18:34",
+	"super" : "CGStTemplate",
+	"category" : "CodeGenerator-Smalltalk-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fullPath"
+	],
+	"name" : "CGStResourceImporter",
+	"type" : "normal"
+}

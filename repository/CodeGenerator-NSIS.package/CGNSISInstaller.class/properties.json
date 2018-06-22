@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "HernanMoralesDurand 12/31/2015 05:22",
+	"super" : "CGAuthoring",
+	"category" : "CodeGenerator-NSIS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"year",
+		"product",
+		"productLowercase",
+		"url",
+		"launcher",
+		"licenseEnFileName",
+		"iconFile",
+		"welcomeBmpFile",
+		"splashBMPFileName",
+		"version",
+		"resourcesDir"
+	],
+	"name" : "CGNSISInstaller",
+	"type" : "normal"
+}

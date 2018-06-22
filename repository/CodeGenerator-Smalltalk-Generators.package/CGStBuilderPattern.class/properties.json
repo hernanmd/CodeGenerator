@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "CGStCreationalPattern",
+	"category" : "CodeGenerator-Smalltalk-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"productNames",
+		"familyNames",
+		"directorClassName",
+		"productFamilyClassName",
+		"productPartClassName",
+		"productClassesCount",
+		"productPartsPerFamilyCount"
+	],
+	"name" : "CGStBuilderPattern",
+	"type" : "normal"
+}

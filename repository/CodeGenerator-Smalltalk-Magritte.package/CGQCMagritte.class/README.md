@@ -1,0 +1,1 @@
+Seaside QC Magritte Generator

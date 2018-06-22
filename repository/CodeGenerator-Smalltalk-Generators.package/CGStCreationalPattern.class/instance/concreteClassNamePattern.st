@@ -1,0 +1,3 @@
+accessing
+concreteClassNamePattern
+	^ concreteClassNamePattern

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/8/2015 13:45",
+	"super" : "CGAbstract",
+	"category" : "CodeGenerator-Smalltalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectorsMap",
+		"prefixSelector"
+	],
+	"name" : "CGStSelectorMapper",
+	"type" : "normal"
+}

@@ -1,0 +1,5 @@
+code-generation
+generateWriteDoMethod
+
+	self templateForCSVWriterDoInMethod.
+	self generateMethod: #templateForCSVWriterDoInMethod

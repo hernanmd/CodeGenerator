@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CGStCodeBuilder",
+	"category" : "CodeGenerator-Smalltalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGStMessageSignatureBuilder",
+	"type" : "normal"
+}

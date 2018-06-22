@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/8/2017 15:12",
+	"super" : "CGStInputClass",
+	"category" : "CodeGenerator-Smalltalk-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGStTemplate",
+	"type" : "normal"
+}
