@@ -1,4 +1,0 @@
-defaults
-defaultDoSomething
-
-	^ 'DO SOMETHING'

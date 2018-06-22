@@ -1,4 +1,0 @@
-accessing
-welcomeBmpFile
-
-	^ welcomeBmpFile

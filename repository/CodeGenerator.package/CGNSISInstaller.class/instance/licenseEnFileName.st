@@ -1,4 +1,0 @@
-accessing
-licenseEnFileName
-
-	^ licenseEnFileName

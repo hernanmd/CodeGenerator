@@ -1,4 +1,0 @@
-callbacks
-generateReadme
-
-	self shouldBeImplemented

@@ -1,3 +1,0 @@
-accessing
-attributeDefault
-	^ attributeDefault

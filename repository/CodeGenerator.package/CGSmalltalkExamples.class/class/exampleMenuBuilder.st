@@ -1,5 +1,0 @@
-examples
-exampleMenuBuilder
-
-	^ CGStSpcMenuBuilder new
-		

@@ -1,3 +1,0 @@
-accessing
-productPartClassName
-	^ productPartClassName

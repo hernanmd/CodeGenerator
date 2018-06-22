@@ -1,3 +1,0 @@
-accessing
-attributePriority
-	^ attributePriority

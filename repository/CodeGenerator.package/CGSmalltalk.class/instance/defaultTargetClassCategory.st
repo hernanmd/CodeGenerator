@@ -1,4 +1,0 @@
-defaults
-defaultTargetClassCategory
-
-	^ 'CGGeneratedCode-Core'

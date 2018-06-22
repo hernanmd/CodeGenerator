@@ -1,3 +1,0 @@
-accessing
-applicationClassName
-	^ applicationClassName
