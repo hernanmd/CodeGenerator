@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/1/2018 15:38",
+	"super" : "PFTranslator",
+	"category" : "CodeGenerator-ProjectFramework",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGStPFTranslatedTarget",
+	"type" : "normal"
+}

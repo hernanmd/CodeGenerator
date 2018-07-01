@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 1/5/2017 03:36",
-	"super" : "CGAbstract",
+	"super" : "Object",
 	"category" : "CodeGenerator-Smalltalk-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
