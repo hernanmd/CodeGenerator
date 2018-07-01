@@ -7,11 +7,12 @@ devInstExpr
 			nextPutAll: '## Development version';
 			nextPutTerminator;
 			nextPutTerminator;
-			nextPutAll: self piDevTag;
+			nextPutAll: self devTag;
 			nextPutTerminator;			
-			nextPutAll: '```smalltalk';
+			nextPutAll: '```';
+			nextPutAll: self languageTag;
 			nextPutTerminator;
-			nextPutAll: devInstExpr;
+			nextPutAll: self devInstExpr;
 			nextPutTerminator;
 			nextPutAll: '```';
 			nextPutTerminator ]

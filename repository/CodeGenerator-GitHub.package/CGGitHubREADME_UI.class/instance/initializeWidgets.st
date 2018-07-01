@@ -6,13 +6,14 @@ initializeWidgets
 		badges 					SpcLabeledTextFieldSelector	
 		repositoryName			SpcLabeledTextField
 		userName 					SpcLabeledTextField
-		sectionSelector 		SpcDoubleSelectorTextArea
+		sectionSelector 		SpcMultipleCheckListModel
 		clearTemplateButton 	SpcOneButtonToolbar
 		buttonBar 				SpcTwoButtonToolbar
+		mdTextArea 				SpcLabeledTextArea
+		languageSelector 		SpcLabeledDropList
 	).
 	self initializeBadgesSelector.
-	self initializeSections.
-	self initializeSectionSelector.
+	self sectionSelector setItems: CGGitHubREADME sections.
 
 	self repositoryName
 		ghostText: 'Please enter the repository name on GitHub';
@@ -20,6 +21,11 @@ initializeWidgets
 	self userName 
 		ghostText: 'Please enter your user name on GitHub';
 		label: 'Username'.
+	self mdTextArea 
+		label: 'README.md'.
+	self languageSelector 
+		setItems: CGGitHubREADME languagesList;
+		label: 'Language'.
 	self clearTemplateButton
 		firstButtonLabel: 'Clear';
 		firstButtonAction: [ self sectionSelector clearTextArea ].

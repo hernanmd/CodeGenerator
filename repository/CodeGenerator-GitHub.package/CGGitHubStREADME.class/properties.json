@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CGGitHubREADME",
+	"category" : "CodeGenerator-GitHub",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGGitHubStREADME",
+	"type" : "normal"
+}

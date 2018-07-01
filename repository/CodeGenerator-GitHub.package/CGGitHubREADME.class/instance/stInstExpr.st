@@ -7,9 +7,10 @@ stInstExpr
 			nextPutAll: '## Stable version';
 			nextPutTerminator;
 			nextPutTerminator;
-			nextPutAll: self piStableTag;
+			nextPutAll: self stableTag;
 			nextPutTerminator;
-			nextPutAll: '```smalltalk';
+			nextPutAll: '```';
+			nextPutAll: self languageTag;
 			nextPutTerminator;
 			nextPutAll: stInstExpr;
 			nextPutTerminator;

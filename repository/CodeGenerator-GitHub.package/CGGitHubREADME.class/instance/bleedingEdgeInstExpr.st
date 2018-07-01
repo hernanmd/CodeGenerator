@@ -7,9 +7,10 @@ bleedingEdgeInstExpr
 			nextPutAll: '## Bleeding Edge version';
 			nextPutTerminator;
 			nextPutTerminator;
-			nextPutAll: self piBleedingEdgeTag;
+			nextPutAll: self bleedingEdgeTag;
 			nextPutTerminator;			
-			nextPutAll: '```smalltalk';
+			nextPutAll: '```';
+			nextPutAll: self languageTag;
 			nextPutTerminator;
 			nextPutAll: bleedingEdgeInstExpr;
 			nextPutTerminator;

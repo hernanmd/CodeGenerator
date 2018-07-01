@@ -10,11 +10,11 @@
 		"badges",
 		"sectionSelector",
 		"userName",
-		"ghTextSections",
-		"ghListSections",
 		"buttonBar",
 		"ghGenerator",
-		"clearTemplateButton"
+		"clearTemplateButton",
+		"mdTextArea",
+		"languageSelector"
 	],
 	"name" : "CGGitHubREADME_UI",
 	"type" : "normal"

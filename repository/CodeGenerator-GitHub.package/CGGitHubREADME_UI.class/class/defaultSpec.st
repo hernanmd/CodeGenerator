@@ -3,12 +3,15 @@ defaultSpec
 
     <spec>
     ^ SpecLayout composed
-		newColumn: [ : c | 
-			c
-				add: #repositoryName 			height: self inputTextHeight;
-				add: #userName 					height: self inputTextHeight;
-				add: #badges 					height: self inputTextHeight;								
-				add: #sectionSelector;
-				add: #clearTemplateButton 	height: self toolbarHeight;
-				add: #buttonBar 				height: self toolbarHeight
- 		]
+			newRow: [ : c | 
+				c 
+					newColumn: [ : r | 
+						r
+							add: #repositoryName 			height: self inputTextHeight;
+							add: #userName 					height: self inputTextHeight;
+							add: #badges 					height: self inputTextHeight + 5;
+							add: #languageSelector 		height: self inputTextHeight + 5;
+							add: #sectionSelector ];
+					newColumn: [ : r |
+						r add: #mdTextArea ] ];
+			yourself.
