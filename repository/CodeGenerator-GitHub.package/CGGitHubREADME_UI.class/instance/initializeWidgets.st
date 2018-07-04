@@ -3,7 +3,7 @@ initializeWidgets
 	" Private - See superimplementor's comment "
 
 	self instantiateModels: #(
-		badges 					SpcLabeledTextFieldSelector	
+		badgesSelector 			SpcLabeledTextFieldSelector	
 		repositoryName			SpcLabeledTextField
 		userName 					SpcLabeledTextField
 		sectionSelector 		SpcMultipleCheckListModel

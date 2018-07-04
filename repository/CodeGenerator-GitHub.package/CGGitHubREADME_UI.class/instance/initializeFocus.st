@@ -5,4 +5,4 @@ initializeFocus
 	self focusOrder
 		add: self repositoryName;
 		add: self userName;
-		add: self badges. 
+		add: self badgesSelector. 

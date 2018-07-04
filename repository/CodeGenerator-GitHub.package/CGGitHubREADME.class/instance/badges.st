@@ -1,4 +1,4 @@
 accessing
 badges
 	^ badges
-		ifNil: [ badges := OrderedCollection new ]
+		ifNil: [ badges := self class availableBadgesList ]

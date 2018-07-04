@@ -7,14 +7,14 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"repositoryName",
-		"badges",
 		"sectionSelector",
 		"userName",
 		"buttonBar",
 		"ghGenerator",
 		"clearTemplateButton",
 		"mdTextArea",
-		"languageSelector"
+		"languageSelector",
+		"badgesSelector"
 	],
 	"name" : "CGGitHubREADME_UI",
 	"type" : "normal"

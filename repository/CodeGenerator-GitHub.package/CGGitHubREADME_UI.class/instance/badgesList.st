@@ -2,4 +2,4 @@ private
 badgesList
 	" Answer a <Collection> of available badges "
 
-	^ CGGitHubREADME badgesList
+	^ self ghGenerator badges
