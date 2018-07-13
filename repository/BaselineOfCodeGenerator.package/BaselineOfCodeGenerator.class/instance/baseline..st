@@ -43,7 +43,7 @@ baseline: spec
 		spec 
 			group: 'Core' 						with: #('CodeGenerator');
 			group: 'Smalltalk'					with: #('CodeGenerator-Smalltalk-Core' 'CodeGenerator-Pharo');
-			group: 'Smalltalk-Generators'	with: #('CodeGenerator-Smalltalk-Generators');									
+			group: 'Smalltalk-Generators'	with: #('CodeGenerator-Smalltalk-Generators' 'CodeGenerator-Pharo');									
 			group: 'Examples'					with: #('CodeGenerator-Examples');
 			group: 'GitHub'						with: #('CodeGenerator-GitHub');
 			group: 'NSIS'						with: #('CodeGenerator-NSIS');
