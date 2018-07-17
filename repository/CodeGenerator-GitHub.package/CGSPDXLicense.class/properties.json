@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/17/2018 03:10",
+	"super" : "Object",
+	"category" : "CodeGenerator-GitHub-SPDX",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"reference",
+		"isDeprecatedLicenseId",
+		"detailsUrl",
+		"referenceNumber",
+		"licenseName",
+		"licenseId",
+		"seeAlso",
+		"isOsiApproved",
+		"name",
+		"licenseDetails",
+		"licenseText"
+	],
+	"name" : "CGSPDXLicense",
+	"type" : "normal"
+}

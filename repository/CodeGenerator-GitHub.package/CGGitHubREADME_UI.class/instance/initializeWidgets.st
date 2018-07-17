@@ -8,9 +8,9 @@ initializeWidgets
 		userName 					SpcLabeledTextField
 		sectionSelector 		SpcMultipleCheckListModel
 		clearTemplateButton 	SpcOneButtonToolbar
-		buttonBar 				SpcTwoButtonToolbar
 		mdTextArea 				SpcLabeledTextArea
 		languageSelector 		SpcLabeledDropList
+		toolbar 					SpcThreeButtonToolbar
 	).
 	self initializeBadgesSelector.
 	self sectionSelector setItems: CGGitHubREADME sections.
@@ -26,12 +26,5 @@ initializeWidgets
 	self languageSelector 
 		setItems: CGGitHubREADME languagesList;
 		label: 'Language'.
-	self clearTemplateButton
-		firstButtonLabel: 'Clear';
-		firstButtonAction: [ self sectionSelector clearTextArea ].
-	self buttonBar 
-		firstButtonLabel: 'Cancel';
-		firstButtonAction: [ self delete ];
-		secondButtonLabel: 'Generate';
-		secondButtonAction: [ self generateReadme ].
+	self initializeButtons.
 	self initializeFocus.

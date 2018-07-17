@@ -9,9 +9,11 @@ defaultSpec
 						r
 							add: #repositoryName 			height: self inputTextHeight;
 							add: #userName 					height: self inputTextHeight;
-							add: #badgesSelector 					height: self inputTextHeight + 5;
+							add: #badgesSelector 			height: self inputTextHeight + 5;
 							add: #languageSelector 		height: self inputTextHeight + 5;
 							add: #sectionSelector ];
 					newColumn: [ : r |
-						r add: #mdTextArea ] ];
+						r 
+							add: #mdTextArea;
+							add: #toolbar 					height:  self toolbarHeight ] ];
 			yourself.

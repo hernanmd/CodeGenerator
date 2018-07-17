@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "CGGitHubREADME",
-	"category" : "CodeGenerator-GitHub",
+	"category" : "CodeGenerator-GitHub-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

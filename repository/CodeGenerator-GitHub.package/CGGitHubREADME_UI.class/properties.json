@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 3/19/2018 00:12",
 	"super" : "ComposableModel",
-	"category" : "CodeGenerator-GitHub",
+	"category" : "CodeGenerator-GitHub-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -9,7 +9,7 @@
 		"repositoryName",
 		"sectionSelector",
 		"userName",
-		"buttonBar",
+		"toolbar",
 		"ghGenerator",
 		"clearTemplateButton",
 		"mdTextArea",
