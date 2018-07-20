@@ -2,4 +2,4 @@ accessing
 licenses
 	" Answer a <Collection> of <CGSPDXLicense> "
 
-	^ licenses
+	^ self spdx licenses

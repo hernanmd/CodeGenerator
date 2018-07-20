@@ -1,5 +1,5 @@
 private
 badgesList
-	" Answer a <Collection> of available badges "
+	" Answer a <Collection> of available badges by name "
 
-	^ self ghGenerator badges
+	^ self ghGenerator badgeNames

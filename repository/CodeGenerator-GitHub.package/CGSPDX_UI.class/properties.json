@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/20/2018 01:04",
+	"super" : "ComposableModel",
+	"category" : "CodeGenerator-GitHub-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"licenseList",
+		"isOsiApproved",
+		"isDeprecated",
+		"licenseId",
+		"licenseUrl",
+		"licenseText",
+		"licenseComments",
+		"toolbar"
+	],
+	"name" : "CGSPDX_UI",
+	"type" : "normal"
+}

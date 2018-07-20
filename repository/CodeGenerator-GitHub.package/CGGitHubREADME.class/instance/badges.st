@@ -1,4 +1,4 @@
 accessing
 badges
 	^ badges
-		ifNil: [ badges := self class availableBadgesList ]
+		ifNil: [ badges := CGGitHubBadges new ]

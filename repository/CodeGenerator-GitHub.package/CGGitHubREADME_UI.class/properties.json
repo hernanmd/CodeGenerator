@@ -14,7 +14,9 @@
 		"clearTemplateButton",
 		"mdTextArea",
 		"languageSelector",
-		"badgesSelector"
+		"badgesSelector",
+		"licenseSelector",
+		"selectedLicense"
 	],
 	"name" : "CGGitHubREADME_UI",
 	"type" : "normal"

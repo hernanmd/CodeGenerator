@@ -1,5 +1,4 @@
-initialization
+accessing
 initialExtent
-	"Answer the initial extent for the receiver."
-	
-	^ 600 @ 400
+
+	^ 700 @ 600

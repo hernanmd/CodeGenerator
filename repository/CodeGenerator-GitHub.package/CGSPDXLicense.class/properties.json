@@ -7,16 +7,17 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"reference",
-		"isDeprecatedLicenseId",
 		"detailsUrl",
 		"referenceNumber",
 		"licenseName",
-		"licenseId",
+		"isDeprecatedLicenseId",
 		"seeAlso",
 		"isOsiApproved",
 		"name",
 		"licenseDetails",
-		"licenseText"
+		"licenseText",
+		"licenseId",
+		"licenseComments"
 	],
 	"name" : "CGSPDXLicense",
 	"type" : "normal"

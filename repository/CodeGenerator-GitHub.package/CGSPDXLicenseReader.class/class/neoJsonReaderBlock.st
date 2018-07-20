@@ -15,7 +15,6 @@ neoJsonReaderBlock
 		] 
 		on: NeoJSONParseError 
 		do: [ : err |
-			self inform: 'Parse error while reading JSON data...'.
+			self informMessage: 'Parse error while reading JSON data...'.
 			(NeoJSONReader fromString: entity contents) inspect ]
- 
-		]
+ 		]

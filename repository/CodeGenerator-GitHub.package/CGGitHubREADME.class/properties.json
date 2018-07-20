@@ -17,7 +17,8 @@
 		"bleedingEdgeInstExpr",
 		"installationText",
 		"repositoryName",
-		"languageTag"
+		"languageTag",
+		"spdx"
 	],
 	"name" : "CGGitHubREADME",
 	"type" : "normal"

@@ -9,4 +9,6 @@ getDetails
 		url: self detailsUrl.
 	^ [ httpClient get ] 
 		on: ZnHttpUnsuccessful
-		do: [ : exception | Transcript crShow: exception ]  
+		do: [ : exception | 
+			self informMessage: exception messageText.			
+			Transcript crShow: exception ]  

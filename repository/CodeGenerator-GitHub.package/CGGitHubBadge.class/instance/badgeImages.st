@@ -1,0 +1,3 @@
+accessing
+badgeImages
+	^ badgeImages
