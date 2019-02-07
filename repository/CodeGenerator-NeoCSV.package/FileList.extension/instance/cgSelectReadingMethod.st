@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo
+*CodeGenerator-NeoCSV
 cgSelectReadingMethod
 
 	| readingSelectors readingDescriptions |

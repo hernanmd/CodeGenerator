@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo
+*CodeGenerator-NeoCSV
 generateNeoCSVReaderUpToEnd
 	" Private - Generate code with the contents of my selected file in a new workspace "
 	
@@ -11,4 +11,4 @@ generateNeoCSVReaderUpToEnd
 		generateReadUpToEndScript.
 	Smalltalk tools workspace 
 		openContents: csvScript 
-		label: 'Workspace from ', self reference basename
+		label: 'Workspace from ', self reference basename.

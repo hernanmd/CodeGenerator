@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo
+*CodeGenerator-NeoCSV
 generateNeoCSVReader
 	" Private - Generate code with the contents of my selected file in a new workspace "
 	

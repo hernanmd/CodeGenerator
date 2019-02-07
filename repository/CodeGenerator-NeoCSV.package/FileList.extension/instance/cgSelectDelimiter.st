@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo
+*CodeGenerator-NeoCSV
 cgSelectDelimiter
 
 	| commonDelimiters commonDelimitersDescriptions |

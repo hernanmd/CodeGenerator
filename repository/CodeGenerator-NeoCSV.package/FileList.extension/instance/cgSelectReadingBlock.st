@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo
+*CodeGenerator-NeoCSV
 cgSelectReadingBlock
 	" Answer a <String> with a block to apply when reading a CSV file "
 	

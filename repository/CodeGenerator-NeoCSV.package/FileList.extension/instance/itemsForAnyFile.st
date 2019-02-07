@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo
+*CodeGenerator-NeoCSV
 itemsForAnyFile
 	"Answer a list of universal services that could apply to any file"
 	
