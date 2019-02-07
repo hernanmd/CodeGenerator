@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo
+*CodeGenerator-Pharo6
 evalProgressDeclarations
 	"Evaluates the declarations from the text in the file and answers the last result"
 

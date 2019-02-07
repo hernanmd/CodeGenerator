@@ -39,7 +39,15 @@ baseline: spec
 			package: 'CodeGenerator-Pharo' 					with: [ spec requires: #('CodeGenerator'). ];
 			package: 'CodeGenerator-SpecUI' 					with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators' 'Mustache' 'SpecUIAddOns' ) ];
 			package: 'CodeGenerator-Examples' 				with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core' 'CodeGenerator-Smalltalk-Generators' 'CodeGenerator-NeoCSV' 'CodeGenerator-GitHub' 'CodeGenerator-NSIS' 'CodeGenerator-ProjectFramework' 'CodeGenerator-Bash' 'CodeGenerator-R' 'CodeGenerator-Magritte' 'CodeGenerator-Pharo' 'CodeGenerator-SpecUI') ].
-							
+
+		spec for: #'pharo6.x' do: [ 
+			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo6' ].
+			spec package: 'CodeGenerator-Pharo6' ].
+	
+		spec for: #'pharo7.x' do: [ 
+			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo7' ].
+			spec package: 'CodeGenerator-Pharo7' ].
+	
 		spec 
 			group: 'Core' 						with: #('CodeGenerator');
 			group: 'Smalltalk'					with: #('CodeGenerator-Smalltalk-Core' 'CodeGenerator-Pharo');
