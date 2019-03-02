@@ -7,6 +7,6 @@ compileInClass
 		compile: self sourceString
 		into: (self classFor: self targetClass) class
 		classified: self targetMethodCategory ]
-	on: UndeclaredVariableWarning, Warning
+	on: OCUndeclaredVariableWarning , Warning
 	do: [ : ex | self logCompilationWarn: ex ].
 	self logCompilationEnd.
