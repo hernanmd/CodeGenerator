@@ -4,7 +4,5 @@ buildMessageSend: selector
 
 	| messageSend parameterSend |
 	parameterSend := self mapSelector: selector.
-	messageSend := String
-		streamContents:
-			[ :stream | (selector subStrings: ':') asStringOn: stream delimiter: parameterSend ].
+	messageSend := String streamContents: [ :stream | (selector substrings: ':') asStringOn: stream delimiter: parameterSend ].
 	^ messageSend , parameterSend

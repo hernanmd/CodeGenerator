@@ -7,4 +7,4 @@ generateMethods: aSelectorCollection
 			self targetSelector: (self selectorMapperAt: sel) asSymbol.
 			self targetBody: (self templateSource: sel).
 			self generateMethod ]
-		displayingProgress: [ : each | each name ]
+		displayingProgress: [ : each | each asString ]
