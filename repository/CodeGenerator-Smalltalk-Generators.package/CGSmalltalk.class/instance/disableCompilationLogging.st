@@ -5,8 +5,8 @@ disableCompilationLogging
 	| meta |
 
 	meta := self targetClass isMeta 
-		ifFalse: [ self targetClass class ]
-		ifTrue: [ self targetClass ].
+		ifFalse: [ (self classFor: self targetClass) class ]
+		ifTrue: [ self classFor: self targetClass ].
 	(meta canUnderstand: #acceptsLoggingOfCompilation)
 		ifTrue: [ meta 
 			compile: 'acceptsLoggingOfCompilation

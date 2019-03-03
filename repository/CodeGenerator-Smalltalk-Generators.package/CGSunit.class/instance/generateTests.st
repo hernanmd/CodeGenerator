@@ -3,7 +3,7 @@ generateTests
 	" Generate tests methods "
 
 	self 
-		generateTestClass: self targetTestClass;
+		generateTestClass: self targetClass;
 		generateMethods: self inputClass localSelectors;
 		generateMethodSetUp;
 		generateMethodTearDown.
