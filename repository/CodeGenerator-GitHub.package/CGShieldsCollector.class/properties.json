@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/16/2019 18:46",
+	"super" : "Object",
+	"category" : "CodeGenerator-GitHub-ShieldsIO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"shields",
+		"typeCount",
+		"badges"
+	],
+	"name" : "CGShieldsCollector",
+	"type" : "normal"
+}

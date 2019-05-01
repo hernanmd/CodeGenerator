@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/26/2018 23:20",
+	"super" : "ComposableModel",
+	"category" : "CodeGenerator-GitHub-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"badgesList",
+		"badgeTypes",
+		"badgesTextArea",
+		"toolbar",
+		"badgesCollector"
+	],
+	"name" : "CGMDBadgesSelector_UI",
+	"type" : "normal"
+}

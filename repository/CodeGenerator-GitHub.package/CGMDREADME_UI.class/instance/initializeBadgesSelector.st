@@ -4,7 +4,7 @@ initializeBadgesSelector
 	self badgesSelector
 		buttonLabel: 'Select';
 		label: 'Badges';
-		items: self badgesList;
+		itemsSelector: (CGMDBadgesSelector_UI newWithBasicOwner: self);
 		ownerAction: [ : selections | selections notNil and: [ self badgesSelector text: (selections joinUsing: ', ') ] ];
 		textFieldDelimiter: $;;
 		ghostText: 'Please select badges'.

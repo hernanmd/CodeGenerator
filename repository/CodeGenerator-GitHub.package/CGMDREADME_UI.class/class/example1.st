@@ -1,6 +1,6 @@
 examples
 example1
 
-	CGGitHubREADME_UI new 
+	CGMDREADME_UI new 
 		openWithSpec;
 		centered
