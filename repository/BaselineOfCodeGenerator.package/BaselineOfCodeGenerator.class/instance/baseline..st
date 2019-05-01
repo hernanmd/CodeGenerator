@@ -8,28 +8,19 @@ baseline: spec
 				baseline: 'CommonUtils' 			with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ];
 				baseline: 'StringExtensions'	with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
 				baseline: 'SpecUIAddOns'			with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
-				baseline: 'Beacon'					with: [ spec repository: 'github://pharo-project/pharo-beacon/repository' ];
-				project: 'InstanceEncoder' 		with: [
-					spec
-						className: #ConfigurationOfInstanceEncoder;
-						versionString: #'stable';
-						repository: 'http://smalltalkhub.com/mc/hernan/InstanceEncoder/main/' ];
-				project: 'Mustache' with: [
-					spec
-						className: #ConfigurationOfMustache;
-						versionString: #'stable';
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ];
-				project: 'NeoCSV' with: [
-					spec
-						className: 'ConfigurationOfNeoCSV';
-						version: #stable;
-						repository: 'github://svenvc/NeoCVS:master/repository' ].
+				baseline: 'Beacon'					with: [ spec repository: 'github://pharo-project/pharo-beacon/repository' ].
+				self 
+					projectForInstanceEncoder: spec;
+					projectForMustache: spec;
+					projectForNeoJSON: spec;
+					projectForSoup: spec;
+					projectForNeoCSV: spec.
 
 		spec 
 			package: 'CodeGenerator' 							with: [ spec requires: #('StringExtensions' 'CommonUtils'). ];
 			package: 'CodeGenerator-Smalltalk-Core' 		with: [ spec requires: #('CodeGenerator') ];				
 			package: 'CodeGenerator-Smalltalk-Generators' with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core') ];
-			package: 'CodeGenerator-GitHub' 					with: [ spec requires: #('CodeGenerator') ];
+			package: 'CodeGenerator-GitHub' 					with: [ spec requires: #('CodeGenerator' 'Soup' 'NeoJSON') ];
 			package: 'CodeGenerator-NSIS' 						with: [ spec requires: #('CodeGenerator' 'Mustache') ];
 			package: 'CodeGenerator-ProjectFramework' 		with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];
 			package: 'CodeGenerator-Bash' 						with: [ spec requires: #('CodeGenerator') ];
