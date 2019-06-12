@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "CGAuthoring",
+	"category" : "CodeGenerator-TravisCI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"baselineString",
+		"directoryString",
+		"testingPackages",
+		"coveragePackages"
+	],
+	"name" : "CGTravisCI",
+	"type" : "normal"
+}

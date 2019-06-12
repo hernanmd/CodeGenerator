@@ -29,6 +29,7 @@ baseline: spec
 			package: 'CodeGenerator-Smalltalk-Magritte' 	with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];									
 			package: 'CodeGenerator-Pharo' 					with: [ spec requires: #('CodeGenerator'). ];
 			package: 'CodeGenerator-SpecUI' 					with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators' 'Mustache' 'SpecUIAddOns' ) ];
+			package: 'CodeGenerator-TravisCI'					with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];
 			package: 'CodeGenerator-Examples' 				with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core' 'CodeGenerator-Smalltalk-Generators' 'CodeGenerator-NeoCSV' 'CodeGenerator-GitHub' 'CodeGenerator-NSIS' 'CodeGenerator-ProjectFramework' 'CodeGenerator-Bash' 'CodeGenerator-R' 'CodeGenerator-Smalltalk-Magritte' 'CodeGenerator-Pharo' 'CodeGenerator-SpecUI') ].
 
 		spec for: #'pharo6.x' do: [ 
@@ -51,5 +52,6 @@ baseline: spec
 			group: 'Magritte'					with: #('CodeGenerator-Smalltalk-Magritte');
 			group: 'ProjectFramework'		with: #('CodeGenerator-ProjectFramework');
 			group: 'SpecUI' 					with: #('CodeGenerator-SpecUI' 'CodeGenerator-Pharo' );
+			group: 'TravisCI'					with: #('CodeGenerator-TravisCI');
 			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'UI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' );
 			group: 'default' 					with: #('Smalltalk-Generators' ) ]
