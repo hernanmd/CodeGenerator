@@ -1,8 +1,8 @@
 initialization
-initializeBadgesList
+initializeAvailBadgesList
 
 	self badgesList
-		label: 'Selected Badges';
+		label: 'Available Badges';
 		layoutSpecSelector: #buttonsOnTopSpec;
 		items: self badgesItems;
 		addButtonHelpText: 'Add selected badge code';

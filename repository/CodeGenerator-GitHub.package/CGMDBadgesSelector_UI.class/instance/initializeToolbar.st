@@ -1,7 +1,7 @@
 initialization
 initializeToolbar
 	self toolbar
-		firstButtonLabel: 'Cancel';
+		firstButtonLabel: 'Close';
 		firstButtonAction: [ self delete ];
-		secondButtonLabel: 'Close';
-		secondButtonAction: [ self halt ]
+		secondButtonLabel: 'Add';
+		secondButtonAction: [ self owner addBadge: self selectedBadgeItem ]
