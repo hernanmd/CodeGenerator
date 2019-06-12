@@ -26,10 +26,10 @@ baseline: spec
 			package: 'CodeGenerator-Bash' 						with: [ spec requires: #('CodeGenerator') ];
 			package: 'CodeGenerator-R' 							with: [ spec requires: #('CodeGenerator') ];
 			package: 'CodeGenerator-NeoCSV'					with: [ spec requires: #('CodeGenerator-Smalltalk-Generators' 'NeoCSV') ];							
-			package: 'CodeGenerator-Magritte' 				with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];									
+			package: 'CodeGenerator-Smalltalk-Magritte' 	with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];									
 			package: 'CodeGenerator-Pharo' 					with: [ spec requires: #('CodeGenerator'). ];
 			package: 'CodeGenerator-SpecUI' 					with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators' 'Mustache' 'SpecUIAddOns' ) ];
-			package: 'CodeGenerator-Examples' 				with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core' 'CodeGenerator-Smalltalk-Generators' 'CodeGenerator-NeoCSV' 'CodeGenerator-GitHub' 'CodeGenerator-NSIS' 'CodeGenerator-ProjectFramework' 'CodeGenerator-Bash' 'CodeGenerator-R' 'CodeGenerator-Magritte' 'CodeGenerator-Pharo' 'CodeGenerator-SpecUI') ].
+			package: 'CodeGenerator-Examples' 				with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core' 'CodeGenerator-Smalltalk-Generators' 'CodeGenerator-NeoCSV' 'CodeGenerator-GitHub' 'CodeGenerator-NSIS' 'CodeGenerator-ProjectFramework' 'CodeGenerator-Bash' 'CodeGenerator-R' 'CodeGenerator-Smalltalk-Magritte' 'CodeGenerator-Pharo' 'CodeGenerator-SpecUI') ].
 
 		spec for: #'pharo6.x' do: [ 
 			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo6' ].
@@ -48,7 +48,7 @@ baseline: spec
 			group: 'NSIS'						with: #('CodeGenerator-NSIS');
 			group: 'Bash'						with: #('CodeGenerator-Bash');
 			group: 'R'							with: #('CodeGenerator-R');
-			group: 'Magritte'					with: #('CodeGenerator-Magritte');
+			group: 'Magritte'					with: #('CodeGenerator-Smalltalk-Magritte');
 			group: 'ProjectFramework'		with: #('CodeGenerator-ProjectFramework');
 			group: 'SpecUI' 					with: #('CodeGenerator-SpecUI' 'CodeGenerator-Pharo' );
 			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'UI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' );
