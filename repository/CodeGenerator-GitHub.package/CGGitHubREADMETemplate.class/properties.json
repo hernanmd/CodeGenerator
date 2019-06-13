@@ -4,10 +4,10 @@
 	"category" : "CodeGenerator-GitHub-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"DefaultTemplates"
+	"classvars" : [ ],
+	"instvars" : [
+		"templateName"
 	],
-	"instvars" : [ ],
-	"name" : "CGGitHubREADMETemplates",
+	"name" : "CGGitHubREADMETemplate",
 	"type" : "normal"
 }
