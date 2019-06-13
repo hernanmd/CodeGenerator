@@ -1,4 +1,5 @@
 private - sections
-addSectionNamed: aString
+addSectionsNamed: aCollection
 	" Private - Iterate section named aString "
 	
+	self halt.
