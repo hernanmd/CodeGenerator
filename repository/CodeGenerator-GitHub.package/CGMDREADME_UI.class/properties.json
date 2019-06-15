@@ -11,13 +11,13 @@
 		"userName",
 		"toolbar",
 		"ghGenerator",
-		"clearTemplateButton",
 		"mdTextArea",
 		"languageSelector",
 		"badgesSelector",
 		"licenseSelector",
 		"selectedLicense",
-		"selectedBadges"
+		"selectedBadges",
+		"clearButton"
 	],
 	"name" : "CGMDREADME_UI",
 	"type" : "normal"

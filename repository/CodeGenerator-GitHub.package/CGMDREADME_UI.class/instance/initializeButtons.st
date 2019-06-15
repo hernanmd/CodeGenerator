@@ -1,13 +1,13 @@
 initialization
 initializeButtons
 
-	self clearTemplateButton
+	self clearButton
 		firstButtonLabel: 'Clear';
-		firstButtonAction: [ self sectionSelector clearTextArea ].
+		firstButtonAction: [ self clearAll ].
 	self toolbar 
 		firstButtonLabel: 'Close';
 		firstButtonAction: [ self delete ];
-		secondButtonLabel: 'Generate';
+		secondButtonLabel: 'Write';
 		secondButtonAction: [ self generateReadme ];
 		thirdButtonLabel: 'Copy';
 		thirdButtonAction: [ self copyReadme ].
