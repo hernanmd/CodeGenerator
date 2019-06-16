@@ -7,7 +7,9 @@
 	"classvars" : [
 		"DefaultTemplates"
 	],
-	"instvars" : [ ],
-	"name" : "CGGitHubREADMETemplates",
+	"instvars" : [
+		"templatesDir"
+	],
+	"name" : "CGGitHubREADMETmplManager",
 	"type" : "normal"
 }

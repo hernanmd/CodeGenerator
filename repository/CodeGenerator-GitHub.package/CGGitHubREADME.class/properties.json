@@ -18,7 +18,8 @@
 		"installationText",
 		"repositoryName",
 		"languageTag",
-		"spdx"
+		"spdx",
+		"templateManager"
 	],
 	"name" : "CGGitHubREADME",
 	"type" : "normal"
