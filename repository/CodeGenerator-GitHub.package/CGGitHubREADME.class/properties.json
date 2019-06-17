@@ -4,7 +4,11 @@
 	"category" : "CodeGenerator-GitHub-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"TemplateRemoteUrlToUse",
+		"TemplatesRepositoryDir",
+		"TemplatesUsername"
+	],
 	"instvars" : [
 		"stInstExpr",
 		"devInstExpr",

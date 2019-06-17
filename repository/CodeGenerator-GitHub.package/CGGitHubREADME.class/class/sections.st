@@ -1,29 +1,7 @@
 private - sections
 sections
-	" Titles for sections with a list "
+	" Answer a <Collection> with titles for sections for populating a list "
 
-	^ #(
-	'Table of Contents'
-	'Synopsis'
-	'Introduction'
-	'Motivation'
-	'Description'
-	'Screenshots'
-	'Requirements'
-	'Installation'
-	'Built With'
-	'Configuration'
-	'Usage'
-	'Usage Notes'
-	'Examples'
-	'Tests'
-	'Deployment'
-	'Translations'
-	'Contribute'
-	'Troubleshooting'
-	'Contact'
-	'Authors'
-	'Contributors'
-	'Maintainers'
-	'License'
-	)
+	^ self templatesDir entries 
+		collect: [ : dirRef | self asTemplateSectionItem: dirRef basename ]
+		thenReject: [ : sectionName | self nonSections includes: sectionName ]

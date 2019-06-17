@@ -1,0 +1,4 @@
+accessing
+templateLocationToUse
+
+	^ CGGitHubREADME templateLocationToUse

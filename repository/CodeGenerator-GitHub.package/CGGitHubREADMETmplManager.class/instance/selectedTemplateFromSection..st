@@ -2,7 +2,7 @@ accessing
 selectedTemplateFromSection: aFileReference 
 
 	^ [ 
-		aFileReference entries 
+		aFileReference children 
 			detect: [ : fileRef | fileRef asCGGitHubREADMETemplate isSelected ]
 			ifNone: [ self error: 'Could not find any template in directory ' , aFileReference fullName ] 
 		]
