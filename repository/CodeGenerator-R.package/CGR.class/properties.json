@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"argIndex"
+		"argIndex",
+		"readArgs"
 	],
 	"name" : "CGR",
 	"type" : "normal"
