@@ -1,11 +1,10 @@
 code-generation
-dumpToFile: contents
+dumpToBATFile: contents
 	" Write contents to receiver's product file "
 
 	| fileName |
 	
-	fileName := self product , '.nsi'.
+	fileName := self product , '.bat'.
 	fileName asFileReference writeStream
-		wantsLineEndConversion: true;
 		nextPutAll: contents; 
 		close
