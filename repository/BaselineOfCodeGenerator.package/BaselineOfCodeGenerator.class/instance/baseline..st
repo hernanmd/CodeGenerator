@@ -39,6 +39,10 @@ baseline: spec
 		spec for: #'pharo7.x' do: [ 
 			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo7' ].
 			spec package: 'CodeGenerator-Pharo7' ].
+		
+		spec for: #'pharo8.x' do: [ 
+			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo8' ].
+			spec package: 'CodeGenerator-Pharo8' ].
 	
 		spec 
 			group: 'Core' 						with: #('CodeGenerator');
