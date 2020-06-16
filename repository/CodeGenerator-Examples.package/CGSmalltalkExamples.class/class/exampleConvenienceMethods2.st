@@ -9,5 +9,4 @@ exampleConvenienceMethods2
 		targetClassCategory: 'ConvenienceMethodsEx';
 		targetClass: #ConvenienceMethodsEx;
 		generateMethods.
-	Smalltalk tools browser openOnClass: #ConvenienceMethodsEx asClass.
-	self inform: 'Done'.
+	self openOnClass: #ConvenienceMethodsEx.

@@ -13,5 +13,4 @@ exampleFSMCaseStmt2
 			at: #State1 put: #State0;
 			yourself);
 		generateMethods.
-	Smalltalk tools browser openOnClass: #FSMCaseStmts2 asClass.		
-	self inform: 'Done!'.
+	self openOnClass: #FSMCaseStmts2.

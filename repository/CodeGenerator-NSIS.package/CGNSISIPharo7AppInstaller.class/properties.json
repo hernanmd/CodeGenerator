@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CGNSISIPharoAppInstaller",
+	"category" : "CodeGenerator-NSIS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGNSISIPharo7AppInstaller",
+	"type" : "normal"
+}

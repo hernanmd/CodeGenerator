@@ -11,5 +11,4 @@ exampleMagritteDescriptionCreation2
 		setMemoAttributes: 			'iVarMemo' 		default: 'Memo'					label: 'label Memo' 				priority: 50;
 		setMultiOptionAttributes: 	'iVarMulti' 		default: #(One Two)			label: 'label Multi Option' 	priority: 60;
 		setNumberAttributes: 			'iVarInteger' 	default: 10 						label: 'label Integer' 			priority: 70.
-	Smalltalk tools browser openOnClass: ModelClass1.															
-	self inform: 'Done'.
+	self openOnClass: #ModelClass1.

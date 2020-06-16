@@ -1,4 +1,4 @@
 code-generation
 generateReadCollectScript
 
-	^ self templateForCSVReaderCollectScript
+	^ self csvReaderCollectTemplate

@@ -9,5 +9,4 @@ exampleAbstractClassCreation1
 		concreteClassesCount: 5;
 		concreteClassNamePattern: #CGExampleConcreteClass;
 		generateClasses.
-	Smalltalk tools browser openOnClass: #CGExampleAbstractClass asClass.		
-	self inform: 'Done!'.
+	self openOnClass: #CGExampleAbstractClass.	

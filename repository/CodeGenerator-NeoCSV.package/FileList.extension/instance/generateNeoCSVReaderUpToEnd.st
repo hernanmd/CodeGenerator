@@ -8,7 +8,7 @@ generateNeoCSVReaderUpToEnd
 		fullPath: self reference fullName;
 		addSeparator: self cgSelectDelimiter;
 		skipHeaderCount: self cgSelectSkipHeaders asNumber;
-		generateReadUpToEndScript.
+		generateReadUpToEndTemplate.
 	Smalltalk tools workspace 
 		openContents: csvScript 
 		label: 'Workspace from ', self reference basename.

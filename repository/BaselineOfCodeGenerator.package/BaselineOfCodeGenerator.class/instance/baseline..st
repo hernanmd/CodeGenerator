@@ -39,6 +39,10 @@ baseline: spec
 		spec for: #'pharo7.x' do: [ 
 			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo7' ].
 			spec package: 'CodeGenerator-Pharo7' ].
+		
+		spec for: #'pharo8.x' do: [ 
+			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo8' ].
+			spec package: 'CodeGenerator-Pharo8' ].
 	
 		spec 
 			group: 'Core' 						with: #('CodeGenerator');
@@ -53,5 +57,5 @@ baseline: spec
 			group: 'ProjectFramework'		with: #('CodeGenerator-ProjectFramework');
 			group: 'SpecUI' 					with: #('CodeGenerator-SpecUI' 'CodeGenerator-Pharo' );
 			group: 'TravisCI'					with: #('CodeGenerator-TravisCI');
-			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'UI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' );
+			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'SpecUI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' );
 			group: 'default' 					with: #('Smalltalk-Generators' ) ]

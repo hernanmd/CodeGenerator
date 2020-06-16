@@ -1,3 +1,7 @@
 callbacks
 updateBadgesList
-	self badgesList items: (self badgeCollector badgesAt: self selectedBadgeType)
+
+	self badgesList 
+		roots: (self badgeCollector badgesAt: self selectedBadgeType);
+		displayBlock: [ : badge | badge badgeName ];
+		iconBlock: [ : badge | badge badgeImg asMorph  ]
