@@ -17,7 +17,8 @@
 		"licenseSelector",
 		"selectedLicense",
 		"selectedBadges",
-		"clearButton"
+		"clearButton",
+		"generateSectionsButton"
 	],
 	"name" : "CGMDREADME_UI",
 	"type" : "normal"
