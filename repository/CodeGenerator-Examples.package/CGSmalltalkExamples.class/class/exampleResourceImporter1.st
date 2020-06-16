@@ -6,5 +6,4 @@ exampleResourceImporter1
 		targetClass: #CGExampleResources1;
 		targetClassCategory: 'CGGeneratedCode';
 		import.
-
-	Smalltalk tools browser openOnClass: #CGExampleResources1 asClass.		
+	self openOnClass: #CGExampleResources1.

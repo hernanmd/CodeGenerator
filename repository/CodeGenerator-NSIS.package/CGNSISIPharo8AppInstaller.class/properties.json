@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/16/2020 02:06",
+	"super" : "CGNSISIPharo7AppInstaller",
+	"category" : "CodeGenerator-NSIS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGNSISIPharo8AppInstaller",
+	"type" : "normal"
+}

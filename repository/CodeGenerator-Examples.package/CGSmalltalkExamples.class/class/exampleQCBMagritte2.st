@@ -6,5 +6,4 @@ exampleQCBMagritte2
 		setCleanTarget;
 		targetClass: #HelloWorldAppWithMenu;
 		generateMethodsUsingSuperclassChain.
-
-	Smalltalk tools browser openOnClass: #HelloWorldAppWithMenu asClass.
+	self openOnClass: #HelloWorldAppWithMenu.

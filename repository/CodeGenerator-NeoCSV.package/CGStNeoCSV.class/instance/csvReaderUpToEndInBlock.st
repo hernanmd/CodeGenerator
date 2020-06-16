@@ -1,5 +1,5 @@
 code-templates
-templateForCSVReaderUpToEndInBlock
+csvReaderUpToEndInBlock
 	" Answer a <String> with the basic convenience template "
 
 	^ '	(NeoCSVReader on: readStream) 

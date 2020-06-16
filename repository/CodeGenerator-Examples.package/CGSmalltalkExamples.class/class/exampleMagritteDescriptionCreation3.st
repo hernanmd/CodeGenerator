@@ -12,5 +12,4 @@ exampleMagritteDescriptionCreation3
 		setMultiOptionAttributes: 'iVarMultiOption' label: 'label Multi Option' priority: 60;
 		setNumberAttributes: 'iVarInteger' 	label: 'label Integer' priority: 70;
 		generateMethods.
-	Smalltalk tools browser openOnClass: ModelClass1.		
-	self inform: 'Done'.
+	self openOnClass: #ModelClass1.

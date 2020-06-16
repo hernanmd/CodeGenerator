@@ -1,5 +1,5 @@
 code-templates
-templateForCSVWriterInnerDo
+csvWriterInnerDo
 	" Answer a <String> with the basic convenience template "
 
 	^ '{1}

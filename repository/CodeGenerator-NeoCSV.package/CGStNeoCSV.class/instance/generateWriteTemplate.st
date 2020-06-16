@@ -1,4 +1,4 @@
 code-generation
-generateWriteScript
+generateWriteTemplate
 
 	self generateMethod: #templateForCSVWriterInMethod

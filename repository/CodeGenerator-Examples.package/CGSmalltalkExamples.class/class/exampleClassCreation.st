@@ -7,5 +7,4 @@ exampleClassCreation
 		targetClassCategory: 'MPIRunner-Core';
 		targetClass: #MPIRunner;
 		addIVars: #(#nproc #submitToQueue).
-	Smalltalk tools browser openOnClass: #MPIRunner asClass.		
-	self inform: 'Done!'.
+	self openOnClass: #MPIRunner.

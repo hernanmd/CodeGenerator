@@ -4,9 +4,9 @@ cgSelectReadingMethod
 	| readingSelectors readingDescriptions |
 	
 	readingSelectors := { 
-		#generateReadDoScript . 
+		#generateReadTemplate . 
 		#generateReadCollectScript . 
-		#generateReadSelectScript }.
+		#generateReadSelectTemplate }.
 	readingDescriptions := { 'do:' . 'collect:' . 'select:' }.
 	^ UIManager default 
 		chooseFrom: readingDescriptions 

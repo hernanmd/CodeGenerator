@@ -6,4 +6,4 @@ exampleQCBMagritte3
 		setCleanTarget;
 		targetClass: #HelloWorldAppWithMenu;
 		generateMethodsUsingSuperclassChain.
-	
+	self openOnClass: #HelloWorldAppWithMenu.

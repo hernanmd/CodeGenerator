@@ -4,6 +4,6 @@ codeForSkipHeaders
 	
 	^ String streamContents: [ : stream |
 		stream
-			nextPut: self skipHeader asString;
+			nextPut: self skipHeaderCount asString;
 			space;
 			nextPutAll: ' timesRepeat: [ reader skipHeader ].' ]

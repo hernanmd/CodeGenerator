@@ -57,5 +57,5 @@ baseline: spec
 			group: 'ProjectFramework'		with: #('CodeGenerator-ProjectFramework');
 			group: 'SpecUI' 					with: #('CodeGenerator-SpecUI' 'CodeGenerator-Pharo' );
 			group: 'TravisCI'					with: #('CodeGenerator-TravisCI');
-			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'UI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' );
+			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'SpecUI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' );
 			group: 'default' 					with: #('Smalltalk-Generators' ) ]

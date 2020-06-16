@@ -1,5 +1,5 @@
 code-templates
-templateForCSVWriterDoInBlock
+csvWriterDoInBlock
 	" Answer a <String> with the basic convenience template "
 
 	^ '	(NeoCSVWriter on: stream) 

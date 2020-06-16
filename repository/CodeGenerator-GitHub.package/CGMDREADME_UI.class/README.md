@@ -1,6 +1,6 @@
 Never again write a README.md by hand! :)
 
-CGGitHubREADME_UI new openWithSpec.
+CGMDREADME_UI new openWithSpec.
 
 Internal Representation and Key Implementation Points.
 

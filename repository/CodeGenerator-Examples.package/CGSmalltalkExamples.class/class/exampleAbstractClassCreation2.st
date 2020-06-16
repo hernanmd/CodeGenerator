@@ -12,5 +12,4 @@ exampleAbstractClassCreation2
 		operationsCount: 3;
 		operationsName: #exampleOperation;
 		generateOperations.
-	Smalltalk tools browser openOnClass: #CGExampleAbstractClass2 asClass.		
-	self inform: 'Done!'.
+	self openOnClass: #CGExampleAbstractClass2.	

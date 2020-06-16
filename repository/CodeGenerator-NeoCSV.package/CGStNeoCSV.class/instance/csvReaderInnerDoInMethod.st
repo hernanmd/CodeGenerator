@@ -1,5 +1,5 @@
 code-templates
-templateForCSVReaderInnerDoInMethod
+csvReaderInnerDoInMethod
 	" Answer a <String> with the basic convenience template "
 
 	^ '	(NeoCSVReader on: ''{1}'' asFileReference readStream) 

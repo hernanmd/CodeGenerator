@@ -1,5 +1,5 @@
 code-generation
 generateReadDoMethod
 
-	self templateForCSVReaderDoInMethod.
-	self generateMethod: #templateForCSVReaderDoInMethod
+	self csvReaderDoInMethod.
+	self generateMethod: #csvReaderDoInMethod

@@ -1,5 +1,5 @@
 code-generation
-generateWriteDoScript
+generateWriteDoTemplate
 	" Answer a <String> with receiver's generated code "
 
-	^ self templateForCSVWriter
+	^ self csvWriter

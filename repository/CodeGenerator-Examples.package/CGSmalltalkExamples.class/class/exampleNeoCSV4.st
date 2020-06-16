@@ -7,7 +7,7 @@ exampleNeoCSV4
 		fullPath: 'test1.csv';
 		addSeparator: Character tab;
 		headers: #('fieldA' 'fieldB');
-		generateWriteDoScript.
+		generateWriteDoTemplate.
 	self inform: 'Done'.		
 	Smalltalk tools workspace 
 		openContents: res 

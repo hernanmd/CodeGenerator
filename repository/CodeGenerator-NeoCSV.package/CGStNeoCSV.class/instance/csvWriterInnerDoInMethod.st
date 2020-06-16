@@ -1,5 +1,5 @@
 code-templates
-templateForCSVWriterInnerDoInMethod
+csvWriterInnerDoInMethod
 	" Answer a <String> with the basic convenience template "
 
 	^ '	(NeoCSVWriter on: ''{1}'') 
