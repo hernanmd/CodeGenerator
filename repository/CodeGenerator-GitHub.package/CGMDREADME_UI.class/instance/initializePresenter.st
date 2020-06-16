@@ -4,7 +4,9 @@ initializePresenter
 
 "	self sectionSelector whenRootsChanged: [ : node | self halt ]."
 
-	self sectionSelector whenSelectedItemsChanged: [ :node | 
-		node 
+	self sectionSelector whenSelectedItemChanged: [ :node | 
+		" This doesn't work. It should reflect immediately checked/unchecked item 
+		self sectionSelector selectionHolder value inspect."
+		"node 
 			ifNil: [ nil ] 
-			ifNotNil: [ self addSectionsNamed: node asSet ] ].
+			ifNotNil: [ self addSectionsNamed: node asSet ]" ].

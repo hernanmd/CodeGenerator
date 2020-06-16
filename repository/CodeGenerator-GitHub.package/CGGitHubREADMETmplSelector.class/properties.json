@@ -1,13 +1,16 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ComposablePresenter",
 	"category" : "CodeGenerator-GitHub-Templates",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"templateName"
+		"templateList",
+		"templatePreview",
+		"toolbar",
+		"template"
 	],
-	"name" : "CGGitHubREADMETemplate",
+	"name" : "CGGitHubREADMETmplSelector",
 	"type" : "normal"
 }

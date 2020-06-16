@@ -1,6 +1,6 @@
 accessing
-selectTemplates: aCollection 
-	" Answer a <CGGitHubREADMETemplate> which is currently selected "
+selectTemplates: allTemplates
 
-	^ aCollection select: [ : sectionName | 
-		 self selectedTemplateFromSection: (self templateLocationToUse / (CGGitHubREADME asTemplateSectionName: sectionName)) ].
+	self informMessage: 'Not supported yet'.
+	^ Array empty
+		

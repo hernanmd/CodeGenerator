@@ -12,7 +12,8 @@ defaultSpec
 							add: #badgesSelector 			height: self inputTextHeight + 5;
 							add: #licenseSelector 		height: self inputTextHeight + 5;
 							add: #languageSelector 		height: self inputTextHeight + 5;
-							add: #sectionSelector ];
+							add: #sectionSelector;
+							add: #generateSectionsButton height: self inputTextHeight ];
 					newColumn: [ : r |
 						r 
 							add: #mdTextArea;

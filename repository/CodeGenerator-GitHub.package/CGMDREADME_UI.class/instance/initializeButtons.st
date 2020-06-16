@@ -7,7 +7,10 @@ initializeButtons
 	self toolbar 
 		firstButtonLabel: 'Close';
 		firstButtonAction: [ self delete ];
-		secondButtonLabel: 'Write';
+		secondButtonLabel: 'Save';
 		secondButtonAction: [ self generateReadme ];
 		thirdButtonLabel: 'Copy';
 		thirdButtonAction: [ self copyReadme ].
+	self generateSectionsButton 
+		firstButtonLabel: 'Generate';
+		firstButtonAction: [ self generateSections ]
