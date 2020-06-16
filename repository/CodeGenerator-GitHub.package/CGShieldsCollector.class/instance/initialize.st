@@ -1,5 +1,5 @@
 accessing
 initialize
 
-	self typeCount: 1.
+	super initialize.
 	self shields: OrderedCollection new.

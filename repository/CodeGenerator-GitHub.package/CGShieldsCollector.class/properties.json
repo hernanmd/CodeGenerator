@@ -7,7 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"shields",
-		"typeCount",
 		"badges"
 	],
 	"name" : "CGShieldsCollector",

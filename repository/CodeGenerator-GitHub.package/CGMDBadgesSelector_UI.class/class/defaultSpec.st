@@ -8,5 +8,4 @@ defaultSpec
 					newColumn: [ : c | 
 						c
 							add: #badgesList;
-							add: #toolbar height: self toolbarHeight. ];
-					add: #badgesSelection ]
+							add: #toolbar height: self toolbarHeight. ] ]

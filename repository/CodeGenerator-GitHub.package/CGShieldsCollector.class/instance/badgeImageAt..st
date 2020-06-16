@@ -1,4 +1,5 @@
 accessing
 badgeImageAt: imgURLString
 
-	^ ZnEasy getSvg: (imgURLString copyReplaceAll: '.svg' with: '.png')
+	^ ZnEasy getPng: (imgURLString , '.png').
+
