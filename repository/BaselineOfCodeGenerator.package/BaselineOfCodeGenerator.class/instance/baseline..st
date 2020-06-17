@@ -49,6 +49,7 @@ baseline: spec
 			group: 'Smalltalk'					with: #('CodeGenerator-Smalltalk-Core' 'CodeGenerator-Pharo');
 			group: 'Smalltalk-Generators'	with: #('CodeGenerator-Smalltalk-Generators' 'CodeGenerator-Pharo');									
 			group: 'Examples'					with: #('CodeGenerator-Examples');
+			group: 'NeoCSV'						with: #('CodeGenerator-NeoCSV');
 			group: 'GitHub'						with: #('CodeGenerator-GitHub');
 			group: 'NSIS'						with: #('CodeGenerator-NSIS');
 			group: 'Bash'						with: #('CodeGenerator-Bash');
@@ -57,5 +58,5 @@ baseline: spec
 			group: 'ProjectFramework'		with: #('CodeGenerator-ProjectFramework');
 			group: 'SpecUI' 					with: #('CodeGenerator-SpecUI' 'CodeGenerator-Pharo' );
 			group: 'TravisCI'					with: #('CodeGenerator-TravisCI');
-			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'SpecUI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' );
+			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'SpecUI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' 'NeoCSV' 'Examples');
 			group: 'default' 					with: #('Smalltalk-Generators' ) ]
