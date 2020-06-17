@@ -1,7 +1,7 @@
 examples
 example01
 
-CGGitHubREADME new
+	self class new
 	identity: 'Hernán Morales Durand';
 	sections: #('badges' 'description' 'installation' 'usage' 'contribute' 'licenseText' 'authors');
 	repositoryName: 'ProjectFramework';

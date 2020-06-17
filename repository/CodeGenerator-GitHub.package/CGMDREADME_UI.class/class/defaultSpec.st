@@ -9,7 +9,7 @@ defaultSpec
 						r
 							add: #repositoryName 			height: self inputTextHeight;
 							add: #userName 					height: self inputTextHeight;
-							add: #badgesSelector 			height: self inputTextHeight + 5;
+							add: #templatesSelector 		height: self inputTextHeight + 5;
 							add: #licenseSelector 		height: self inputTextHeight + 5;
 							add: #languageSelector 		height: self inputTextHeight + 5;
 							add: #sectionSelector;

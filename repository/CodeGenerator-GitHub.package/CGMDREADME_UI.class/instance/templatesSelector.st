@@ -1,5 +1,5 @@
 accessing
-badgesSelector
+templatesSelector
 	" Answer the badges of this CGGitHubREADME_UI "
 
-	^ badgesSelector
+	^ templatesSelector

@@ -13,12 +13,12 @@
 		"ghGenerator",
 		"mdTextArea",
 		"languageSelector",
-		"badgesSelector",
 		"licenseSelector",
 		"selectedLicense",
 		"selectedBadges",
 		"clearButton",
-		"generateSectionsButton"
+		"generateSectionsButton",
+		"templatesSelector"
 	],
 	"name" : "CGMDREADME_UI",
 	"type" : "normal"

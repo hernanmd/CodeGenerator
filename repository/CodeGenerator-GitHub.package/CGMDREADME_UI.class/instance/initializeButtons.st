@@ -13,4 +13,6 @@ initializeButtons
 		thirdButtonAction: [ self copyReadme ].
 	self generateSectionsButton 
 		firstButtonLabel: 'Generate';
-		firstButtonAction: [ self generateSections ]
+		firstButtonAction: [ self generateSections ];
+		secondButtonLabel: 'Badges';
+		secondButtonAction: [ (CGMDBadgesSelector_UI newWithOwner: self) openWithSpec ]

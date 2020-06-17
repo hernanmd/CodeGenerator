@@ -13,14 +13,15 @@ baseline: spec
 					projectForInstanceEncoder: spec;
 					projectForMustache: spec;
 					projectForNeoJSON: spec;
+					projectForNeoCSV: spec;
 					projectForSoup: spec;
-					projectForNeoCSV: spec.
+					projectForFileDialog: spec.
 
 		spec 
 			package: 'CodeGenerator' 							with: [ spec requires: #('StringExtensions' 'CommonUtils'). ];
 			package: 'CodeGenerator-Smalltalk-Core' 		with: [ spec requires: #('CodeGenerator') ];				
 			package: 'CodeGenerator-Smalltalk-Generators' with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core') ];
-			package: 'CodeGenerator-GitHub' 					with: [ spec requires: #('CodeGenerator' 'Soup' 'NeoJSON') ];
+			package: 'CodeGenerator-GitHub' 					with: [ spec requires: #('CodeGenerator' 'Soup' 'NeoJSON' 'FileDialog') ];
 			package: 'CodeGenerator-NSIS' 						with: [ spec requires: #('CodeGenerator' 'Mustache') ];
 			package: 'CodeGenerator-ProjectFramework' 		with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];
 			package: 'CodeGenerator-Bash' 						with: [ spec requires: #('CodeGenerator') ];
