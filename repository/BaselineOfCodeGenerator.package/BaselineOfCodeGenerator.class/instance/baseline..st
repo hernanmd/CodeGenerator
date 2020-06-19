@@ -15,13 +15,14 @@ baseline: spec
 					projectForNeoJSON: spec;
 					projectForNeoCSV: spec;
 					projectForSoup: spec;
+					projectForNewTools: spec;
 					projectForFileDialog: spec.
 
 		spec 
 			package: 'CodeGenerator' 							with: [ spec requires: #('StringExtensions' 'CommonUtils'). ];
 			package: 'CodeGenerator-Smalltalk-Core' 		with: [ spec requires: #('CodeGenerator') ];				
 			package: 'CodeGenerator-Smalltalk-Generators' with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core') ];
-			package: 'CodeGenerator-GitHub' 					with: [ spec requires: #('CodeGenerator' 'Soup' 'NeoJSON' 'FileDialog') ];
+			package: 'CodeGenerator-Readme' 					with: [ spec requires: #('CodeGenerator' 'Soup' 'NeoJSON' 'NewTools' 'FileDialog') ];
 			package: 'CodeGenerator-NSIS' 						with: [ spec requires: #('CodeGenerator' 'Mustache') ];
 			package: 'CodeGenerator-ProjectFramework' 		with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];
 			package: 'CodeGenerator-Bash' 						with: [ spec requires: #('CodeGenerator') ];
@@ -31,7 +32,7 @@ baseline: spec
 			package: 'CodeGenerator-Pharo' 					with: [ spec requires: #('CodeGenerator'). ];
 			package: 'CodeGenerator-SpecUI' 					with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators' 'Mustache' 'SpecUIAddOns' ) ];
 			package: 'CodeGenerator-TravisCI'					with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Generators') ];
-			package: 'CodeGenerator-Examples' 				with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core' 'CodeGenerator-Smalltalk-Generators' 'CodeGenerator-NeoCSV' 'CodeGenerator-GitHub' 'CodeGenerator-NSIS' 'CodeGenerator-ProjectFramework' 'CodeGenerator-Bash' 'CodeGenerator-R' 'CodeGenerator-Smalltalk-Magritte' 'CodeGenerator-Pharo' 'CodeGenerator-SpecUI') ].
+			package: 'CodeGenerator-Examples' 				with: [ spec requires: #('CodeGenerator' 'CodeGenerator-Smalltalk-Core' 'CodeGenerator-Smalltalk-Generators' 'CodeGenerator-NeoCSV' 'CodeGenerator-Readme' 'CodeGenerator-NSIS' 'CodeGenerator-ProjectFramework' 'CodeGenerator-Bash' 'CodeGenerator-R' 'CodeGenerator-Smalltalk-Magritte' 'CodeGenerator-Pharo' 'CodeGenerator-SpecUI') ].
 
 		spec for: #'pharo6.x' do: [ 
 			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo6' ].
@@ -51,7 +52,7 @@ baseline: spec
 			group: 'Smalltalk-Generators'	with: #('CodeGenerator-Smalltalk-Generators' 'CodeGenerator-Pharo');									
 			group: 'Examples'					with: #('CodeGenerator-Examples');
 			group: 'NeoCSVGroup'				with: #('CodeGenerator-NeoCSV');
-			group: 'GitHub'						with: #('CodeGenerator-GitHub');
+			group: 'Readme'						with: #('CodeGenerator-Readme');
 			group: 'NSIS'						with: #('CodeGenerator-NSIS');
 			group: 'Bash'						with: #('CodeGenerator-Bash');
 			group: 'R'							with: #('CodeGenerator-R');
@@ -59,5 +60,5 @@ baseline: spec
 			group: 'ProjectFramework'		with: #('CodeGenerator-ProjectFramework');
 			group: 'SpecUI' 					with: #('CodeGenerator-SpecUI' 'CodeGenerator-Pharo' );
 			group: 'TravisCI'					with: #('CodeGenerator-TravisCI');
-			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'GitHub' 'Bash' 'R' 'NSIS' 'Magritte' 'GitHub' 'SpecUI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' 'NeoCSVGroup' 'Examples');
+			group: 'All' 						with: #('Core' 'Smalltalk' 'Smalltalk-Generators' 'Bash' 'R' 'NSIS' 'Magritte' 'Readme' 'SpecUI' 'ProjectFramework' 'CodeGenerator-Pharo' 'SpecUI' 'NeoCSVGroup' 'Examples');
 			group: 'default' 					with: #('Smalltalk-Generators' ) ]
