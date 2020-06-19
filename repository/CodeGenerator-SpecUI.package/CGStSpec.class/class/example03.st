@@ -9,5 +9,5 @@ example03
 		title: 'GitHub README.md Generator';
 		generateMethods;
 		generateClassMethods.
-	Smalltalk tools browser openOnClass: #CGMDREADME_UI asClass.		
+	Smalltalk tools browser openOnClass: #CGReadmeUI asClass.		
 	self inform: 'Done!'.		

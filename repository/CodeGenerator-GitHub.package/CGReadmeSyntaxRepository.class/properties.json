@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/18/2020 14:39",
+	"super" : "Object",
+	"category" : "CodeGenerator-GitHub-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGReadmeSyntaxRepository",
+	"type" : "normal"
+}

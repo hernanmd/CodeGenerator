@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/16/2020 02:07",
+	"super" : "ComposablePresenter",
+	"category" : "CodeGenerator-GitHub-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repositoryName",
+		"sectionSelector",
+		"userName",
+		"toolbar",
+		"mdTextArea",
+		"languageSelector",
+		"licenseSelector",
+		"selectedLicense",
+		"selectedBadges",
+		"clearButton",
+		"generateSectionsButton",
+		"templatesSelector",
+		"languageCheatsheet",
+		"readmeGenerator"
+	],
+	"name" : "CGReadmeUI",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "CodeGenerator-GitHub-Templates",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"templateList",
+		"templatePreview",
+		"toolbar",
+		"template"
+	],
+	"name" : "CGReadmeTmplSelector",
+	"type" : "normal"
+}

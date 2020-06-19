@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/12/2019 17:42",
+	"super" : "ComposablePresenter",
+	"category" : "CodeGenerator-GitHub-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"badgesList",
+		"badgeTypes",
+		"badgesTextArea",
+		"toolbar",
+		"badgesCollector",
+		"badgesSelection"
+	],
+	"name" : "CGBadgesSelectorUI",
+	"type" : "normal"
+}
