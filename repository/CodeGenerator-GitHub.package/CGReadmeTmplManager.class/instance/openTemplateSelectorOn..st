@@ -1,4 +1,4 @@
 callbacks
-openTemplateSelectorOn: templateName
+openTemplateSelectorOn: templateContents
 
-	CGReadmeTmplSelector newFor: templateName owner: self
+	CGReadmeTmplSelector newFor: templateContents owner: self

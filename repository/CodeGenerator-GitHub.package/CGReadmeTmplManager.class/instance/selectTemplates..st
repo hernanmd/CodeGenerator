@@ -1,6 +1,7 @@
 accessing
 selectTemplates: allTemplates
 
-	self informMessage: 'Not supported yet'.
-	^ Array empty
-		
+	^ allTemplates do: [ : tmplTypes | 
+		tmplTypes do: [ : tmpl |
+			self openTemplateSelectorOn: tmpl contents ] ]
+
