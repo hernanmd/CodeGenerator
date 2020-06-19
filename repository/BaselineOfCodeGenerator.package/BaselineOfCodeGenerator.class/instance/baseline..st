@@ -15,7 +15,6 @@ baseline: spec
 					projectForNeoJSON: spec;
 					projectForNeoCSV: spec;
 					projectForSoup: spec;
-					projectForNewTools: spec;
 					projectForFileDialog: spec.
 
 		spec 
