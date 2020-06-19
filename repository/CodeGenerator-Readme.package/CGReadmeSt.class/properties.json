@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/16/2020 11:51",
+	"super" : "CGReadme",
+	"category" : "CodeGenerator-Readme-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGReadmeSt",
+	"type" : "normal"
+}

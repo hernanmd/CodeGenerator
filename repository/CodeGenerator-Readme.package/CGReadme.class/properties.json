@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/25/2018 04:37",
+	"super" : "CGAuthoring",
+	"category" : "CodeGenerator-Readme-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sections",
+		"badges",
+		"screenshots",
+		"description",
+		"repositoryName",
+		"languageTag",
+		"spdx",
+		"templateManager"
+	],
+	"name" : "CGReadme",
+	"type" : "normal"
+}

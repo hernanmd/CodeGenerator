@@ -1,0 +1,3 @@
+accessing
+licenseList
+	^ licenseList

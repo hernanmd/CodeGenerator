@@ -1,0 +1,4 @@
+private
+defaultLanguageTag
+
+	^ 'smalltalk'

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/17/2018 03:22",
+	"super" : "Object",
+	"category" : "CodeGenerator-Readme-SPDX",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGSPDXLicenseReader",
+	"type" : "normal"
+}

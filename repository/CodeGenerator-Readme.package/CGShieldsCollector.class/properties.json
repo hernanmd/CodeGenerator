@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/16/2019 18:46",
+	"super" : "Object",
+	"category" : "CodeGenerator-Readme-ShieldsIO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"shields",
+		"badges"
+	],
+	"name" : "CGShieldsCollector",
+	"type" : "normal"
+}

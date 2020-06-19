@@ -1,0 +1,4 @@
+accessing
+addTemplate: aCGGitHubREADMETemplate
+
+	self defaultTemplates add: aCGGitHubREADMETemplate
