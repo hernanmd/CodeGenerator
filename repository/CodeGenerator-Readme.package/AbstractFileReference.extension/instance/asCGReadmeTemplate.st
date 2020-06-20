@@ -1,5 +1,6 @@
 *CodeGenerator-Readme
 asCGReadmeTemplate
 	
-	CGReadmeTemplate new 
-		templateName: self
+	^ CGReadmeTemplate new 
+		templateLocation: self;
+		yourself

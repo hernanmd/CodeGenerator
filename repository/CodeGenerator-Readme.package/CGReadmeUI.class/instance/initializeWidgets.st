@@ -11,7 +11,7 @@ initializeWidgets
 			#licenseSelector 			#SpcLabeledTextFieldSelector 
 			#clearButton 				#SpcOneButtonToolbar 
 			#mdTextArea 					#SpcLabeledTextArea 
-			#languageSelector 			#SpcLabeledDropList
+			#syntaxSelector 			#SpcLabeledDropList
 			#languageCheatsheet 		#SpcLabeledTextArea
 			#toolbar 						#SpcThreeButtonToolbar 
 			generateSectionsButton 	SpcTwoButtonToolbar).

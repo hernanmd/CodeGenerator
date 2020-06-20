@@ -1,7 +1,7 @@
 initialization
 initializeSyntaxSelector
 
-	self languageSelector
+	self syntaxSelector
 		setItems: CGReadme markupSyntaxList;
 		label: 'Syntax';
 		whenSelectedItemChanged: [ : item | 

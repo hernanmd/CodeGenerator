@@ -11,7 +11,6 @@
 		"userName",
 		"toolbar",
 		"mdTextArea",
-		"languageSelector",
 		"licenseSelector",
 		"selectedLicense",
 		"selectedBadges",
@@ -19,7 +18,8 @@
 		"generateSectionsButton",
 		"templatesSelector",
 		"languageCheatsheet",
-		"readmeGenerator"
+		"readmeGenerator",
+		"syntaxSelector"
 	],
 	"name" : "CGReadmeUI",
 	"type" : "normal"

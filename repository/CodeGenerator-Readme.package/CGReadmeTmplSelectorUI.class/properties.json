@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "CodeGenerator-Readme-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"templateList",
+		"templatePreview",
+		"toolbar",
+		"template",
+		"onSelectBlock"
+	],
+	"name" : "CGReadmeTmplSelectorUI",
+	"type" : "normal"
+}

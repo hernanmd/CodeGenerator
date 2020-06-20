@@ -1,11 +1,10 @@
-accessing
+initialization
 initializeWidgets
 	" Private - See superimplementor's comment "
 
 	self instantiateModels: #(
-		templateList 		SpcLabeledListSelectorTextArea
+		templateList 		SpcLabeledDropSelectorTextArea
 		toolbar 				SpcTwoButtonToolbar).
 	self initializeTemplateList.
-	self initializeTemplatePreview.
-"	self initializeToolbar.
-	self initializeFocus"
+	self initializeToolbar.
+	"self initializeFocus"

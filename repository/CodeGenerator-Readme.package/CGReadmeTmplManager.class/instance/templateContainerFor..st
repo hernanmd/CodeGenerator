@@ -1,6 +1,6 @@
 accessing
-templatesFor: aString 
+templateContainerFor: aString 
 	" Answer a <Collection> of <FileReference> template files in the receiver, matching aString "
 
-	^ self templatesAtSectionLocation: (self sectionLocationFor: aString)
+	^ CGReadmeTemplateContainer at: self templatesDir named: aString
 		

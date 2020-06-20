@@ -1,9 +1,9 @@
 comparing
-= aCGGitHubREADMETemplate
+= aCGReadmeTemplate
 
-	self == aCGGitHubREADMETemplate
+	self == aCGReadmeTemplate
 		ifTrue: [ ^ true ].
-	self class = aCGGitHubREADMETemplate class
+	self class = aCGReadmeTemplate class
 		ifFalse: [ ^ false ].
-	^ self templateName = aCGGitHubREADMETemplate templateName
+	^ self templateLocation = aCGReadmeTemplate templateLocation
 	

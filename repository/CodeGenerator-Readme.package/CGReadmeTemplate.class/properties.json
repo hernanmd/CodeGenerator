@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"templateName"
+		"templateLocation"
 	],
 	"name" : "CGReadmeTemplate",
 	"type" : "normal"

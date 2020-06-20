@@ -1,16 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposablePresenter",
+	"super" : "Object",
 	"category" : "CodeGenerator-Readme-Templates",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"templateList",
-		"templatePreview",
-		"toolbar",
-		"template"
+		"location",
+		"templateManager"
 	],
-	"name" : "CGReadmeTmplSelector",
+	"name" : "CGReadmeTemplateContainer",
 	"type" : "normal"
 }

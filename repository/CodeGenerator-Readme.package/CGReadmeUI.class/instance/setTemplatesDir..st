@@ -2,7 +2,7 @@ initialization
 setTemplatesDir: text
 	" If text is a FileReference to a valid template directory, then set it to use as the new templates directory "
 	
-	(text notNil and: [ text notEmpty ]) 
+	text notNil 
 		ifTrue: [ 
 			text asFileReference isDirectory
 				ifTrue: [ 
