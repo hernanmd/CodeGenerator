@@ -16,7 +16,7 @@ defaultSpec
 							add: #generateSectionsButton height: self inputTextHeight ];
 					newColumn: [ : r |
 						r 
-							add: #languageCheatsheet 	height: self inputTextHeight * 5;
+							add: #syntaxCheatsheet 	height: self inputTextHeight * 5;
 							add: #mdTextArea;
 							add: #toolbar 					height:  self toolbarHeight ] ];
 			yourself.

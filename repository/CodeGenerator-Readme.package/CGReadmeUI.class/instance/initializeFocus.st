@@ -5,4 +5,11 @@ initializeFocus
 	self focusOrder
 		add: self repositoryName;
 		add: self userName;
-		add: self templatesSelector. 
+		add: self templatesSelector;
+		add: self licenseSelector;
+		"add: self syntaxSelector;"
+		add: self sectionSelector;
+		add: self generateSectionsButton;
+"		add: self mdTextArea;"
+		add: self toolbar
+		

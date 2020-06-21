@@ -17,9 +17,9 @@
 		"clearButton",
 		"generateSectionsButton",
 		"templatesSelector",
-		"languageCheatsheet",
 		"readmeGenerator",
-		"syntaxSelector"
+		"syntaxSelector",
+		"syntaxCheatsheet"
 	],
 	"name" : "CGReadmeUI",
 	"type" : "normal"

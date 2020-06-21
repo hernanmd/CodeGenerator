@@ -1,0 +1,4 @@
+accessing
+readmeRepoIdentifier
+	
+	^ '.cgReadmeRepo.identifier'

@@ -5,7 +5,8 @@ initializeSyntaxSelector
 		setItems: CGReadme markupSyntaxList;
 		label: 'Syntax';
 		whenSelectedItemChanged: [ : item | 
-			self languageCheatsheet text: (self readmeGenerator syntaxSheetFor: item) ].
+			self syntaxCheatsheet text: (self readmeGenerator syntaxSheetFor: item) ].
 
-	self languageCheatsheet
-		label: 'Syntax Cheatsheet'.
+	self syntaxCheatsheet
+		label: 'Syntax Cheatsheet';
+		whenBuiltDo: [ self syntaxSelector setIndex: 1 ]

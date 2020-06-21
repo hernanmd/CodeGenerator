@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "CodeGenerator-Readme-Badges-ShieldsIO",
+	"super" : "Announcement",
+	"category" : "CodeGenerator-Readme-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CGShieldsReader",
+	"name" : "CGReadmeSectionsAnnUpdate",
 	"type" : "normal"
 }

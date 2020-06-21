@@ -1,4 +1,5 @@
 private
 delete
+	" Close the receiver after confirmation "
 
-	(self confirm: 'Close GitHub README.md Generator') and: [ super delete ]
+	(self confirm: 'Close ' ,  self title) and: [ super delete ]

@@ -1,13 +1,13 @@
-initialization
-setTemplatesDir: text
+callbacks
+setTemplatesDir: textOrFileReference
 	" If text is a FileReference to a valid template directory, then set it to use as the new templates directory "
 	
-	text notNil 
+	textOrFileReference notNil 
 		ifTrue: [ 
-			text asFileReference isDirectory
+			textOrFileReference asFileReference isDirectory
 				ifTrue: [ 
-					self readmeGenerator templatesDir: text asFileReference.
+					self readmeGenerator templatesDir: textOrFileReference asFileReference.
 					self informMessage: self templatesSummary ]
-				ifFalse: [ self informMessage: text asString , ' is not a Directory' ] ]
+				ifFalse: [ self informMessage: textOrFileReference asString , ' is not a Directory' ] ]
 		ifFalse: [ 
 			self informMessage: 'Entered text should not be empty' ]

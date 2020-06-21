@@ -12,12 +12,12 @@ initializeWidgets
 			#clearButton 				#SpcOneButtonToolbar 
 			#mdTextArea 					#SpcLabeledTextArea 
 			#syntaxSelector 			#SpcLabeledDropList
-			#languageCheatsheet 		#SpcLabeledTextArea
+			#syntaxCheatsheet 			#SpcLabeledTextArea
 			#toolbar 						#SpcThreeButtonToolbar 
-			generateSectionsButton 	SpcTwoButtonToolbar).
+			#generateSectionsButton 	#SpcTwoButtonToolbar).
 	self initializeTemplatesSelector.
 	self initializeLicenseSelector.
-	self sectionSelector setItems: CGReadmeTmplManager sections.
+	self initializeSectionSelector.
 	self initializeLabels.
 	self initializeSyntaxSelector.
 	self initializeButtons.

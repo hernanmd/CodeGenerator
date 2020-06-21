@@ -6,6 +6,4 @@ initializeTemplatesSelector
 		label: 'Templates';
 		ghostText: 'Please select template directory';
 		textValue: self readmeGenerator templatesDir fullName;
-		whenTextChanged: [ : fileRef | 
-			self setTemplatesDir: fileRef.
-			self templatesSelector textValuePending: fileRef fullName ]
+		whenTextChanged: [ : dirRef |  self selectTemplateDir: dirRef ]
