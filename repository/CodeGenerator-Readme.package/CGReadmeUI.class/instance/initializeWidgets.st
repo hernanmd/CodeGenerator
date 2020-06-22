@@ -20,5 +20,6 @@ initializeWidgets
 	self initializeSectionSelector.
 	self initializeLabels.
 	self initializeSyntaxSelector.
+	self initializeTextArea.
 	self initializeButtons.
 	self initializeFocus

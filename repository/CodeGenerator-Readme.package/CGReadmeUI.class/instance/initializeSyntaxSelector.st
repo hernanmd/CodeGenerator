@@ -9,4 +9,7 @@ initializeSyntaxSelector
 
 	self syntaxCheatsheet
 		label: 'Syntax Cheatsheet';
-		whenBuiltDo: [ self syntaxSelector setIndex: 1 ]
+		whenBuiltDo: [ : ann |
+			self syntaxSelector setIndex: 1.
+			(ann widget findDeeplyA: RubPluggableTextMorph) 
+				font: StandardFonts codeFont ]
