@@ -1,4 +1,4 @@
-utility
+utilities
 fileContents: aPath
 	" Answer a String with the contents of the file located at aPath "
 	

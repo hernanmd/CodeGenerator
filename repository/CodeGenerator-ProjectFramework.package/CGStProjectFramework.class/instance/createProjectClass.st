@@ -1,4 +1,4 @@
-initialize-release
+initialization
 createProjectClass
 
 	(self projectClassName isNil or: [ self projectClassName isEmpty ])

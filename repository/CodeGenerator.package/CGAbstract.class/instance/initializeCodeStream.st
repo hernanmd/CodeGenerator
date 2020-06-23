@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initializeCodeStream
 	" Private - Initialize receiver's code stream "
 	

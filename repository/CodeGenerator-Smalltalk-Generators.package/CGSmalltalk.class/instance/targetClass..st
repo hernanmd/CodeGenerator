@@ -4,12 +4,10 @@ targetClass: aClassOrSymbol
 	Fix : If aClassOrSymbol already exists and is valid class, then targetClassPrefix is not prefixed and class is not created "
 
 	| newClassName |
-	
 	newClassName := aClassOrSymbol.
-	(targetClass := self classFor: aClassOrSymbol) isNil
-		ifTrue: [ 
-			newClassName := self hasTargetClassPrefix 
+	(targetClass := self classFor: aClassOrSymbol)
+		ifNil: [ newClassName := self hasTargetClassPrefix
 				ifTrue: [ self targetClassPrefix , aClassOrSymbol ]
 				ifFalse: [ aClassOrSymbol ].
 			self generateClass: newClassName ].
-	targetClass := self classFor: newClassName.
+	targetClass := self classFor: newClassName

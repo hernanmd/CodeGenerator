@@ -1,4 +1,4 @@
-initialize-release
+initialization
 resetCodeStream
 	" Clean receiver's code stream "
 

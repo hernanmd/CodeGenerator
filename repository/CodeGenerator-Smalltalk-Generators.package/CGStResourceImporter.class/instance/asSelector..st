@@ -1,4 +1,4 @@
-utility
+utilities
 asSelector: aFilename
 	" Private - Taken and adapted from Seaside "
 

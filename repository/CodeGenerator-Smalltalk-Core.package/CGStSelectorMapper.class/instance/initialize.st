@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initialize
 	" Private - Map Smalltalk binary operators to selector names "
 

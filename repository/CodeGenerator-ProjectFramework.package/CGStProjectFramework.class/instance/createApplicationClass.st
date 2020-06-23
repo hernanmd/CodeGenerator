@@ -1,4 +1,4 @@
-initialize-release
+initialization
 createApplicationClass
 
 	(self applicationClassName isNil or: [ self applicationClassName isEmpty ])

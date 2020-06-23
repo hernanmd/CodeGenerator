@@ -1,4 +1,4 @@
-utility
+utilities
 platform
 
 	^ GRPlatform current 

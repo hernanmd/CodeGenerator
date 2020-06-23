@@ -1,4 +1,4 @@
-utility
+utilities
 promptDirectory
 	" Private - Answer a FileDirectory for a chosen location "
 
