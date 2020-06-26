@@ -5,7 +5,7 @@ fetchLicenseJSON
 	[ self httpRequest get ]
 		on: HTTPProgress
 		do: [ :progress | 
-			progress ifNotEmpty: [ bar current: progress percentage ].
+			progress isEmpty ifFalse: [ bar current: progress percentage ].
 			progress resume ] ] asJob run ]
 		on: ZnHttpUnsuccessful
 		do: [ :exception | 
