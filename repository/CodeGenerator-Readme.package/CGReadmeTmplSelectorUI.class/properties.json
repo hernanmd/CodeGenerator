@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ComposablePresenter",
-	"category" : "CodeGenerator-Readme-UI",
+	"category" : "CodeGenerator-Readme-UI-Templates",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

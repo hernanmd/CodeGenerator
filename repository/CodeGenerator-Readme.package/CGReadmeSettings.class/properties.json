@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CodeGenerator-Readme-UI-Settings",
+	"classinstvars" : [
+		"owner"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"Language",
+		"Username"
+	],
+	"instvars" : [ ],
+	"name" : "CGReadmeSettings",
+	"type" : "normal"
+}

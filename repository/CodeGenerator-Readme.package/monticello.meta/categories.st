@@ -5,3 +5,7 @@ SystemOrganization addCategory: #'CodeGenerator-Readme-Core'!
 SystemOrganization addCategory: #'CodeGenerator-Readme-Licenses-SPDX'!
 SystemOrganization addCategory: #'CodeGenerator-Readme-Templates'!
 SystemOrganization addCategory: #'CodeGenerator-Readme-UI'!
+SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Badges'!
+SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Licenses'!
+SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Settings'!
+SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Templates'!

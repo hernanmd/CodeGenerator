@@ -5,8 +5,8 @@ setTemplatesDir: textOrFileReference
 	textOrFileReference
 		ifNil: [ self informMessage: 'Entered text should not be empty' ]
 		ifNotNil: [ textOrFileReference asFileReference isDirectory
-				ifTrue: [ self readmeGenerator
-						templatesDir: textOrFileReference asFileReference.
+				ifTrue: [ 
+					self readmeGenerator templatesDir: textOrFileReference asFileReference.
 					self informMessage: self templatesSummary ]
-				ifFalse: [ self
-						informMessage: textOrFileReference asString , ' is not a Directory' ] ]
+				ifFalse: [ 
+					self informMessage: textOrFileReference asString , ' is not a Directory' ] ]

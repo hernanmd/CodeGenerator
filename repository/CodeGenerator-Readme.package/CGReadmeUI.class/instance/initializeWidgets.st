@@ -14,7 +14,7 @@ initializeWidgets
 			#syntaxSelector 			#SpcLabeledDropList
 			#syntaxCheatsheet 			#SpcLabeledTextArea
 			#toolbar 						#SpcThreeButtonToolbar 
-			#generateSectionsButton 	#SpcTwoButtonToolbar).
+			#generateSectionsButton 	#SpcThreeButtonToolbar).
 	self initializeTemplatesSelector.
 	self initializeLicenseSelector.
 	self initializeSectionSelector.

@@ -19,7 +19,8 @@
 		"templatesSelector",
 		"readmeGenerator",
 		"syntaxSelector",
-		"syntaxCheatsheet"
+		"syntaxCheatsheet",
+		"textAreaLabel"
 	],
 	"name" : "CGReadmeUI",
 	"type" : "normal"

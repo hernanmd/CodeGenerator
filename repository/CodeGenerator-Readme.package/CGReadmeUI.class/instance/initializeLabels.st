@@ -6,4 +6,4 @@ initializeLabels
 	self userName
 		ghostText: 'Please enter your user name on GitHub';
 		label: 'Username'.
-	self mdTextArea label: 'README'
+	self mdTextArea label: self textAreaLabel
