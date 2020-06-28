@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/27/2020 22:32",
+	"super" : "ComposablePresenter",
+	"category" : "CodeGenerator-Readme-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"clearButton",
+		"badgesButton",
+		"settingsButton",
+		"generateButton",
+		"closeButton",
+		"saveButton",
+		"copyButton"
+	],
+	"name" : "CGReadmeToolbarUI",
+	"type" : "normal"
+}

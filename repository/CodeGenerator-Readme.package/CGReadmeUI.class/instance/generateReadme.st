@@ -6,4 +6,4 @@ generateReadme
 	readmeFile := self openSaveDialog.
 	readmeFile ifNotNil: [ : fileName |
 		fileName asFileReference writeStreamDo: [ : stream |
-			stream nextPutAll: self mdTextArea textValuePending ] ]
+			stream nextPutAll: self textArea textValuePending ] ]

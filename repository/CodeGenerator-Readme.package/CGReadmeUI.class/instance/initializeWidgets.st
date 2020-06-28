@@ -9,17 +9,14 @@ initializeWidgets
 			#userName 					#SpcLabeledTextField 
 			#sectionSelector 			#SpcMultipleCheckListModel 
 			#licenseSelector 			#SpcLabeledTextFieldSelector 
-			#clearButton 				#SpcOneButtonToolbar 
-			#mdTextArea 					#SpcLabeledTextArea 
+			#textArea 					#SpcLabeledTextArea 
 			#syntaxSelector 			#SpcLabeledDropList
 			#syntaxCheatsheet 			#SpcLabeledTextArea
-			#toolbar 						#SpcThreeButtonToolbar 
-			#generateSectionsButton 	#SpcThreeButtonToolbar).
+			#toolbar 						#CGReadmeToolbarUI).
 	self initializeTemplatesSelector.
 	self initializeLicenseSelector.
 	self initializeSectionSelector.
 	self initializeLabels.
 	self initializeSyntaxSelector.
 	self initializeTextArea.
-	self initializeButtons.
 	self initializeFocus

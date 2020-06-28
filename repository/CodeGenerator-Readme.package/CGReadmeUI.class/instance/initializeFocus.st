@@ -9,7 +9,4 @@ initializeFocus
 		add: self licenseSelector;
 		"add: self syntaxSelector;"
 		add: self sectionSelector;
-		add: self generateSectionsButton;
-"		add: self mdTextArea;"
-		add: self toolbar
-		
+		add: self textArea

@@ -10,17 +10,16 @@
 		"sectionSelector",
 		"userName",
 		"toolbar",
-		"mdTextArea",
 		"licenseSelector",
 		"selectedLicense",
 		"selectedBadges",
-		"clearButton",
 		"generateSectionsButton",
 		"templatesSelector",
 		"readmeGenerator",
 		"syntaxSelector",
 		"syntaxCheatsheet",
-		"textAreaLabel"
+		"textAreaLabel",
+		"textArea"
 	],
 	"name" : "CGReadmeUI",
 	"type" : "normal"

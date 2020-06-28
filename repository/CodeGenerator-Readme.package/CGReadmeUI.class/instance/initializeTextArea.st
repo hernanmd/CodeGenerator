@@ -1,7 +1,7 @@
 initialization
 initializeTextArea
 	
-	self mdTextArea 
+	self textArea 
 		whenBuiltDo: [ : ann |
 			(ann widget findDeeplyA: RubPluggableTextMorph) 
 				font: StandardFonts codeFont  ]
