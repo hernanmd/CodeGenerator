@@ -1,3 +1,5 @@
 accessing
-badgeImg: anObject
-	badgeImg := anObject
+badgeImg: aFormOrNil
+	" Set the receiver image as <Form> or nil if none found "
+
+	badgeImg := aFormOrNil

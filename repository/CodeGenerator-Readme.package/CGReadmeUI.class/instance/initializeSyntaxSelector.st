@@ -11,5 +11,4 @@ initializeSyntaxSelector
 		label: 'Syntax Cheatsheet';
 		whenBuiltDo: [ : ann |
 			self syntaxSelector setIndex: 1.
-			(ann widget findDeeplyA: RubPluggableTextMorph) 
-				font: StandardFonts codeFont ]
+			self setCodeFont: ann ]

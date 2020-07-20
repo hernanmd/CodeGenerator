@@ -1,5 +1,6 @@
 initialization
 badgesTypeItems
+	" Private - Visit https://shields.io to update this method "
 
 	^ #(
 		'Build'
@@ -13,4 +14,10 @@ badgesTypeItems
 		'Social'
 		'Version'
 		'Other'
-		)
+		'Platform Support'
+		'Monitoring'
+		'Activity'
+		'Size'
+		'Analysis'
+		'Coverage'
+		) asSortedCollection
