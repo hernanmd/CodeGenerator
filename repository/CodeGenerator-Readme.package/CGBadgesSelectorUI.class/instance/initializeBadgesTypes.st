@@ -3,4 +3,4 @@ initializeBadgesTypes
 
 	self badgeTypes
 		label: 'Badge types';
-		items: self badgesTypeItems.
+		items: self badgesCategories asSortedCollection.

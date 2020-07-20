@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/12/2019 17:42",
 	"super" : "ComposablePresenter",
-	"category" : "CodeGenerator-Readme-UI-Badges",
+	"category" : "CodeGenerator-Readme-Badges-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

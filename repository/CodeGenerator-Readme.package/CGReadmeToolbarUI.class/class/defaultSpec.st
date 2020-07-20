@@ -7,8 +7,8 @@ defaultSpec
 					add: #clearButton;
 					add: #settingsButton;
 					add: #copyButton;
-					add: #badgesButton;
 					add: #generateButton;
+					add: #previewButton;
 					add: #saveButton;
 					add: #closeButton;
 					yourself ] height: self inputTextHeight;

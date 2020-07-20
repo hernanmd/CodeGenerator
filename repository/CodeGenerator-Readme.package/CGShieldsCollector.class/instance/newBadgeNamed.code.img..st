@@ -4,4 +4,5 @@ newBadgeNamed: nameString code: codeString img: imgURLString
 
 	^ CGShieldsBadge 
 		named: nameString 
+		code: codeString
 		img: (self badgeImageAt: imgURLString)

@@ -1,4 +1,5 @@
 settings
 updateShields
+	" Connect to the remote repository and download the available badges  "
 
-	self halt.
+	CGShieldsCollector new collectAllBadges

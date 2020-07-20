@@ -2,4 +2,4 @@ initialization
 title
 	" Private - See superimplementor's comment "
 
-	^ 'Badges Selector'
+	^ 'README Generator - Badges Selector'

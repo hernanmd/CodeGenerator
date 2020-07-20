@@ -1,4 +1,4 @@
 accessing
 badges
 	^ badges
-		ifNil: [ badges := CGReadmeBadges new ]
+		ifNil: [ badges := CGAbstractBadgesCollection new ]

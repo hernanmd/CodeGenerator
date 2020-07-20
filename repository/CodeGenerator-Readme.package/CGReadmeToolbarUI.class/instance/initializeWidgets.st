@@ -4,9 +4,9 @@ initializeWidgets
 	self instantiateModels: #(
 		clearButton 			ButtonPresenter
 		settingsButton 		ButtonPresenter
-		badgesButton 		ButtonPresenter
 		copyButton 			ButtonPresenter
 		generateButton 		ButtonPresenter
+		previewButton 		ButtonPresenter
 		saveButton 			ButtonPresenter
 		closeButton 			ButtonPresenter					
 		).

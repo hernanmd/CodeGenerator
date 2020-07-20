@@ -6,8 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"badges"
+		"badgeName",
+		"badgeImg",
+		"badgeCode"
 	],
-	"name" : "CGReadmeBadges",
+	"name" : "CGAbstractBadge",
 	"type" : "normal"
 }

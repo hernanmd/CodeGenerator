@@ -1,6 +1,5 @@
 accessing
 badgesAt: aString 
+	" Answer a <CGShieldsBadgeCollection> "
 
-	^ self badges
-		at: aString
-		ifAbsentPut: [ self collectBadgesAt: aString asLowercase ]
+	^ self badges badgesAt: aString

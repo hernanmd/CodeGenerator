@@ -1,7 +1,7 @@
-initialization
-badgesTypeItems
-	" Private - Visit https://shields.io to update this method "
-
+accessing
+badgeCategories
+	" Answer a <Collection> of <String> with the available badge categories for the receiver "
+	
 	^ #(
 		'Build'
 		'Chat'
@@ -20,4 +20,4 @@ badgesTypeItems
 		'Size'
 		'Analysis'
 		'Coverage'
-		) asSortedCollection
+		)

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "CGAbstractBadgesCollection",
 	"category" : "CodeGenerator-Readme-Badges-ShieldsIO",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CGShieldsReader",
+	"name" : "CGShieldsBadgeCollection",
 	"type" : "normal"
 }

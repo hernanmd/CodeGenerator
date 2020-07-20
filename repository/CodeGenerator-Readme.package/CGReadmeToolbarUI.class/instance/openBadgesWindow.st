@@ -1,4 +1,5 @@
 callbacks
 openBadgesWindow
+	" Open the badges selection window "
 
-	(CGBadgesSelectorUI newWithOwner: self owner) openWithSpec
+	CGBadgesSelectorUI new openWithSpec.

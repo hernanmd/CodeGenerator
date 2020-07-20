@@ -1,25 +1,11 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/16/2018 19:19",
-	"super" : "Object",
+	"super" : "CGAbstractBadge",
 	"category" : "CodeGenerator-Readme-Badges-ShieldsIO",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"badgeName",
-		"badgeImg",
-		"subject",
-		"status",
-		"color",
-		"style",
-		"logo",
-		"colorA",
-		"colorB",
-		"imgFormat",
-		"service",
-		"repository",
-		"user"
-	],
+	"instvars" : [ ],
 	"name" : "CGShieldsBadge",
 	"type" : "normal"
 }

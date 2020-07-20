@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "CGShieldsBadge",
+	"category" : "CodeGenerator-Readme-Badges-ShieldsIO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subject",
+		"status",
+		"color",
+		"style",
+		"logo",
+		"colorA",
+		"colorB",
+		"imgFormat",
+		"service",
+		"repository",
+		"user"
+	],
+	"name" : "CGShieldsCustomBadge",
+	"type" : "normal"
+}

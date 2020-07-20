@@ -4,15 +4,12 @@ initializeButtons
 	self closeButton  
 		label: 'Close';
 		action: [ self delete ].
-	self badgesButton
-		label: 'Badges...';
-		action: [ self openBadgesWindow ].
 	self saveButton 
 		label: 'Save...';
 		action: [ self generateReadme ].
 	self copyButton
-		label: 'Copy';
-		action: [ self copyReadme ].
+		label: 'Badges';
+		action: [ self openBadgesWindow ].
 	self clearButton 
 		label: 'Clear';
 		action: [ self clearAll ].
@@ -22,3 +19,6 @@ initializeButtons
 	self generateButton
 		label: 'Generate';
 		action: [ self generateSections ].
+	self previewButton
+		label: 'Preview...';
+		action: [ self previewREADME ].
