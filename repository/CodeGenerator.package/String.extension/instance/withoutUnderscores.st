@@ -5,7 +5,7 @@ withoutUnderscores
 	| writeStream upperCaseNext |
 	
 	upperCaseNext := false.
-	writeStream := WriteStream on: (self new: 10).
+	writeStream := WriteStream on: String empty.
 	self pairsDo: [ : a : b |
 		a = $_ 
 			ifTrue: [ writeStream nextPut: b asUppercase  ]
