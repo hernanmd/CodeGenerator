@@ -1,0 +1,4 @@
+settings
+badgesFilename
+	
+	^ BadgesFilename

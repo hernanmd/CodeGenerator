@@ -2,4 +2,4 @@ accessing
 collectAllBadges
 	" Answer a <Collection> of all available <CGShieldsBadge> "
 
-	^ self collectBadgesAt: nil asLowercase
+	^ self collectBadgesAt: (self badgeCategories collect: #asLowercase)
