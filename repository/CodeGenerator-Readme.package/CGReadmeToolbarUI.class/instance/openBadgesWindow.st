@@ -2,4 +2,7 @@ callbacks
 openBadgesWindow
 	" Open the badges selection window "
 
-	CGBadgesSelectorUI new openWithSpec.
+	CGBadgesSelectorUI basicNew 
+		owner: self owner;
+		initialize;
+		openWithSpec.

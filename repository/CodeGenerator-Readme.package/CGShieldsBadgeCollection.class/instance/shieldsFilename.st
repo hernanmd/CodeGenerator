@@ -1,0 +1,4 @@
+initialization
+shieldsFilename
+
+	^ 'shields.badges'

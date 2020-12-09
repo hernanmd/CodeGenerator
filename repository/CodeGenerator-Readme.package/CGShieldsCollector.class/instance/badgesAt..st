@@ -1,5 +1,5 @@
 accessing
-badgesAt: aString 
-	" Answer a <CGShieldsBadgeCollection> "
+badgesAt: badgesCategory 
+	" Answer a <Collection> of <CGShieldsBadge> of category String badgesCategory "
 
-	^ self badges badgesAt: aString
+	^ self badges badgesAt: badgesCategory
