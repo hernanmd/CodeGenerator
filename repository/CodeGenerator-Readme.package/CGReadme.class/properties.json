@@ -13,7 +13,8 @@
 		"repositoryName",
 		"languageTag",
 		"spdx",
-		"templateManager"
+		"templateManager",
+		"username"
 	],
 	"name" : "CGReadme",
 	"type" : "normal"

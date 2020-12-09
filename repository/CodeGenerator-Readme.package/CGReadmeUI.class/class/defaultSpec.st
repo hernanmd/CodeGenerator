@@ -8,8 +8,8 @@ defaultSpec
 					c
 						newColumn: [ : r | 
 							r
-								add: #repositoryName 			height: self inputTextHeight;
-								add: #userName 					height: self inputTextHeight;
+								add: #repositoryNameField 	height: self inputTextHeight;
+								add: #userNameField			height: self inputTextHeight;
 								add: #templatesSelector 		height: self inputTextHeight + 5;
 								add: #licenseSelector 		height: self inputTextHeight + 5;
 								add: #syntaxSelector 			height: self inputTextHeight + 5;

@@ -5,8 +5,8 @@ initializeWidgets
 	self
 		instantiateModels: #(
 			#templatesSelector 		#SpcLabeledTextFieldWithBrowseButton 
-			#repositoryName 			#SpcLabeledTextField 
-			#userName 					#SpcLabeledTextField 
+			#repositoryNameField 		#SpcLabeledTextField 
+			#userNameField				#SpcLabeledTextField 
 			#sectionSelector 			#SpcMultipleCheckListModel 
 			#licenseSelector 			#SpcLabeledTextFieldSelector 
 			#textArea 					#SpcLabeledTextArea 

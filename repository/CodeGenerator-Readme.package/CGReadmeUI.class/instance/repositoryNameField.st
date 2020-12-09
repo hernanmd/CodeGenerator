@@ -1,5 +1,5 @@
 accessing
-repositoryName
+repositoryNameField
 	" Answer the repositoryName of this CGGitHubREADME_UI "
 
-	^ repositoryName
+	^ repositoryNameField

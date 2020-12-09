@@ -1,4 +1,4 @@
-accessing
+accessing - templates
 templateManager
 	
 	^ templateManager

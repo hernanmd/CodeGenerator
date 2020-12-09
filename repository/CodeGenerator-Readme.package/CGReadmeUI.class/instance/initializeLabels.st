@@ -1,9 +1,10 @@
 initialization
 initializeLabels
-	self repositoryName
+
+	self repositoryNameField
 		ghostText: 'Please enter the repository name on GitHub';
 		label: 'Repository'.
-	self userName
+	self userNameField
 		ghostText: 'Please enter your user name on GitHub';
 		label: 'Username'.
 	self textArea label: self textAreaLabel

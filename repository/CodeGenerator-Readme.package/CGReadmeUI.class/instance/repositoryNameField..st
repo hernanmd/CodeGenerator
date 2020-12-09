@@ -1,5 +1,5 @@
 accessing
-repositoryName: anObject
+repositoryNameField: anObject
 	" Sets the repositoryName of this CGGitHubREADME_UI "
 
-	repositoryName := anObject
+	repositoryNameField := anObject

@@ -6,9 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"repositoryName",
 		"sectionSelector",
-		"userName",
 		"toolbar",
 		"licenseSelector",
 		"selectedLicense",
@@ -19,7 +17,9 @@
 		"syntaxSelector",
 		"syntaxCheatsheet",
 		"textAreaLabel",
-		"textArea"
+		"textArea",
+		"repositoryNameField",
+		"userNameField"
 	],
 	"name" : "CGReadmeUI",
 	"type" : "normal"

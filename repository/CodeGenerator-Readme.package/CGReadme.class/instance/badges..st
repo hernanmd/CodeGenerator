@@ -1,3 +1,3 @@
-accessing
+accessing - badges
 badges: anObject
 	badges := anObject
