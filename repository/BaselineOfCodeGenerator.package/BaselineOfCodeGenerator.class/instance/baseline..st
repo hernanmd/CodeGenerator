@@ -7,8 +7,8 @@ baseline: spec
 			spec
 				baseline: 'CommonUtils' 			with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.2/repository' ];
 				baseline: 'StringExtensions'	with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
-				baseline: 'SpecUIAddOns'			with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
-				baseline: 'Beacon'					with: [ spec repository: 'github://pharo-project/pharo-beacon/repository' ].
+				baseline: 'SpecUIAddOns'			with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
+
 				self 
 					projectForInstanceEncoder: spec;
 					projectForMustache: spec;
