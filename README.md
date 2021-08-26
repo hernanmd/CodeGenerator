@@ -16,10 +16,11 @@ The Core version includes only the basic abstract classes which provide core fea
 
 [//]: # (pi)
 ```smalltalk
-Metacello new	
-  baseline: 'CodeGenerator';	
-  repository: 'github://hernanmd/CodeGenerator/repository';	
-  load.
+EpMonitor disableDuring: [ 
+	Metacello new	
+		baseline: 'CodeGenerator';	
+		repository: 'github://hernanmd/CodeGenerator/repository';	
+		load ]
 ```
 
 Each of the following generators has installer expressions described in their own section.
@@ -359,7 +360,7 @@ If you'd like to make some changes yourself, see the following:
 	
 This software is licensed under the MIT License.
 
-Copyright Hernán Morales Durand, 2018.
+Copyright Hernán Morales Durand, 2018-2021.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
