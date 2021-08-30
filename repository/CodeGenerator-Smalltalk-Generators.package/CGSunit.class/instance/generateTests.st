@@ -4,6 +4,6 @@ generateTests
 
 	self 
 		generateTestClass: self targetClass;
-		generateMethods: self inputClass localSelectors;
+		generateMethods: self inputClass asClass localSelectors;
 		generateMethodSetUp;
 		generateMethodTearDown.
