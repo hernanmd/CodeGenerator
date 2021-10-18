@@ -4,6 +4,6 @@ importResources
 	
 	self filesInPath do: [ : fName | 
 		| picture  |
-		picture := ImageReadWriter formFromStream: (FileStream readOnlyFileNamed: fName) binary.
+		picture := ImageReadWriter formFromStream: fName asFileReference readStream binary.
 		self targetSelector: (self asSelector: fName asFileReference basename).
 		self generateFor: picture ].
