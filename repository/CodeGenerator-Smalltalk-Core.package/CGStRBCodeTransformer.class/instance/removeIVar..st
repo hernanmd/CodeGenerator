@@ -1,12 +1,10 @@
 code-cleaning
-removeIVar: iVarName
+removeIVar: instVarName
+	" Remove instVarName <String> from the receiver's targetClass. If the variable has references, then remove instVarName anyway, let the user handle references "
 
-	| model |
-	
-	model := RBNamespace new classNamed: self targetClass name; yourself.
-	[ (RBRemoveInstanceVariableRefactoring
-			model: model
-			variable: iVarName
-			class: self targetClass) transform; execute ]
+	self targetClass realClass removeInstVarNamed: instVarName.
+"	[ (RBRemoveInstanceVariableRefactoring
+			variable: instVarName
+			class: self targetClass) execute ]
 	on: RBRefactoringError
-	do: [ : ex | ]
+	do: [ : ex | self halt. ex resume ]"
