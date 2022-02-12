@@ -44,10 +44,11 @@ spec
 How to install:
 
 ```smalltalk
-Metacello new	
-  baseline: 'CodeGenerator';	
-  repository: 'github://hernanmd/CodeGenerator/repository';	
-  load: #('Smalltalk-Generators').
+EpMonitor disableDuring: [ 
+	Metacello new	
+	baseline: 'CodeGenerator';	
+	repository: 'github://hernanmd/CodeGenerator/repository';	
+	load: #('Smalltalk-Generators') ].
 ```
 
 ## Simple class with getter and setter
