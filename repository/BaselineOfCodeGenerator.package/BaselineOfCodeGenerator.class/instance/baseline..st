@@ -5,7 +5,7 @@ baseline: spec
 		for: #(common)
 		do: [ 
 			spec
-				baseline: 'CommonUtils' 			with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.4/repository' ];
+				baseline: 'CommonUtils' 			with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.5/repository' ];
 				baseline: 'StringExtensions'	with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
 				baseline: 'SpecUIAddOns'			with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
 
@@ -41,7 +41,7 @@ baseline: spec
 			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo7' ].
 			spec package: 'CodeGenerator-Pharo7' ].
 		
-		spec for: #(#'pharo8.x' #'pharo9.x') do: [ 
+		spec for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x') do: [ 
 			spec package: 'CodeGenerator' with: [ spec requires: 'CodeGenerator-Pharo8' ].
 			spec package: 'CodeGenerator-Pharo8' ].
 	
