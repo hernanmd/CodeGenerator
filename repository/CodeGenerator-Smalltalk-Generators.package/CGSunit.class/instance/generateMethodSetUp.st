@@ -6,6 +6,5 @@ generateMethodSetUp
 						compileSource: 'setUp
 
 	super setUp.
-	self instance: self newInstance.
 ']
 
