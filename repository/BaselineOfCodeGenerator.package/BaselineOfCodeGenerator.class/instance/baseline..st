@@ -44,13 +44,11 @@ baseline: spec
 		spec for: #(#'pharo8.x' #'pharo9.x' #'pharo10.x') do: [
 			spec
 				package: 'CodeGenerator' 					with: [ spec requires: 'CodeGenerator-Pharo8' ];
-				package: 'CodeGenerator-Smalltalk-Core' 	with: [ spec requires: 'CodeGenerator-Pharo8' ];
 				package: 'CodeGenerator-Pharo8' ].
 
 		spec for: #(#'pharo11.x') do: [
 			spec
 				package: 'CodeGenerator' 					with: [ spec requires: 'CodeGenerator-Pharo11' ];
-				package: 'CodeGenerator-Smalltalk-Core' 	with: [ spec requires: 'CodeGenerator-Pharo11' ];
 				package: 'CodeGenerator-Pharo11' ].
 
 		spec
