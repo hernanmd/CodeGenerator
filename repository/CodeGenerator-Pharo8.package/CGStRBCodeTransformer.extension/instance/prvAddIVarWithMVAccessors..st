@@ -1,5 +1,5 @@
-code-generation
-prvAddIVarWithAccessors: iVarName
+*CodeGenerator-Pharo8
+prvAddIVarWithMVAccessors: iVarName
 
 	className := self targetClass name.
 	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.

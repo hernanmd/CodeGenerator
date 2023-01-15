@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "RBCreateAccessorsForVariableRefactoring",
-	"category" : "CodeGenerator-Smalltalk-Core",
+	"category" : "CodeGenerator-Pharo8",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
