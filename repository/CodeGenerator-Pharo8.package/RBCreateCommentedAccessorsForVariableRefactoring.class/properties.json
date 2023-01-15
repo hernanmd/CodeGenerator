@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RBCreateAccessorsForVariableRefactoring",
+	"category" : "CodeGenerator-Pharo8",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"comment"
+	],
+	"name" : "RBCreateCommentedAccessorsForVariableRefactoring",
+	"type" : "normal"
+}
