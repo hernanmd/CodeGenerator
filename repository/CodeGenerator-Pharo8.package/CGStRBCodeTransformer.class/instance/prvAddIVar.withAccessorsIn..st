@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo8
+private
 prvAddIVar: iVarName withAccessorsIn: aClass
 
 	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.

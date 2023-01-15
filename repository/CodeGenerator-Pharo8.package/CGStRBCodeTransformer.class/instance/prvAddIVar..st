@@ -1,4 +1,4 @@
-code-generation
+private
 prvAddIVar: iVarName
 
 	self logInfo: 'Adding instance variable named: ' , iVarName.	

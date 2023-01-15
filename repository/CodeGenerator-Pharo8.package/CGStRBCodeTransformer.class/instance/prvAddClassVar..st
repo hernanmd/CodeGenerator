@@ -1,4 +1,4 @@
-code-generation
+private
 prvAddClassVar: iVarName
 
 	self logInfo: 'Adding class variable named: ' , iVarName capitalized.	

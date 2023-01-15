@@ -1,4 +1,4 @@
-*CodeGenerator-Pharo8
+private
 prvAddIVarWithAccessors: iVarName
 
 	className := self targetClass name.
