@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CGStCodeTransformer",
+	"category" : "CodeGenerator-Pharo8",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"theClass",
+		"className"
+	],
+	"name" : "CGStRBCodeTransformer",
+	"type" : "normal"
+}
