@@ -1,9 +1,9 @@
-code-generation
+*CodeGenerator-Pharo11
 addAccessorMethods: iVarName
 
 	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.	
 	className := self targetClass name.
-	(RBCreateAccessorsForVariableRefactoring 
+	(RBCreateAccessorsForVariableTransformation 
 			model: model
 			variable: iVarName
 			class: theClass 

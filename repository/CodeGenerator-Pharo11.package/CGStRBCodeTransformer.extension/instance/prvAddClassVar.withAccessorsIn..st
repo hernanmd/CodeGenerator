@@ -1,4 +1,4 @@
-code-generation
+*CodeGenerator-Pharo11
 prvAddClassVar: iVarName withAccessorsIn: aClass
 
 	self logInfo: 'Adding accessors for class variable named: ' , iVarName capitalized.
