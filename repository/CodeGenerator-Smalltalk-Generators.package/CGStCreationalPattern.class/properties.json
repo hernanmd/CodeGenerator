@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/8/2017 15:18",
 	"super" : "CGStTemplate",
-	"category" : "CodeGenerator-Smalltalk-Generators",
+	"category" : "CodeGenerator-Smalltalk-Generators-Patterns",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

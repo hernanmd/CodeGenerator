@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "CGStResourceImporter",
-	"category" : "CodeGenerator-Smalltalk-Generators",
+	"category" : "CodeGenerator-Smalltalk-Generators-Patterns",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
