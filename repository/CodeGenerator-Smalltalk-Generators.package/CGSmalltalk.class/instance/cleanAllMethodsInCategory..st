@@ -1,6 +1,10 @@
-code-cleaning
+cleaning
 cleanAllMethodsInCategory: categoryName
-	" Remove all selectors found in categoryName "
-	
-	((self classFor: self targetClass) organization listAtCategoryNamed: categoryName)
-		do: [ : mth | (self classFor: self targetClass) removeSelector: mth ]
+	"Remove every selector classified under categoryName (a protocol name) from the target
+	 class, using the current selectorsInProtocol: API."
+
+	| cls |
+	cls := self classFor: self targetClass.
+	cls ifNil: [ ^ self ].
+	(cls selectorsInProtocol: categoryName)
+		do: [ :sel | cls removeSelector: sel ]

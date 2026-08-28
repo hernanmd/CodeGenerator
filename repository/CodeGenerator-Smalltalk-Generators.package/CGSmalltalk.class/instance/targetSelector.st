@@ -1,5 +1,6 @@
 accessing
 targetSelector
-	" Answer a <Symbol> representing the currently target selector for a method "
+	"Answer a <Symbol> for the current target selector, or nil when none is set (e.g. during
+	 template-driven generation where the selector is part of the template source)."
 
-	^ targetSelector asSymbol
+	^ targetSelector ifNotNil: [ :s | s asSymbol ]

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'CodeGenerator-Smalltalk-Core'!
+self packageOrganizer ensurePackage: #'CodeGenerator-Smalltalk-Core' withTags: #()!

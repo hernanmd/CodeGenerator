@@ -1,0 +1,1 @@
+I test the CGStSingleton design-pattern generator end-to-end: generateMethods must install the singleton class-side protocol (uniqueInstance, new, createInstance, resetUniqueInstance) and the UniqueInstance class variable via the Pharo-13 template machinery. Generated classes use the 'CGTst' prefix and are removed in tearDown.

@@ -1,8 +1,7 @@
-code-getters
+accessing
 methodNodeAt: aSelector
-	" Private - Answer a String with the source code of aSelector "
+	"Private - Answer the parsed method node for aSelector (a <Symbol>) taken from the
+	 template class, using CompiledMethod>>sourceCode (Pharo 13 removed decompileWithTemps/
+	 decompileString)."
 
-	| sourceText |	
-		
-	sourceText := (self templateMethodAt: aSelector) decompileWithTemps decompileString.
-	^ self parserClass parseMethod: sourceText
+	^ self parserClass parseMethod: (self templateMethodAt: aSelector) sourceCode

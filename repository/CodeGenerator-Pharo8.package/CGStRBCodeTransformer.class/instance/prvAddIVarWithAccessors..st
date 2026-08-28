@@ -1,16 +1,15 @@
 private
 prvAddIVarWithAccessors: iVarName
+	"Add the instance variable named iVarName (a <String>) with commented accessors to the
+	 current target class, using the modern refactoring #execute API."
 
-	className := self targetClass name.
+	| realClass |
+	realClass := self resolveClass: self targetClass.
+	realClass ifNil: [ ^ self ].
 	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.
-	(RBAddInstanceVariableRefactoring 
-			model: model
-			variable: iVarName
-			class: theClass) primitiveExecute.
+	(realClass instVarNames includes: iVarName)
+		ifFalse: [
+			(RBAddInstanceVariableRefactoring variable: iVarName class: realClass) execute ].
 	(RBCreateCommentedAccessorsForVariableRefactoring
-			model: model
-			variable: iVarName
-			class: theClass
-			classVariable: false) primitiveExecute.
-	model changes changes do: [ : change | RBRefactoryChangeManager instance performChange: change ].
-	self logInfo: 'done'.
+		variable: iVarName class: realClass classVariable: false) execute.
+	self logInfo: 'done'

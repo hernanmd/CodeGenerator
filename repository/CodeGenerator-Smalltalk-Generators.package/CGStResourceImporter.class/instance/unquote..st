@@ -1,15 +1,13 @@
-utilities
+importing
 unquote: fileTypePattern
-	" Replace invalid quoting for Smalltalk source from files matching fileTypePattern in the library subdirectory "
+	"Replace single quotes with double quotes in the source of files matching fileTypePattern
+	 in the library directory. Uses the current FileSystem API: read each matching file's
+	 contents, substitute the quotes, and write it back."
 
-	| files currFile directory |
-
+	| directory |
 	directory := fullPath pathString asFileReference.
-	files := directory fileNamesMatching: fileTypePattern.
-	files do: [ : each | currFile := directory fileNamed: each.
-              [ currFile atEnd ]
-                whileFalse: [ 
-			     (currFile findString: '''') > 0
-                        ifTrue: [ currFile nextPut: $" ].
-				 currFile next ].
-		currFile close ].
+	(directory filesMatching: fileTypePattern) do: [ :fileRef |
+		| contents |
+		contents := fileRef readStreamDo: [ :in | in upToEnd ].
+		contents := contents copyReplaceAll: (String with: $') with: (String with: $").
+		fileRef writeStreamDo: [ :out | out nextPutAll: contents ] ]

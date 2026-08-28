@@ -1,0 +1,1 @@
+I test the CGSunit generator's Pharo-13 class-creation path: generateTestClass: must install a TestCase subclass via the Fluid installer. Generated classes use the 'CGTst' prefix and are removed in tearDown.

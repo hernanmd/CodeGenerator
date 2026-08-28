@@ -1,6 +1,13 @@
-code-cleaning
+cleaning
 cleanAllMethodCategories
-	shouldCleanAllTargetMethods
-		ifTrue: [ 
-			(self methodCategoriesForClass: (self classFor: targetClass))
-				do: [ :cat | (self classFor: targetClass) organization removeCategory: cat ] ]
+	"Remove every non-unclassified protocol (and its methods) from the target class, using
+	 the current class protocol API."
+
+	| cls |
+	shouldCleanAllTargetMethods ifFalse: [ ^ self ].
+	cls := self classFor: targetClass.
+	cls ifNil: [ ^ self ].
+	(self methodCategoriesForClass: cls)
+		do: [ :cat |
+			self cleanAllMethodsInCategory: cat.
+			cls removeProtocolIfEmpty: cat ]

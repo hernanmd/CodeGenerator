@@ -1,8 +1,6 @@
 code-templates
 templateForInitializeBuilderProduct
-	" Answer a <String> with the basic family part instantiation template "
+	"Answer a <String> with the basic product-instantiation template for the Builder pattern."
 
-	self halt.
 	^ 'initialize
-	
-	^ self product: {1} new' format: { self concreteClassNamePattern }
+		^ self product: {1} new' format: { self concreteClassNamePattern }

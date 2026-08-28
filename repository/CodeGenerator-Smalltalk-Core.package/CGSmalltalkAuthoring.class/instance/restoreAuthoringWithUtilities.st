@@ -1,9 +1,11 @@
-code-authoring
+authoring
 restoreAuthoringWithUtilities
-	" Private - This is suitable for Squeak "
+	"Private - Restore the remembered author identity via the live Utilities class API. A
+	 no-op when no Utilities class is present."
 
 	| authorClass |
-	
-	authorClass := Smalltalk at: #Utilities. 
+	(Smalltalk hasClassNamed: #Utilities) ifFalse: [ ^ self ].
+	authorClass := Smalltalk at: #Utilities.
+	(authorClass respondsTo: #fullName:) ifFalse: [ ^ self ].
 	(identity isNil or: [ authorClass fullName = identity ])
 		ifFalse: [ authorClass fullName: identity ]

@@ -1,0 +1,1 @@
+I test CGStResourceImporter under Pharo 13: unquote: rewrites single quotes to double quotes in matching files using the current FileSystem API (no fileNamesMatching:). I create and remove a temporary directory per test.
