@@ -6,10 +6,13 @@ addInstanceVariableWithAccessorsAndTypes: iVarAssoc className: aString
 	 containing spaces are skipped. Refactoring warnings/errors are handled so a single
 	 problematic property does not abort a whole generation run."
 
-	(iVarAssoc key includes: Character space)
-		ifTrue: [ ^ self ].
-	[ [ self privateAddInstanceVariableWithAccessorsAndTypes: iVarAssoc className: aString ]
-		on: RBRefactoringWarning, Warning
-		do: [ :exception | self handleWarning: exception ] ]
+	(iVarAssoc key includes: Character space) ifTrue: [ ^ self ].
+	[
+		[
+			self
+				privateAddInstanceVariableWithAccessorsAndTypes: iVarAssoc
+				className: aString ]
+			on: RBRefactoringWarning , Warning
+			do: [ :exception | self handleWarning: exception ] ]
 		on: RBRefactoringError
 		do: [ :exception | self handleError: exception ]
