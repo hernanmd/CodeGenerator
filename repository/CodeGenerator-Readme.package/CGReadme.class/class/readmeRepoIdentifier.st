@@ -1,4 +1,0 @@
-accessing
-readmeRepoIdentifier
-	
-	^ '.cgReadmeRepo.identifier'

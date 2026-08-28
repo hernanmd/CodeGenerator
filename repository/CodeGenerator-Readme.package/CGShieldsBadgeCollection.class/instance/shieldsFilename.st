@@ -1,4 +1,0 @@
-initialization
-shieldsFilename
-
-	^ 'shields.badges'

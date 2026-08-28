@@ -4,7 +4,7 @@ addIVar: iVarName withAccessorsIn: aClass
 	(iVarName trimBoth includes: Character space)
 		ifTrue: [ ^ self ].
 	[ [ [ self prvAddIVar: iVarName withAccessorsIn: aClass ]
-		on: RBRefactoringFailure
+		on: RBRefactoringError
 		do: [ : exception | self handleFailure: exception ] ]
 		on: RBRefactoringWarning, Warning
 		do: [ : exception | self handleWarning: exception ] ]

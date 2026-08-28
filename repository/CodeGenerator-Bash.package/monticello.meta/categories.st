@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'CodeGenerator-Bash'!
+self packageOrganizer ensurePackage: #'CodeGenerator-Bash' withTags: #()!

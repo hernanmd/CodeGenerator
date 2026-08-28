@@ -1,0 +1,1 @@
+I test the CGSmalltalk code-generation engine: class creation via the modern class installer, target-class prefixing, class-name validation, and adding instance variables with typed accessors. Any classes I generate use the prefix 'CGTst' and are removed in tearDown so I am idempotent.

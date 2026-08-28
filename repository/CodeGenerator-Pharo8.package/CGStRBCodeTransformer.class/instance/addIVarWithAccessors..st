@@ -1,9 +1,7 @@
 code-generation
 addIVarWithAccessors: iVarName
 
-	[ [ [ self prvAddIVarWithAccessors: iVarName ]
-		on: RBRefactoringFailure
-		do: [ : exception | self handleFailure: exception ] ]
+	[ [ self prvAddIVarWithAccessors: iVarName ]
 		on: RBRefactoringWarning, Warning
 		do: [ : exception | self handleWarning: exception ] ]
 		on: RBRefactoringError

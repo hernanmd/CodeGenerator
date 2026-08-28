@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'CodeGenerator-Pharo8'!
+self packageOrganizer ensurePackage: #'CodeGenerator-Pharo8' withTags: #()!

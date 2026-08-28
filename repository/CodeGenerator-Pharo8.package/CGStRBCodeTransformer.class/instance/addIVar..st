@@ -2,7 +2,7 @@ code-generation
 addIVar: iVarName
 
 	[ [ [ self prvAddIVar: iVarName ]
-		on: RBRefactoringFailure
+		on: RBRefactoringError
 		do: [ : exception | self handleFailure: exception ] ]
 		on: RBRefactoringWarning
 		do: [ : exception | self handleWarning: exception ] ]

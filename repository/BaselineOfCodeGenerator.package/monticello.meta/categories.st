@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfCodeGenerator!
+self packageOrganizer ensurePackage: #BaselineOfCodeGenerator withTags: #()!

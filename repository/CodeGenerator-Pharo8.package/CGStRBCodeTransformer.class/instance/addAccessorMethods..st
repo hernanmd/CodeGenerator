@@ -3,7 +3,7 @@ addAccessorMethods: iVarName
 
 	self logInfo: 'Adding accessors for instance variable named: ' , iVarName.
 	className := self targetClass name.
-	(RBCreateAccessorsForVariableRefactoring
+	(RBCreateCommentedAccessorsForVariableRefactoring
 			model: model
 			variable: iVarName
 			class: theClass

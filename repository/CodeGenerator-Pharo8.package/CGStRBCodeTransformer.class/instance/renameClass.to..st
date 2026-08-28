@@ -12,10 +12,10 @@ renameClass: oldName to: newName
 		literalNewName := newName isLiteral
 			ifFalse: [ newName name ]
 			ifTrue: [ newName ].
-		(RBRenameClassRefactoring new 
+		(ReRenameClassRefactoring new 
 			className: literalOldName
 			newName: literalNewName) execute ]
-	on: RBRefactoringFailure 
+	on: RBRefactoringError 
 	do: [ : ex | 
 		self inform: ex messageText.
 		renameSuccess := false ].

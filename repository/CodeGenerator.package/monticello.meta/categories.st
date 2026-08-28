@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #CodeGenerator!
-SystemOrganization addCategory: #'CodeGenerator-Core'!
+self packageOrganizer ensurePackage: #CodeGenerator withTags: #(#Core)!

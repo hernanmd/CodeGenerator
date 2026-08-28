@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'CodeGenerator-NeoCSV'!
+self packageOrganizer ensurePackage: #'CodeGenerator-NeoCSV' withTags: #()!

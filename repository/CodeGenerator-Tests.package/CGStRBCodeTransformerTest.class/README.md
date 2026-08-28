@@ -1,0 +1,1 @@
+I test CGStRBCodeTransformer, the refactoring-driven back end: Swagger type extraction (getParameterType:), instance-variable-name normalization (normalizeInstVarName:), and adding typed commented accessors to a real class (including idempotent re-adds and benign-error handling). Generated classes use the 'CGTst' prefix and are removed in tearDown.

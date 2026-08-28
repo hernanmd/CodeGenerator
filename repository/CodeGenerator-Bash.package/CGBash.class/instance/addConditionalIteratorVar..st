@@ -2,6 +2,9 @@ accessing - utilities
 addConditionalIteratorVar: varName
 	" Add a code fragment to iterate varName (containing a bash String) "
 
-	self codeStream 
-		nextPutAll: 'while [ "$' , varName , '" != "xxxx" ]; do myVar="${' , varName , '}x"; echo $', varName ,'; done
+	self codeStream
+		nextPutAll:
+			'while [ "$' , varName , '" != "xxxx" ]; do myVar="${' , varName
+			, '}x"; echo $' , varName;
+		nextPutAll: '; done
 '

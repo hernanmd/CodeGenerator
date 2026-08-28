@@ -1,3 +1,0 @@
-accessing
-copyButton
-	^ copyButton

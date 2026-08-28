@@ -1,11 +1,1 @@
-SystemOrganization addCategory: #'CodeGenerator-Readme'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-Badges'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-Badges-ShieldsIO'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-Core'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-Licenses-SPDX'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-Templates'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-UI'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Badges'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Licenses'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Settings'!
-SystemOrganization addCategory: #'CodeGenerator-Readme-UI-Templates'!
+self packageOrganizer ensurePackage: #'CodeGenerator-Readme' withTags: #(#Badges #'Badges-ShieldsIO' #Core #'Licenses-SPDX' #Templates #UI #'UI-Badges' #'UI-Licenses' #'UI-Settings' #'UI-Templates')!

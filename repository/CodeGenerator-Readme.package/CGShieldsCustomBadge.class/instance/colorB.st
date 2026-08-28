@@ -1,3 +1,0 @@
-accessing
-colorB
-	^ colorB
