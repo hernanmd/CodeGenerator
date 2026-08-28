@@ -5,5 +5,9 @@ testNormalizeInstVarNameStripsUnderscores
 
 	| t |
 	t := self newTransformer.
-	self assert: (t normalizeInstVarName: 'plain' -> self stringSchema) equals: 'plain'.
-	self assert: (t normalizeInstVarName: 'gadget_name' -> self stringSchema) equals: 'gadgetName'
+	self
+		assert: (t normalizeInstVarName: 'plain' -> self stringSchema)
+		equals: 'plain'.
+	self
+		assert: (t normalizeInstVarName: 'gadget_name' -> self stringSchema)
+		equals: 'gadgetName'

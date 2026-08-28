@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "CodeGenerator-Smalltalk-Core-ObjectModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"prefix"
+	],
+	"name" : "CGNamePolicy",
+	"type" : "normal"
+}

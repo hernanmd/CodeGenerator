@@ -1,0 +1,1 @@
+I test CGGenerationSession/CGGenerationContext: per-run isolation and composition-style generation (drive a session without subclassing the engine). I remove created CGTst* classes in tearDown.

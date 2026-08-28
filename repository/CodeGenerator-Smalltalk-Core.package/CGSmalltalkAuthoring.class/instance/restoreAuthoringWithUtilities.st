@@ -7,5 +7,5 @@ restoreAuthoringWithUtilities
 	(Smalltalk hasClassNamed: #Utilities) ifFalse: [ ^ self ].
 	authorClass := Smalltalk at: #Utilities.
 	(authorClass respondsTo: #fullName:) ifFalse: [ ^ self ].
-	(identity isNil or: [ authorClass fullName = identity ])
-		ifFalse: [ authorClass fullName: identity ]
+	(identity isNil or: [ authorClass fullName = identity ]) ifFalse: [
+		authorClass fullName: identity ]

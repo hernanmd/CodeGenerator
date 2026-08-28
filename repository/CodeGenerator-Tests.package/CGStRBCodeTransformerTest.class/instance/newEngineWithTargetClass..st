@@ -5,7 +5,7 @@ newEngineWithTargetClass: aName
 	 engine; its codeTransformer targets that class."
 
 	^ CGSmalltalk new
-		targetClassPrefix: 'CGTst';
-		targetClassCategory: 'CGGeneratedCode-Core';
-		targetClass: aName;
-		yourself
+		  targetClassPrefix: 'CGTst';
+		  targetClassCategory: 'CGGeneratedCode-Core';
+		  targetClass: aName;
+		  yourself

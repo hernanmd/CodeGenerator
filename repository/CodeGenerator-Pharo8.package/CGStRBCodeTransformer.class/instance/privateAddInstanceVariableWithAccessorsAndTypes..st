@@ -8,12 +8,16 @@ privateAddInstanceVariableWithAccessorsAndTypes: iVarAssoc
 	realClass := self resolveClass: self targetClass.
 	realClass ifNil: [ ^ self ].
 	varName := iVarAssoc key.
-	self logInfo: 'Adding accessors for instance variable named: ' , varName.
-	(realClass instVarNames includes: varName)
-		ifFalse: [
-			(RBAddInstanceVariableRefactoring variable: varName class: realClass) execute ].
+	self logInfo:
+		'Adding accessors for instance variable named: ' , varName.
+	(realClass instVarNames includes: varName) ifFalse: [
+			(RBAddInstanceVariableRefactoring
+				 variable: varName
+				 class: realClass) execute ].
 	(RBCreateCommentedAccessorsForTypedVariableRefactoring
-		variable: varName class: realClass classVariable: false)
-			type: (self getParameterType: iVarAssoc value);
-			execute.
+		 variable: varName
+		 class: realClass
+		 classVariable: false)
+		type: (self getParameterType: iVarAssoc value);
+		execute.
 	self logInfo: 'done'

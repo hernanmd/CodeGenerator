@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "CodeGenerator-Smalltalk-Core-ObjectModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"context",
+		"resolver",
+		"namePolicy",
+		"transformer",
+		"currentClass",
+		"generatedSelectors",
+		"methodBuildStream",
+		"methodBuildActive"
+	],
+	"name" : "CGGenerationSession",
+	"type" : "normal"
+}

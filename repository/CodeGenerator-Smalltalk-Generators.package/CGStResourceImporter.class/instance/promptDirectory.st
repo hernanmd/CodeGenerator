@@ -5,8 +5,8 @@ promptDirectory
 	 Legacy selectors are sent via perform: behind an existence guard so no unimplemented
 	 selector is referenced directly."
 
-	(Smalltalk hasClassNamed: #FileList2)
-		ifTrue: [ ^ (Smalltalk at: #FileList2) perform: #modalFolderSelector ].
-	(Smalltalk hasClassNamed: #FileList)
-		ifTrue: [ ^ (Smalltalk at: #FileList) perform: #modalFolderSelector ].
+	(Smalltalk hasClassNamed: #FileList2) ifTrue: [
+		^ (Smalltalk at: #FileList2) perform: #modalFolderSelector ].
+	(Smalltalk hasClassNamed: #FileList) ifTrue: [
+		^ (Smalltalk at: #FileList) perform: #modalFolderSelector ].
 	^ SpApplication new selectDirectoryTitle: 'Choose directory'

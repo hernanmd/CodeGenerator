@@ -11,9 +11,11 @@ normalizeInstVarName: instVarName
 	out := WriteStream on: String new.
 	upperNext := false.
 	name do: [ :ch |
-		ch = $_
-			ifTrue: [ upperNext := true ]
-			ifFalse: [
-				out nextPut: (upperNext ifTrue: [ ch asUppercase ] ifFalse: [ ch ]).
-				upperNext := false ] ].
+			ch = $_
+				ifTrue: [ upperNext := true ]
+				ifFalse: [
+						out nextPut: (upperNext
+								 ifTrue: [ ch asUppercase ]
+								 ifFalse: [ ch ]).
+						upperNext := false ] ].
 	^ out contents

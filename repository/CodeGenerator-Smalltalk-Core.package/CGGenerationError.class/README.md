@@ -1,0 +1,1 @@
+I am signalled when the CodeGenerator framework cannot resolve or create an intended class. My messageText names the intended class so callers can act without inspecting partial state.

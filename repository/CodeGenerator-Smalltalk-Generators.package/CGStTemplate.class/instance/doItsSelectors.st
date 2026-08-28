@@ -4,4 +4,4 @@ doItsSelectors
 	 template generation. Default is empty; subclasses may override to run post-generation
 	 do-its. (Provides the previously-missing implementor.)"
 
-	^ #()
+	^ #(  )

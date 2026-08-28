@@ -7,7 +7,6 @@ cleanAllMethodCategories
 	shouldCleanAllTargetMethods ifFalse: [ ^ self ].
 	cls := self classFor: targetClass.
 	cls ifNil: [ ^ self ].
-	(self methodCategoriesForClass: cls)
-		do: [ :cat |
+	(self methodCategoriesForClass: cls) do: [ :cat |
 			self cleanAllMethodsInCategory: cat.
 			cls removeProtocolIfEmpty: cat ]

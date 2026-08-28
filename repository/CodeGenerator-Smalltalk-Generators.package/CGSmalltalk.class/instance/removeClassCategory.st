@@ -7,5 +7,5 @@ removeClassCategory
 	| cls |
 	cls := self classFor: self targetClass.
 	cls ifNil: [ ^ self ].
-	(cls hasProtocol: self classCategoryName)
-		ifTrue: [ cls removeProtocol: self classCategoryName ]
+	(cls hasProtocol: self classCategoryName) ifTrue: [
+		cls removeProtocol: self classCategoryName ]

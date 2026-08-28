@@ -1,0 +1,1 @@
+I am signalled when a transformer strategy is asked to perform an operation it does not support (e.g. the native transformer being asked for typed, commented accessors). My messageText names the operation and the strategy so callers get a clear error instead of a doesNotUnderstand or a silent no-op.

@@ -15,4 +15,5 @@ testGeneratesSingletonProtocol
 	self assert: (cls class includesSelector: #uniqueInstance).
 	self assert: (cls class includesSelector: #new).
 	self assert: (cls class includesSelector: #resetUniqueInstance).
-	self assert: (cls classVarNames anySatisfy: [ :n | n asString = 'UniqueInstance' ])
+	self assert:
+		(cls classVarNames anySatisfy: [ :n | n asString = 'UniqueInstance' ])

@@ -6,6 +6,6 @@ defaultTargetTestCategory
 
 	| base |
 	base := (self inputClass notNil and: [ self inputClass isBehavior ])
-		ifTrue: [ self inputClass package name ]
-		ifFalse: [ 'Generated' ].
+		        ifTrue: [ self inputClass package name ]
+		        ifFalse: [ 'Generated' ].
 	^ base , '-Tests'

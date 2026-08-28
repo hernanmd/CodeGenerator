@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #'CodeGenerator-Smalltalk-Generators' withTags: #()!
+self packageOrganizer ensurePackage: #'CodeGenerator-Smalltalk-Generators' withTags: #(#Composition)!

@@ -8,9 +8,10 @@ generateClassNamed: aClassName superclass: aSuperclassName
 	superclass := self classFor: aSuperclassName.
 	cvars := self classVarNames substrings: ' '.
 	^ Smalltalk classInstaller make: [ :builder |
-		builder
-			superclass: superclass;
-			name: aClassName asSymbol;
-			slots: #();
-			sharedVariables: (cvars collect: [ :each | each asSymbol ]) asArray;
-			package: self targetClassCategory ]
+			  builder
+				  superclass: superclass;
+				  name: aClassName asSymbol;
+				  slots: #(  );
+				  sharedVariables:
+					  (cvars collect: [ :each | each asSymbol ]) asArray;
+				  package: self targetClassCategory ]

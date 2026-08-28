@@ -4,4 +4,5 @@ methodNodeAt: aSelector
 	 template class, using CompiledMethod>>sourceCode (Pharo 13 removed decompileWithTemps/
 	 decompileString)."
 
-	^ self parserClass parseMethod: (self templateMethodAt: aSelector) sourceCode
+	^ self parserClass parseMethod:
+		  (self templateMethodAt: aSelector) sourceCode

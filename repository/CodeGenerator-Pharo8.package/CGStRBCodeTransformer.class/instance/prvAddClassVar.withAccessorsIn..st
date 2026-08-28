@@ -9,9 +9,11 @@ prvAddClassVar: iVarName withAccessorsIn: aClass
 	realClass ifNil: [ ^ self ].
 	varName := iVarName capitalized.
 	self logInfo: 'Adding accessors for class variable named: ' , varName.
-	(realClass classVarNames includes: varName)
-		ifFalse: [
-			(RBAddClassVariableRefactoring variable: varName class: realClass) execute ].
+	(realClass classVarNames includes: varName) ifFalse: [
+			(RBAddClassVariableRefactoring variable: varName class: realClass)
+				execute ].
 	(RBCreateCommentedAccessorsForVariableRefactoring
-		variable: varName class: realClass classVariable: true) execute.
+		 variable: varName
+		 class: realClass
+		 classVariable: true) execute.
 	self logInfo: 'done'

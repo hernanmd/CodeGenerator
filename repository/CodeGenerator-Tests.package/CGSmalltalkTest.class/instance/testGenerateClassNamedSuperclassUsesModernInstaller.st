@@ -8,4 +8,5 @@ testGenerateClassNamedSuperclassUsesModernInstaller
 	cls := gen generateClassNamed: 'CGTstSprocketA' superclass: #Object.
 	self assert: (Smalltalk hasClassNamed: 'CGTstSprocketA').
 	self assert: cls superclass equals: Object.
-	self assert: (cls category = 'CGTst-Generated' or: [ cls package name = 'CGTst-Generated' ])
+	self assert: (cls category = 'CGTst-Generated' or: [
+			 cls package name = 'CGTst-Generated' ])

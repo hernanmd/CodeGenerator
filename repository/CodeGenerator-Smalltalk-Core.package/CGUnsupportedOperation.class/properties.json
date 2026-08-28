@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CGGenerationError",
+	"category" : "CodeGenerator-Smalltalk-Core-ObjectModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CGUnsupportedOperation",
+	"type" : "normal"
+}

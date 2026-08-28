@@ -6,5 +6,5 @@ cleanAllMethodsInCategory: categoryName
 	| cls |
 	cls := self classFor: self targetClass.
 	cls ifNil: [ ^ self ].
-	(cls selectorsInProtocol: categoryName)
-		do: [ :sel | cls removeSelector: sel ]
+	(cls selectorsInProtocol: categoryName) do: [ :sel |
+		cls removeSelector: sel ]

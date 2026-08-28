@@ -9,10 +9,11 @@ generateClass: aString
 	superclass := self classFor: self targetSuperclass.
 	ivars := self defaultInstanceVariables substrings: ' '.
 	cvars := self defaultClassVariables substrings: ' '.
-	^ (Smalltalk classInstaller make: [ :builder |
-		builder
-			superclass: superclass;
-			name: aString asSymbol;
-			slots: (ivars collect: [ :each | each asSymbol ]) asArray;
-			sharedVariables: (cvars collect: [ :each | each asSymbol ]) asArray;
-			package: self targetClassCategory ])
+	^ Smalltalk classInstaller make: [ :builder |
+			  builder
+				  superclass: superclass;
+				  name: aString asSymbol;
+				  slots: (ivars collect: [ :each | each asSymbol ]) asArray;
+				  sharedVariables:
+					  (cvars collect: [ :each | each asSymbol ]) asArray;
+				  package: self targetClassCategory ]

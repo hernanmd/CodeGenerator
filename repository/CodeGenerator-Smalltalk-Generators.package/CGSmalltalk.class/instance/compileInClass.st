@@ -7,9 +7,17 @@ compileInClass
 	| metaclass |
 	self logCompilationStart.
 	metaclass := (self classFor: self targetClass) class.
-	[ self platform
-		ifNil: [ metaclass compile: self sourceString classified: self targetMethodCategory ]
-		ifNotNil: [ :p | p compile: self sourceString into: metaclass classified: self targetMethodCategory ] ]
+	[
+		self platform
+			ifNil: [
+					metaclass
+						compile: self sourceString
+						classified: self targetMethodCategory ]
+			ifNotNil: [ :p |
+					p
+						compile: self sourceString
+						into: metaclass
+						classified: self targetMethodCategory ] ]
 		on: OCUndeclaredVariableWarning , Warning
 		do: [ :ex | self logCompilationWarn: ex ].
 	self logCompilationEnd

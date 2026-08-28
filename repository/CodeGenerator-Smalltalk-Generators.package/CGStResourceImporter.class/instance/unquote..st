@@ -7,7 +7,9 @@ unquote: fileTypePattern
 	| directory |
 	directory := fullPath pathString asFileReference.
 	(directory filesMatching: fileTypePattern) do: [ :fileRef |
-		| contents |
-		contents := fileRef readStreamDo: [ :in | in upToEnd ].
-		contents := contents copyReplaceAll: (String with: $') with: (String with: $").
-		fileRef writeStreamDo: [ :out | out nextPutAll: contents ] ]
+			| contents |
+			contents := fileRef readStreamDo: [ :in | in upToEnd ].
+			contents := contents
+				            copyReplaceAll: (String with: $')
+				            with: (String with: $").
+			fileRef writeStreamDo: [ :out | out nextPutAll: contents ] ]

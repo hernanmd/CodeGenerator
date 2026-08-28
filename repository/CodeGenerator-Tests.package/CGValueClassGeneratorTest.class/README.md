@@ -1,0 +1,1 @@
+I test CGValueClassGenerator, a composition-style generator that drives a CGGenerationSession without subclassing the engine (Req 6). I remove created CGTst* classes in tearDown.

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "CodeGenerator-Smalltalk-Core-ObjectModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"prefix",
+		"classCategory",
+		"methodCategory",
+		"superclass",
+		"cleanPolicy",
+		"exclusions"
+	],
+	"name" : "CGGenerationContext",
+	"type" : "normal"
+}

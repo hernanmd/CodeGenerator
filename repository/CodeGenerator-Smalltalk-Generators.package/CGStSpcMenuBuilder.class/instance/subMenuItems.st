@@ -4,4 +4,4 @@ subMenuItems
 	 Default is empty; subclasses/configurations may override to declare submenu groups.
 	 (Provides the previously-missing implementor.)"
 
-	^ #()
+	^ #(  )

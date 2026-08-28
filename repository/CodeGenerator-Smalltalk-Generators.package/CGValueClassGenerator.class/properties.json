@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "CodeGenerator-Smalltalk-Generators-Composition",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"className",
+		"fields",
+		"context"
+	],
+	"name" : "CGValueClassGenerator",
+	"type" : "normal"
+}

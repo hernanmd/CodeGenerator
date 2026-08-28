@@ -1,0 +1,1 @@
+I test CGNamePolicy, the single name-normalization policy, without installing any class (NFR-3).

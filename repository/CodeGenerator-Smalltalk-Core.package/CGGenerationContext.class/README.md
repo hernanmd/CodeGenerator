@@ -1,0 +1,1 @@
+I hold the configuration of a code-generation run as a value: class-name prefix, class category (package), method category, superclass, clean policy, and exclusions. I perform NO image mutation. Ask me for #newSession to obtain a fresh, isolated CGGenerationSession wired with me, a resolver, a name policy, and the default transformer port.

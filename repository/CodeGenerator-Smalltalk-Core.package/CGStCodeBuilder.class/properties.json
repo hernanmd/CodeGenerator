@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "CGAbstract",
-	"category" : "CodeGenerator-Smalltalk-Core",
+	"category" : "CodeGenerator-Smalltalk-Core-ObjectModel",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

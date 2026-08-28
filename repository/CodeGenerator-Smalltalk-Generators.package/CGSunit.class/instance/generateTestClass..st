@@ -5,9 +5,9 @@ generateTestClass: aStringOrLiteral
 	 category, using the current Fluid class installer."
 
 	^ Smalltalk classInstaller make: [ :builder |
-		builder
-			superclass: (self classFor: self targetTestSuperclass);
-			name: aStringOrLiteral asString asSymbol;
-			slots: #();
-			sharedVariables: #();
-			package: self targetTestCategory ]
+			  builder
+				  superclass: (self classFor: self targetTestSuperclass);
+				  name: aStringOrLiteral asString asSymbol;
+				  slots: #(  );
+				  sharedVariables: #(  );
+				  package: self targetTestCategory ]

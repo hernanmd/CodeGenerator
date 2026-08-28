@@ -1,18 +1,16 @@
 accessing
 targetClass: aClassOrSymbol
-	"Configure the class where generated code is written.
-	 When a targetClassPrefix is set, the PREFIXED name is authoritative: the prefixed
-	 class is looked up and created if absent, and an unrelated same-named unprefixed class
-	 is never reused (fixes defect F6, where e.g. generating 'Pet' with prefix 'PS' silently
-	 mutated a pre-existing Pet). When no prefix is set, an existing class of that exact
-	 name is reused, otherwise it is created."
+	"Configure the class where generated code is written. Delegates to the shared
+	 CGTargetClassResolver policy (F6): when a prefix is set the prefixed name is authoritative
+	 and an unrelated unprefixed class is never reused; when no prefix is set an existing
+	 exact-name class is reused, otherwise created in the target category with the receiver's
+	 default class variables (e.g. Singleton's UniqueInstance)."
 
-	| name |
-	self hasTargetClassPrefix
-		ifTrue: [
-			name := self targetClassPrefix , aClassOrSymbol.
-			(self classFor: name) ifNil: [ self generateClass: name ] ]
-		ifFalse: [
-			name := aClassOrSymbol.
-			(self classFor: name) ifNil: [ self generateClass: name ] ].
-	^ targetClass := self classFor: name
+	^ targetClass := CGTargetClassResolver new
+		                 resolvePrefix: (self hasTargetClassPrefix
+				                  ifTrue: [ self targetClassPrefix ]
+				                  ifFalse: [ nil ])
+		                 name: aClassOrSymbol asString
+		                 superclass: (self classFor: self targetSuperclass)
+		                 category: self targetClassCategory
+		                 classVariables: self defaultClassVariables

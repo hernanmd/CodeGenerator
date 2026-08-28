@@ -1,0 +1,1 @@
+I test the catalog supportability matrix (Req 10): every CGStTemplate subclass has an explicit supportabilityStatus, the known-supported pattern generators are marked #supported, and generators needing input/resources are marked accordingly rather than left as silent DNUs.

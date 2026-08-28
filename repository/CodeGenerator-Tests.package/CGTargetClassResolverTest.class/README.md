@@ -1,0 +1,1 @@
+I test CGTargetClassResolver: prefix-authoritative resolution never mutates an unprefixed class, no-prefix reuse, and CGGenerationError on failure. I remove created CGTst* classes in tearDown.

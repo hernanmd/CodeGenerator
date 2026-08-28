@@ -6,6 +6,6 @@ resolveClass: aClassNameOrClass
 	 targets the actual class, not an RBNamespace model."
 
 	aClassNameOrClass isBehavior ifTrue: [ ^ aClassNameOrClass ].
-	(aClassNameOrClass isKindOf: RBAbstractClass)
-		ifTrue: [ ^ self classFor: aClassNameOrClass name ].
+	(aClassNameOrClass isKindOf: RBAbstractClass) ifTrue: [
+		^ self classFor: aClassNameOrClass name ].
 	^ self classFor: aClassNameOrClass

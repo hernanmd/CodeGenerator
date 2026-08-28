@@ -6,7 +6,7 @@ testNoObsoleteRefactoringApiSends
 	| offenders |
 	offenders := OrderedCollection new.
 	CGStRBCodeTransformer methodsDo: [ :m |
-		m messages do: [ :sel |
-			(#(primitiveExecute handleFailure: asClass) includes: sel)
-				ifTrue: [ offenders add: m selector -> sel ] ] ].
+			m messages do: [ :sel |
+					(#( primitiveExecute handleFailure: asClass ) includes: sel)
+						ifTrue: [ offenders add: m selector -> sel ] ] ].
 	self assert: offenders isEmpty description: offenders printString

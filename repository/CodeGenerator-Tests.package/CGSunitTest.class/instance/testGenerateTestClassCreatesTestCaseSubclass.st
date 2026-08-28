@@ -5,8 +5,8 @@ testGenerateTestClassCreatesTestCaseSubclass
 
 	| gen cls |
 	gen := CGSunit new
-		targetTestCategory: 'CGGeneratedCode-Core';
-		yourself.
+		       targetTestCategory: 'CGGeneratedCode-Core';
+		       yourself.
 	cls := gen generateTestClass: 'CGTstSampleTest'.
 	self assert: (Smalltalk hasClassNamed: 'CGTstSampleTest').
 	self assert: (cls inheritsFrom: TestCase).
