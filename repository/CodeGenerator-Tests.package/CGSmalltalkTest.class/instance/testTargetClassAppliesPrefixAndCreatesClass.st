@@ -1,7 +1,6 @@
 tests - class creation
 testTargetClassAppliesPrefixAndCreatesClass
-	"Setting an unknown target class name creates it, prefixed with targetClassPrefix,
-	 as a subclass of the target superclass (Object by default)."
+	"Setting an unknown target class name creates it, prefixed with targetClassPrefix, as a subclass of the target superclass (Object by default)."
 
 	| gen |
 	gen := self newGenerator.

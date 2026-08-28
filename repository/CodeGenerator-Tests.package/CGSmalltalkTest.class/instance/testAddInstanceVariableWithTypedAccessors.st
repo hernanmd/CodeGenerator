@@ -6,7 +6,9 @@ testAddInstanceVariableWithTypedAccessors
 	gen := self newGenerator.
 	gen targetClass: 'Widget'.
 	gen
-		addInstanceVariableWithAccessorsAndType: 'label' -> (Dictionary new at: 'type' put: 'string'; yourself)
+		addInstanceVariableWithAccessorsAndType: 'label' -> (Dictionary new
+				 at: 'type' put: 'string';
+				 yourself)
 		className: 'CGTstWidget'.
 	cls := Smalltalk classNamed: 'CGTstWidget'.
 	self assert: (cls instVarNames includes: 'label').

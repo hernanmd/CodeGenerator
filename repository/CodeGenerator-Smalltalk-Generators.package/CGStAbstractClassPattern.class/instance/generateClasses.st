@@ -1,4 +1,4 @@
-code-generation
+accessing
 generateClasses
 	" Generate concrete subclasses. Assumes superclass is already created "
 

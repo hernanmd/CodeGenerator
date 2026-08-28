@@ -4,6 +4,6 @@ newGenerator
 	 package category, so generated classes are isolated and cleaned up."
 
 	^ CGSmalltalk new
-		targetClassPrefix: 'CGTst';
-		targetClassCategory: 'CGTst-Generated';
-		yourself
+		  targetClassPrefix: 'CGTst';
+		  targetClassCategory: 'CGTst-Generated';
+		  yourself

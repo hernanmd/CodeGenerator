@@ -4,4 +4,7 @@ promptDirectory
 
 	^ (Smalltalk hasClassNamed: #FileList2)
 		ifTrue: [ ( Smalltalk at: #FileList2 ) modalFolderSelector ]
-		ifFalse: [ FileList modalFolderSelector ]			
+		ifFalse: [ 
+			(Smalltalk hasClassNamed: #FileList)
+				ifTrue:[ (Smalltalk globals at: #FileList) modalFolderSelector ]
+				ifFalse: [ SpApplication new selectDirectoryTitle: 'Choose directory' ]	]		

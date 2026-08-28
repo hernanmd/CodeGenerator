@@ -1,7 +1,6 @@
 tests - naming
 testValidateClassNameStripsSeparators
-	"validateClassName: capitalizes, camel-cases underscore-separated words, and removes
-	 hyphens and spaces."
+	"validateClassName: capitalizes, camel-cases underscore-separated words, and removes hyphens and spaces."
 
 	| gen |
 	gen := self newGenerator.

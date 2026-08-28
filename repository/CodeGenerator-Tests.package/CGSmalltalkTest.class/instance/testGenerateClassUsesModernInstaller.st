@@ -1,7 +1,6 @@
 tests - class creation
 testGenerateClassUsesModernInstaller
-	"generateClass: creates a real class via the current class installer (regression for
-	 the removed subclass:instanceVariableNames:... form)."
+	"generateClass: creates a real class via the current class installer (regression for the removed subclass:instanceVariableNames:... form)."
 
 	| gen cls |
 	gen := self newGenerator.
